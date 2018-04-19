@@ -1,0 +1,107 @@
+# Site settings
+title: BY Blog                                                      #你博客的标题
+SEOTitle:   BY Blog                                       #显示在浏览器上搜索的时候显示的标题
+header-img: img/post-bg-os-metro.jpg                                   #显示在首页的背景图片
+email: morning92345@gmail.com
+description: "Every failure is leading towards success."            #网站介绍
+keyword: "Blog"    #关键词
+url: "http://diaomin923.github.io"          # your host, for absolute URL     # 这个就是填写你的博客地址
+baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'    # 这个我们不用填写
+github_repo: "https://github.com/Diaomin923/Diaomin923.github.io" # you code repository
+
+# Sidebar settings
+sidebar: true                           # 是否开启侧边栏.
+sidebar-about-description: "Goals determine what you going to be!"
+sidebar-avatar: /img/apple-touch-icon.png    # 你的个人头像 这里你可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
+
+
+
+# SNS settings
+RSS: false
+# weibo_username:     qiubaiying
+#zhihu_username:     qiubaiying
+github_username:    Diaomin923
+#facebook_username:  baiying.qiu.7
+#jianshu_username:   e71990ada2fd
+#twitter_username:   qiubaiying
+
+
+
+
+# Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+#permalink: pretty
+#paginate: 10
+#exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+#anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# 评论系统
+# Disqus（https://disqus.com/）
+# disqus_username: Diaomin923
+
+# Gitalk
+gitalk:
+  enable: true    #是否开启Gitalk评论
+  clientID: 62a02b91e447d3c72f72   #生成的clientID
+  clientSecret: 59088b03e2bafc9c29fe29c684dbe45e2f9c1508  #同上
+  repo: Diaomin923.github.io    #仓库名称
+  owner: Diaomin923    #github用户名
+  admin: Diaomin923
+  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+
+
+# 统计
+
+# Analytics settings
+# Baidu Analytics
+#ba_track_id: b50bf2b12b5338a1845e33832976fd68
+
+# Google Analytics
+ga_track_id: 'UA-111533515-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+
+
+
+
+
+# Featured Tags
+featured-tags: true                     # 是否使用首页标签
+featured-condition-size: 0             # 相同标签数量大于这个数，才会出现在首页
+
+
+
+# Progressive Web Apps
+chrome-tab-theme-color: "#000000"
+service-worker: true
+
+
+
+# Friends
+friends: [
+    {
+        title: "简书·BY",
+        href: "https://www.jianshu.com/users/c8978550ad55"
+    }
+]
+
+theme: jekyll-theme-dinky

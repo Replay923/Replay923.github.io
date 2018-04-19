@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>面部识别</title>
+	<script type="text/javascript" src = "js/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/jquery.facedetection.min.js"></script>
+	<style type="text/css">
+		#canvas{
+			border: 1px solid ;
+		}
+	</style>
+</head>
+<body>
+	<canvas id="canvas" width="1000" height="1000"></canvas>
+	<div class="btn_box" id="btn_box">
+		<!-- <button></button> -->
+		<input type="file" value="上传" accept="image/*">
+		<button>捕获</button>
+		<button>移动</button>
+	</div>
+</body>
+<script type="text/javascript">
+	var button = $("#btn_box *");
+	var canvas = $("#canvas");
+	var ctx = canvas[0].getContext("2d");
+	var face_data;
+	ctx.lineWidth = 5;
+	ctx.fillStyle = "#FF0000";
+	$(button[0]).change(function(){
+		// src = 
+		 var file = this.files[0];  
+        if (window.FileReader) {  
+            var reader = new FileReader();  
+            reader.readAsDataURL(file);  
+            //监听文件读取结束后事件  
+            reader.onloadend = function (e) {  
+                // showXY(e.target.result,file.fileName);  
+                var img = new Image();
+                img.src = e.target.result;
+                img.onload = function(){
+                	ctx.drawImage(img,0,0)
+                }
+            };  
+        }  
+	}) 
+	$(button[1]).click(function(){
+		canvas.faceDetection({
+	        complete: function (faces) {
+	        	var i = 0;
+	        	if(faces.length <= 0 ){
+	        		alert("can't recognize any face");
+	        	}
+	        	for(var n = 0 ; n < faces.length ; n++){
+	        		if(faces[n].confidence > faces[i].confidence){
+	        			i = n;
+	        		}
+	        	}
+	        	face_data = ctx.getImageData(faces[i].offsetX,faces[i].offsetY,faces[i].width,faces[i].height)
+	            ctx.strokeRect(faces[i].offsetX,faces[i].offsetY,faces[i].width,faces[i].height);
+	            ctx.stroke();
+	        }
+	    });
+	})
+	$(button[2]).click(function(){
+		ctx.clearRect(0,0,1000,1000);
+		console.log(face_data)
+		ctx.putImageData(face_data,0,0)
+	})
+</script>
+</html>
