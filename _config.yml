@@ -5,9 +5,9 @@ header-img: img/post-bg-os-metro.jpg                                   #显示�
 email: morning92345@gmail.com
 description: "Every failure is leading towards success."            #网站介绍
 keyword: "Blog"    #关键词
-url: "http://diaomin923.github.io"          # your host, for absolute URL     # 这个就是填写你的博客地址
+url: "http://replay923.github.io"          # your host, for absolute URL     # 这个就是填写你的博客地址
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'    # 这个我们不用填写
-github_repo: "https://github.com/Diaomin923/Diaomin923.github.io" # you code repository
+github_repo: "https://github.com/Replay923/Replay923.github.io" # you code repository
 
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏.
