@@ -67,6 +67,7 @@ gitalk:
   repo: Replay923.github.io    #仓库名称
   owner: Replay923    #github用户名
   admin: Replay923
+  id: window.location.pathname
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
