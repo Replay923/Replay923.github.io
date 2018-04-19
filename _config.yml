@@ -20,7 +20,7 @@ sidebar-avatar: /img/apple-touch-icon.png    # 你的个人头像 这里你可�
 RSS: false
 # weibo_username:     qiubaiying
 #zhihu_username:     qiubaiying
-github_username:    Diaomin923
+github_username:    Replay923
 #facebook_username:  baiying.qiu.7
 #jianshu_username:   e71990ada2fd
 #twitter_username:   qiubaiying
@@ -62,11 +62,11 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: 62a02b91e447d3c72f72   #生成的clientID
-  clientSecret: 59088b03e2bafc9c29fe29c684dbe45e2f9c1508  #同上
-  repo: Diaomin923.github.io    #仓库名称
-  owner: Diaomin923    #github用户名
-  admin: Diaomin923
+  clientID: 771fae27eb165504cf7b   #生成的clientID
+  clientSecret: b51273d32205f3d4bcac33a644a42a55002664e5  #同上
+  repo: Replay923.github.io    #仓库名称
+  owner: Replay923    #github用户名
+  admin: Replay923
   distractionFreeMode: true #是否启用类似FB的阴影遮罩
 
 
