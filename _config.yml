@@ -100,7 +100,7 @@ service-worker: true
 # Friends
 friends: [
     {
-        title: "简书·BY",
+        title: "简书·Replay923",
         href: "https://www.jianshu.com/users/c8978550ad55"
     }
 ]
