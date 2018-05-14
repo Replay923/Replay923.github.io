@@ -1,7 +1,7 @@
 # Site settings
-title: BY Blog                                                      #你博客的标题
-SEOTitle:   BY Blog                                       #显示在浏览器上搜索的时候显示的标题
-header-img: img/post-bg-os-metro.jpg                                   #显示在首页的背景图片
+title: Replay Blog                                                      #你博客的标题
+SEOTitle:   Replay Blog                                       #显示在浏览器上搜索的时候显示的标题
+header-img: img/tag-bg-silk-4.png                                   #显示在首页的背景图片
 email: morning92345@gmail.com
 description: "Every failure is leading towards success."            #网站介绍
 keyword: "Blog"    #关键词
