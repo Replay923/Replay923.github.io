@@ -12,7 +12,7 @@ github_repo: "https://github.com/Replay923/Replay923.github.io" # you code repos
 # Sidebar settings
 sidebar: true                           # 是否开启侧边栏.
 sidebar-about-description: "Goals determine what you going to be!"
-sidebar-avatar: /img/apple-touch-icon.png    # 你的个人头像 这里你可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
+sidebar-avatar: /img/head-icon.jpg    # 你的个人头像 这里你可以改成我在img文件夹中的两张备用照片 img/avatar-m 或 avatar-g
 
 
 
