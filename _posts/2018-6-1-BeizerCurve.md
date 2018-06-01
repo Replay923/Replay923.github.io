@@ -4,7 +4,7 @@ title:      BeizerCurve 				# 标题
 subtitle:   笔记-Unity中创建贝塞尔曲线 #副标题
 date:       2018-6-1				# 时间
 author:     Replay 						# 作者
-header-img: img/post-bg-hacker.jpg 	#这篇文章标题背景图片
+header-img: img/tag-bg-silk-9.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - 笔记
@@ -72,15 +72,18 @@ tags:								#标签
 //pointList 为顶点集合。 point1，point2，point3 为构建曲线的三个顶点
 //Vector3.Lerp 为 UnityEngine 中的API。通过传入两点和之间的插值（0~1）得到一个新的三维向量
 //vertexCount 为构建曲线的顶点数，此数值越大曲线越平滑
+
     public static Vector3[] GetBezierCurveWithThreePoints(Vector3 point_1, Vector3 point_2, Vector3 point_3, int vertexCount)
     {
         List<Vector3> pointList = new List<Vector3>();
         for (float ratio = 0; ratio <= 1; ratio += 1.0f / vertexCount)
         {
             //首先取前两个点和后两个点的线性插值。
+
             Vector3 tangentLineVertex1 = Vector3.Lerp(point_1, point_2, ratio);
             Vector3 tangentLineVertex2 = Vector3.Lerp(point_2, point_3, ratio);
             //通过计算两个点的插值得到曲线的顶点
+
             Vector3 bezierPoint = Vector3.Lerp(tangentLineVertex1, tangentLineVertex2, ratio);
             pointList.Add(bezierPoint);
         }
@@ -97,6 +100,7 @@ tags:								#标签
 ``` c
 //传入顶点集合，得到高阶的贝塞尔曲线，顶点数量不限
 //vertexCount 为构建曲线的顶点数，此数值越大曲线越平滑
+
      public static Vector3[] GetBezierCurveWithUnlimitPoints(Vector3[] vertex, int vertexCount)
     {
         List<Vector3> pointList = new List<Vector3>();
@@ -118,10 +122,12 @@ tags:								#标签
             temp[i] = vecs[i];
         }
         //顶点集合有多长，曲线的每一个点就需要计算多少次。
+
         int n = temp.Length - 1;
         for (int i = 0; i < n; i++)
         {
             //依次计算各两个相邻的顶点的插值，并保存，每次计算都会进行降阶。剩余多少阶计算多少次。直到得到最后一条线性曲线。
+
             for (int j = 0; j < n - i; j++)
             {
                 temp[j] = Vector3.Lerp(temp[j], temp[j + 1], t);
