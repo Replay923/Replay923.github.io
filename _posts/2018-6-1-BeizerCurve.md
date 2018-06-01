@@ -70,7 +70,9 @@ tags:								#标签
 ### 二次贝塞尔曲线
 ``` c
 //pointList 为顶点集合。 point1，point2，point3 为构建曲线的三个顶点
+
 //Vector3.Lerp 为 UnityEngine 中的API。通过传入两点和之间的插值（0~1）得到一个新的三维向量
+
 //vertexCount 为构建曲线的顶点数，此数值越大曲线越平滑
 
     public static Vector3[] GetBezierCurveWithThreePoints(Vector3 point_1, Vector3 point_2, Vector3 point_3, int vertexCount)
@@ -99,6 +101,7 @@ tags:								#标签
 
 ``` c
 //传入顶点集合，得到高阶的贝塞尔曲线，顶点数量不限
+
 //vertexCount 为构建曲线的顶点数，此数值越大曲线越平滑
 
      public static Vector3[] GetBezierCurveWithUnlimitPoints(Vector3[] vertex, int vertexCount)
@@ -252,16 +255,22 @@ public class BezierCurvePointRenderer : MonoBehaviour
         //#region 顶点数为3
 
         //Gizmos.color = Color.green;
+
         //Gizmos.DrawLine(point1.position, point2.position);
 
         //Gizmos.color = Color.green;
+
         //Gizmos.DrawLine(point2.position, point3.position);
 
         //Gizmos.color = Color.red;
+
         //for (float ratio = 0.5f / vertexCount; ratio < 1; ratio += 1.0f / vertexCount)
         //{
+
         //    Gizmos.DrawLine(Vector3.Lerp(point1.position, point2.position, ratio), Vector3.Lerp(point2.position, point3.position, ratio));
+
         //} 
+        
         //#endregion
     }
 }
