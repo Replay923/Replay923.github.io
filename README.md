@@ -1,12 +1,10 @@
-# BY Blog
+# Replay Blog
 
 > 下面是博客的搭建教程，这个教程修改自 [Hux](https://github.com/Huxpro/huxpro.github.io) 。
 > 
 > 更为详细的教程[《利用 GitHub Pages 快速搭建个人博客》](http://www.jianshu.com/p/e68fba58f75c) 
 > 
-### [我的博客在这里 &rarr;](http://qiubaiying.github.io)
-
-![](https://raw.githubusercontent.com/qiubaiying/qiubaiying.github.io/master/img/readme-home.png)
+### [我的博客在这里 &rarr;](http://replay923.github.io)
 
 
 ## 使用
@@ -43,13 +41,13 @@
 
 ```
 # Site settings
-title: BY Blog                    # 你的博客网站标题
-SEOTitle: 柏荧的博客 | BY Blog		# SEO 标题
+title: Replay Blog                 # 你的博客网站标题
+SEOTitle: Replay Blog		   # SEO 标题
 description: "Hey"	   	   # 随便说点，描述一下
 
 # SNS settings      
-github_username: qiubaiying     # 你的github账号
-jianshu_username: e71990ada2fd  # 你的简书ID。
+github_username: replay923     # 你的github账号
+jianshu_username: e71990a*****  # 你的简书ID。
 
 # Build settings
 # paginate: 10              # 一页你准备放几篇文章
