@@ -33,34 +33,34 @@ tags:								#标签
     2) 由P1至P2的连续点Q1，描述一条线性贝塞尔曲线。
     3) 由Q0至Q1的连续点B（t），描述一条二次贝塞尔曲线。
 
-        ![二次贝塞尔曲线的结构](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/B%C3%A9zier_2_big.svg/240px-B%C3%A9zier_2_big.svg.png)
+    ![二次贝塞尔曲线的结构](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/B%C3%A9zier_2_big.svg/240px-B%C3%A9zier_2_big.svg.png)
 
-        二次贝塞尔曲线的结构
+    二次贝塞尔曲线的结构
 
-        ![二次贝塞尔曲线演示动画，t在[0,1]区间](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/B%C3%A9zier_2_big.gif/240px-B%C3%A9zier_2_big.gif)
+    ![二次贝塞尔曲线演示动画，t在[0,1]区间](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/B%C3%A9zier_2_big.gif/240px-B%C3%A9zier_2_big.gif)
 
-        二次贝塞尔曲线演示动画，t在[0,1]区间
+    二次贝塞尔曲线演示动画，t在[0,1]区间
 
 - **高阶曲线** 建构高阶曲线，便需要相应更多的中介点。
 
     1) 三次贝塞尔曲线
 
-        ![三次贝塞尔曲线的结构](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/B%C3%A9zier_3_big.svg/240px-B%C3%A9zier_3_big.svg.png)
+    ![三次贝塞尔曲线的结构](https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/B%C3%A9zier_3_big.svg/240px-B%C3%A9zier_3_big.svg.png)
 
-        三次贝塞尔曲线的结构
+    三次贝塞尔曲线的结构
 
-        ![三次贝塞尔曲线演示动画，t在[0,1]区间](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/B%C3%A9zier_3_big.gif/240px-B%C3%A9zier_3_big.gif)
+    ![三次贝塞尔曲线演示动画，t在[0,1]区间](https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/B%C3%A9zier_3_big.gif/240px-B%C3%A9zier_3_big.gif)
 
-        三次贝塞尔曲线演示动画，t在[0,1]区间
+    三次贝塞尔曲线演示动画，t在[0,1]区间
     2) 四次贝塞尔曲线
 
-        ![四次贝塞尔曲线的结构](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/B%C3%A9zier_4_big.svg/240px-B%C3%A9zier_4_big.svg.png)
+    ![四次贝塞尔曲线的结构](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/B%C3%A9zier_4_big.svg/240px-B%C3%A9zier_4_big.svg.png)
 
-        四次贝塞尔曲线的结构
+    四次贝塞尔曲线的结构
 
-        ![四次贝塞尔曲线演示动画，t在[0,1]区间](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/B%C3%A9zier_4_big.gif/240px-B%C3%A9zier_4_big.gif)
+    ![四次贝塞尔曲线演示动画，t在[0,1]区间](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/B%C3%A9zier_4_big.gif/240px-B%C3%A9zier_4_big.gif)
 
-        四次贝塞尔曲线演示动画，t在[0,1]区间
+    四次贝塞尔曲线演示动画，t在[0,1]区间
 
     3) 更高阶同理，需要更多的中介点，详细见代码块。
 
@@ -135,7 +135,7 @@ tags:								#标签
 
 ### 高阶贝塞尔曲线unity中演示效果
 
-![二次贝塞尔曲线演示动画](https://hbimg.b0.upaiyun.com/391db87a924de84f29482ab2af7ebd8fc0485aa6176790-kOTZYA_fw658)
+![二次贝塞尔曲线演示动画](https://hbimg.b0.upaiyun.com/8fdf7faf0d3c8b4a59bca2efa1b685a8de361906c3200-fHCTjl_fw658)
 
 
 ## 整体脚本代码
