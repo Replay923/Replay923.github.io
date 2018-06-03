@@ -101,18 +101,51 @@
                     success: function(baiduTQ) {  
                         try {  
                             if (baiduTQ == null || baiduTQ.error != 0 || baiduTQ.status != "success" || baiduTQ.results.count == 0) {  
-                                // document.getElementById("date-1").innerHTML = "--";  
-                                // document.getElementById("date-2").innerHTML = "--";  
-                                // document.getElementById("lblCurTemp").innerHTML = "--";  
                                 return;  
                             }  
                             if (baiduTQ.results[0].weather_data.length > 0) {  
 								var strDate = baiduTQ.date;  
-								var dateSplit=strDate.split("-");
-								var curDate = new Date(dateSplit[0],dateSplit[1],dateSplit[2]);
+								var dateSplit=strDate.split("-");								
+								var day = parseInt(dateSplit[2]);
+								var month = parseInt(dateSplit[1]);
+								var year = parseInt(dateSplit[0]);
+								var dayMax = 30;
 								for(var i=0;i<5;i++)
 								{
-									document.getElementById("date-" + i).innerHTML = (parseInt(dateSplit[2]) + i) + "/" + dateSplit[1];
+									day += i;
+									switch(month)
+									{
+										case 2:
+											if(year % 4 == 0)
+												dayMax = 29;
+											else
+												dayMax = 28;
+										case 1:
+										case 3:
+										case 5:
+										case 7:
+										case 8:
+										case 10:
+										case 12:
+											dayMax = 31;
+											break;
+										case 4:
+										case 6:case 9: case 11:
+											dayMax = 30;
+											break;
+									}
+									if(day > dayMax)
+									{
+										day = 1;
+										if(month>12)
+										{
+											month = 1;
+											year += 1;
+										}
+										else
+											month += 1;
+									}
+									document.getElementById("date-" + i).innerHTML = day + "/" + month;
 								}
 								
 								var weather_data = baiduTQ.results[0].weather_data;
@@ -122,7 +155,7 @@
 									if(i==0)
 									{
 										var split = weather_data[i].date.split(" "); 
-										document.getElementById("weekAndMonth-" + i).innerHTML = split[0] + "," + (parseInt(dateSplit[2]) + i) + "<sup>th</sup> of" + dateSplit[1] + " " + dateSplit[0];
+										document.getElementById("weekAndMonth-" + i).innerHTML = getWeek(split[0]) + ", " + day + "<sup>th</sup> of " + getMonth(month) + " " + year;
 										split = weather_data[i].date.split("：");
 										var curTemp = split.pop();  
 										//alert(curTemp);
@@ -130,10 +163,10 @@
 									}
 									else
 									{
-										document.getElementById("weekAndMonth-" + i).innerHTML = weather_data[i].date + "," + (parseInt(dateSplit[2]) + i) + "<sup>th</sup> of" + dateSplit[1] + " " + dateSplit[0];
-										var curTemp = weather_data[i].temperature;  
+										document.getElementById("weekAndMonth-" + i).innerHTML = getWeek(weather_data[i].date) + ", " + day + "<sup>th</sup> of " + getMonth(month) + " " + year;
+										var curTemp = weather_data[i].temperature.split(" "); 
 										//alert(curTemp);
-										document.getElementById("Temperature-" + i).innerHTML = curTemp.slice(0, -1) + "°<small>C</small>";
+										document.getElementById("Temperature-" + i).innerHTML = curTemp[0] + "<small>~ " + curTemp[2].slice(0,-1) + "°C</small>";
 									}
 								}
                             }  
@@ -142,7 +175,102 @@
                         }  
                     }  
                 });  
-            });  	
+			});  	
+			
+			function getWeek(str)
+			{
+				switch(str)
+				{
+					case "周一":
+						return "Monday";
+						break;
+					case "周二":
+						return "Tuesday";
+						break;
+					case "周三":
+						return "Wednesday";
+						break;
+					case "周四":
+						return "Thursday";
+						break;
+					case "周五":
+						return "Friday";
+						break;
+					case "周六":
+						return "Saturday";
+						break;
+					case "周日":
+						return "Sunday";
+						break;
+					default:
+						return "Monday";
+						break;
+				}
+			}
+
+			function getMonth(id)
+			{
+				switch(id)
+				{
+					case 1:
+						return "January";
+						break;
+					case 2:
+						return "February";
+						break;
+					case 3:
+						return "March";
+						break;
+					case 4:
+						return "April";
+						break;
+					case 5:
+						return "May";
+						break;
+					case 6:
+						return "June";
+						break;
+					case 7:
+						return "July";
+						break;
+					case 8:
+						return "August";
+						break;
+					case 9:
+						return "September";
+						break;
+					case 10:
+						return "October";
+						break;
+					case 11:
+						return "November";
+						break;
+					case 12:
+						return "December";
+						break;
+					default:
+						return "December";
+						break;
+				}
+			}
+
+			function getWeather(str)
+			{
+				switch(str)
+				{
+					case "小雨":
+						break;
+					case "大雨":
+						break;
+					case "雷雨":
+						break;
+					case "雾霾":
+						break;
+					default:
+						break;
+				}
+			}
+
 	</script> 	
 	
 </body>
