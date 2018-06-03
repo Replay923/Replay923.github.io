@@ -4090,7 +4090,7 @@ var raindrops = undefined,
     canvas = undefined;
 
 function loadTextures() {
-  (0, _imageLoader2["default"])([{ name: "dropShine", src: "img/drop-shine2.png" }, { name: "dropAlpha", src: "img/drop-alpha.png" }, { name: "dropColor", src: "img/drop-color.png" }, { name: "textureFg", src: "img/water/texture-fg.png" }, { name: "textureBg", src: "img/water/texture-bg.png" }]).then(function (images) {
+  (0, _imageLoader2["default"])([{ name: "dropShine", src: "img/RainEffect/drop-shine2.png" }, { name: "dropAlpha", src: "img/RainEffect/drop-alpha.png" }, { name: "dropColor", src: "img/RainEffect/drop-color.png" }, { name: "textureFg", src: "img/RainEffect/water/texture-fg.png" }, { name: "textureBg", src: "img/RainEffect/water/texture-bg.png" }]).then(function (images) {
     textureFgImage = images.textureFg.img;
     textureBgImage = images.textureBg.img;
 

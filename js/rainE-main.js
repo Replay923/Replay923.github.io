@@ -4083,7 +4083,7 @@ canvas.height = window.innerHeight;
 // canvas.style.height=window.innerHeight+"px";
 var r = new _raindrops2["default"](canvas.width, canvas.height);
 
-(0, _imageLoader2["default"])([{ name: "shine", src: "img/shine6.png" }, { name: "textureRain", src: "img/texture10.png" }, { name: "textureRainBlur", src: "img/texture10-blur.png" }, { name: "textureSun", src: "img/texture8-sun.png" }, { name: "textureSunBlur", src: "img/texture8-sun-blur.png" }]).then(function (images) {
+(0, _imageLoader2["default"])([{ name: "shine", src: "img/RainEffect/shine6.png" }, { name: "textureRain", src: "img/RainEffect/texture10.png" }, { name: "textureRainBlur", src: "img/RainEffect/texture10-blur.png" }, { name: "textureSun", src: "img/RainEffect/texture8-sun.png" }, { name: "textureSunBlur", src: "img/RainEffect/texture8-sun-blur.png" }]).then(function (images) {
   var texture = (0, _createCanvas2["default"])(192 / 2, 128 / 2);
   var textureCtx = texture.getContext('2d');
   var textureBlur = (0, _createCanvas2["default"])(384, 256);

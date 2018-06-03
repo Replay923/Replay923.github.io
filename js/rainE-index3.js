@@ -4100,7 +4100,7 @@ var raindrops = undefined,
 var parallax = { x: 0, y: 0 };
 
 function loadTextures() {
-  (0, _imageLoader2["default"])([{ name: "dropAlpha", src: "img/drop-alpha.png" }, { name: "dropColor", src: "img/drop-color.png" }]).then(function (images) {
+  (0, _imageLoader2["default"])([{ name: "dropAlpha", src: "img/RainEffect/drop-alpha.png" }, { name: "dropColor", src: "img/RainEffect/drop-color.png" }]).then(function (images) {
     dropColor = images.dropColor.img;
     dropAlpha = images.dropAlpha.img;
 
