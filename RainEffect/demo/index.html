@@ -16,7 +16,7 @@
 	<link rel="stylesheet" type="text/css" href="css/style1.css" />
 	<!--[if IE]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
+		<![endif]--> 
 </head>
 
 <body class="demo-1">
@@ -49,41 +49,91 @@
 			<canvas width="1" height="1" id="container" style="position:absolute"></canvas>
 			<!-- Heavy Rain -->
 			<div class="slide" id="slide-1" data-weather="rain">
-				<div class="slide__element slide__element--date">Sunday, 24<sup>th</sup> of October 2043</div>
-				<div class="slide__element slide__element--temp">12°<small>C</small></div>
+				<div class="slide__element slide__element--date" id="weekAndMonth-0">Sunday, 24<sup>th</sup> of October 1949</div>
+				<div class="slide__element slide__element--temp" id="Temperature-0">12°<small>C</small></div>
 			</div>
 			<!-- Drizzle -->
 			<div class="slide" id="slide-2" data-weather="drizzle">
-				<div class="slide__element slide__element--date">Saturday, 25<sup>th</sup> of October 2043</div>
-				<div class="slide__element slide__element--temp">18°<small>C</small></div>
+				<div class="slide__element slide__element--date" id="weekAndMonth-1">Saturday, 25<sup>th</sup> of October 1949</div>
+				<div class="slide__element slide__element--temp" id="Temperature-1">18°<small>C</small></div>
 			</div>
 			<!-- Sunny -->
 			<div class="slide" id="slide-3" data-weather="sunny">
-				<div class="slide__element slide__element--date">Monday, 26<sup>th</sup> of October 2043</div>
-				<div class="slide__element slide__element--temp">25°<small>C</small></div>
+				<div class="slide__element slide__element--date" id="weekAndMonth-2">Monday, 26<sup>th</sup> of October 1949</div>
+				<div class="slide__element slide__element--temp" id="Temperature-2">25°<small>C</small></div>
 			</div>
 			<!-- Heavy rain -->
 			<div class="slide" id="slide-5" data-weather="storm">
-				<div class="slide__element slide__element--date">Wednesday, 28<sup>th</sup> of October 2043</div>
-				<div class="slide__element slide__element--temp">20°<small>C</small></div>
+				<div class="slide__element slide__element--date" id="weekAndMonth-3">Wednesday, 28<sup>th</sup> of October 1949</div>
+				<div class="slide__element slide__element--temp" id="Temperature-3">20°<small>C</small></div>
 			</div>
 			<!-- Fallout (greenish overlay with slightly greenish/yellowish drops) -->
 			<div class="slide" id="slide-4" data-weather="fallout">
-				<div class="slide__element slide__element--date">Tuesday, 27<sup>th</sup> of October 2043</div>
-				<div class="slide__element slide__element--temp">34°<small>C</small></div>
+				<div class="slide__element slide__element--date" id="weekAndMonth-4">Tuesday, 27<sup>th</sup> of October 1949</div>
+				<div class="slide__element slide__element--temp" id="Temperature-4">34°<small>C</small></div>
 			</div>
 			<nav class="slideshow__nav">
-				<a class="nav-item" href="#slide-1"><i class="icon icon--rainy"></i><span>10/24</span></a>
-				<a class="nav-item" href="#slide-2"><i class="icon icon--drizzle"></i><span>10/25</span></a>
-				<a class="nav-item" href="#slide-3"><i class="icon icon--sun"></i><span>10/26</span></a>
-				<a class="nav-item" href="#slide-5"><i class="icon icon--storm"></i><span>10/28</span></a>
-				<a class="nav-item" href="#slide-4"><i class="icon icon--radioactive"></i><span>10/27</span></a>
+				<a class="nav-item" href="#slide-1"><i class="icon icon--rainy"></i><span id="date-0">10/24</span></a>
+				<a class="nav-item" href="#slide-2"><i class="icon icon--drizzle"></i><span id="date-1">10/25</span></a>
+				<a class="nav-item" href="#slide-3"><i class="icon icon--sun"></i><span id="date-2">10/26</span></a>
+				<a class="nav-item" href="#slide-5"><i class="icon icon--storm"></i><span id="date-3">10/28</span></a>
+				<a class="nav-item" href="#slide-4"><i class="icon icon--radioactive"></i><span id="date-4">10/27</span></a>
 			</nav>
 		</div>
 		<p class="nosupport">Sorry, but your browser does not support WebGL!</p>
 	</div>
 	<!-- /container -->
 	<script src="js/index.min.js"></script>
+
+	<script type="text/javascript" src="../../js/jquery.min.js"></script>
+	<script type="text/javascript">  
+	// 获取城市  
+	var cityUrl = 'http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js';  
+        $.getScript(  	
+            cityUrl,  
+            function() {  
+                var city = remote_ip_info.city; // 获取城市  
+                $.ajax({  
+                    url: 'http://api.map.baidu.com/telematics/v3/weather?location=' + city +'&output=json&ak=KPGX6sBfBZvz8NlDN5mXDNBF&callback=',
+                    type: "post",  
+                    dataType: "jsonp",  
+                    scriptCharset: "gbk",  
+                    success: function(baiduTQ) {  
+                        try {  
+                            if (baiduTQ == null || baiduTQ.error != 0 || baiduTQ.status != "success" || baiduTQ.results.count == 0) {  
+                                // document.getElementById("date-1").innerHTML = "--";  
+                                // document.getElementById("date-2").innerHTML = "--";  
+                                // document.getElementById("lblCurTemp").innerHTML = "--";  
+                                return;  
+                            }  
+                            if (baiduTQ.results[0].weather_data.length > 0) {  
+								var strDate = baiduTQ.date;  
+								var dateSplit=strDate.split("-");
+								var curDate = new Date(dateSplit[0],dateSplit[1],dateSplit[2]);
+								for(var i=0;i<5;i++)
+								{
+									document.getElementById("date-" + i).innerHTML = (curDate.day + i) + "/" + curDate.month;
+								}
+								
+
+								var weather_data = baiduTQ.results[0].weather_data;
+
+								for(var i=0;i<weather_data.length;i++)
+								{
+									var split = weather_data[i].date.split("："); 
+									document.getElementById("weekAndMonth-" + i).innerHTML = split.pop() + "," + (curDate.day + i) + "<sup>th</sup> of" + curDate.month + " " + curDate.year;
+									var curTemp = split.pop();  
+									document.getElementById("Temperature-" + i).innerHTML = curTemp.substring(0, curTemp.length - 2) + "°<small>C</small>";
+								}
+                            }  
+                        } catch (err) {  
+                            alert(err)  
+                        }  
+                    }  
+                });  
+            });  	
+	</script> 	
+	
 </body>
 
 </html>
