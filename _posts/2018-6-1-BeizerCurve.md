@@ -95,7 +95,7 @@ tags:								#标签
 ```
 ### 二次贝塞尔曲线unity中演示效果
 
-![二次贝塞尔曲线演示动画](https://hbimg.b0.upaiyun.com/6ff9b71134d2da4afe5e460f70dc36fcfc15bd20219b1-JxHRuF_fw658)
+![二次贝塞尔曲线演示动画](https://replay923.github.io/BlogResources/BezierCurve/BezierThree.gif)
 
 ### 高阶贝塞尔曲线
 
@@ -144,7 +144,7 @@ tags:								#标签
 
 ### 高阶贝塞尔曲线unity中演示效果
 
-![二次贝塞尔曲线演示动画](https://hbimg.b0.upaiyun.com/8fdf7faf0d3c8b4a59bca2efa1b685a8de361906c3200-fHCTjl_fw658)
+![高阶贝塞尔曲线演示动画](https://replay923.github.io/BlogResources/BezierCurve/BezierUnlimit.gif)
 
 
 ## 整体脚本代码
