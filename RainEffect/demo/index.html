@@ -111,8 +111,7 @@
 								var year = parseInt(dateSplit[0]);
 								var dayMax = 30;
 								for(var i=0;i<5;i++)
-								{
-									day += i;
+								{					
 									switch(month)
 									{
 										case 2:
@@ -145,7 +144,8 @@
 										else
 											month += 1;
 									}
-									document.getElementById("date-" + i).innerHTML = day + "/" + month;
+									document.getElementById("date-" + i).innerHTML = month + "/" + day;
+									day += 1;
 								}
 								
 								var weather_data = baiduTQ.results[0].weather_data;
