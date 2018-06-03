@@ -4,8 +4,8 @@ SEOTitle:   Replay Blog                                       #显示在浏览�
 header-img: img/tag-bg-silk-4.png                                   #显示在首页的背景图片
 email: morning92345@gmail.com
 description: "Every failure is leading towards success."            #网站介绍
-keyword: "Blog"    #关键词
-url: "http://replay923.github.io"          # your host, for absolute URL     # 这个就是填写你的博客地址
+keyword: "Replay, Replay Blog, Replay923, 个人网站, 游戏开发, Unity, c#, 设计, 独立开发者, 刁民, Morning"    #关键词
+url: "https://replay923.github.io"          # your host, for absolute URL     # 这个就是填写你的博客地址
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'    # 这个我们不用填写
 github_repo: "https://github.com/Replay923/Replay923.github.io" # you code repository
 
@@ -27,13 +27,13 @@ twitter_username:   Replay9234
 
 
 
-
 # Build settings
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
-#permalink: pretty
-#paginate: 10
-#exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
-#anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+highlighter: rouge
+permalink: pretty
+paginate: 10
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 
@@ -92,7 +92,7 @@ featured-condition-size: 1             # 相同标签数量大于这个数，才
 
 
 # Progressive Web Apps
-chrome-tab-theme-color: "#FFFFFF"
+chrome-tab-theme-color: "#000000"
 service-worker: true
 
 
