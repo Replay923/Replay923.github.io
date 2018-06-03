@@ -112,18 +112,29 @@
 								var curDate = new Date(dateSplit[0],dateSplit[1],dateSplit[2]);
 								for(var i=0;i<5;i++)
 								{
-									document.getElementById("date-" + i).innerHTML = (curDate.day + i) + "/" + curDate.month;
+									document.getElementById("date-" + i).innerHTML = (parseInt(dateSplit[2]) + i) + "/" + dateSplit[1];
 								}
 								
-
 								var weather_data = baiduTQ.results[0].weather_data;
 
 								for(var i=0;i<weather_data.length;i++)
 								{
-									var split = weather_data[i].date.split("："); 
-									document.getElementById("weekAndMonth-" + i).innerHTML = split.pop() + "," + (curDate.day + i) + "<sup>th</sup> of" + curDate.month + " " + curDate.year;
-									var curTemp = split.pop();  
-									document.getElementById("Temperature-" + i).innerHTML = curTemp.substring(0, curTemp.length - 2) + "°<small>C</small>";
+									if(i==0)
+									{
+										var split = weather_data[i].date.split(" "); 
+										document.getElementById("weekAndMonth-" + i).innerHTML = split[0] + "," + (parseInt(dateSplit[2]) + i) + "<sup>th</sup> of" + dateSplit[1] + " " + dateSplit[0];
+										split = weather_data[i].date.split("：");
+										var curTemp = split.pop();  
+										//alert(curTemp);
+										document.getElementById("Temperature-" + i).innerHTML = curTemp.slice(0, -2) + "°<small>C</small>";
+									}
+									else
+									{
+										document.getElementById("weekAndMonth-" + i).innerHTML = weather_data[i].date + "," + (parseInt(dateSplit[2]) + i) + "<sup>th</sup> of" + dateSplit[1] + " " + dateSplit[0];
+										var curTemp = weather_data[i].temperature;  
+										//alert(curTemp);
+										document.getElementById("Temperature-" + i).innerHTML = curTemp.slice(0, -1) + "°<small>C</small>";
+									}
 								}
                             }  
                         } catch (err) {  
