@@ -2,7 +2,7 @@ function getTQBegin()
 {
 
 // 获取城市  
-var cityUrl = "https://restapi.amap.com/v3/ip?output=json&key=761d856bd2714d9d486c9dfb3dcd796c&callback=?";  
+var cityUrl = "https://restapi.amap.com/v3/ip?output=json&key=761d856bd2714d9d486c9dfb3dcd796c";  
 var cityName = "北京";
 var cityAdCode = "110101";
 
