@@ -86,6 +86,7 @@
 	<script src="js/index.min.js"></script>
 
 	<script type="text/javascript" src="../../js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/helper.js"></script>
 	<script type="text/javascript">  
 	// 获取城市  
 	var cityUrl = 'http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js';  
@@ -104,6 +105,8 @@
                                 return;  
                             }  
                             if (baiduTQ.results[0].weather_data.length > 0) {  
+								var weather_data = baiduTQ.results[0].weather_data;
+
 								var strDate = baiduTQ.date;  
 								var dateSplit=strDate.split("-");								
 								var day = parseInt(dateSplit[2]);
@@ -145,14 +148,8 @@
 											month += 1;
 									}
 									document.getElementById("date-" + i).innerHTML = month + "/" + day;
-									day += 1;
-								}
-								
-								var weather_data = baiduTQ.results[0].weather_data;
 
-								for(var i=0;i<weather_data.length;i++)
-								{
-									if(i==0)
+									if(i == 0)
 									{
 										var split = weather_data[i].date.split(" "); 
 										document.getElementById("weekAndMonth-" + i).innerHTML = getWeek(split[0]) + ", " + day + "<sup>th</sup> of " + getMonth(month) + " " + year;
@@ -161,13 +158,15 @@
 										//alert(curTemp);
 										document.getElementById("Temperature-" + i).innerHTML = curTemp.slice(0, -2) + "°<small>C</small>";
 									}
-									else
+									else if(weather_data[i] != null)
 									{
 										document.getElementById("weekAndMonth-" + i).innerHTML = getWeek(weather_data[i].date) + ", " + day + "<sup>th</sup> of " + getMonth(month) + " " + year;
 										var curTemp = weather_data[i].temperature.split(" "); 
 										//alert(curTemp);
 										document.getElementById("Temperature-" + i).innerHTML = curTemp[0] + "<small>~ " + curTemp[2].slice(0,-1) + "°C</small>";
 									}
+
+									day += 1;
 								}
                             }  
                         } catch (err) {  
@@ -177,100 +176,6 @@
                 });  
 			});  	
 			
-			function getWeek(str)
-			{
-				switch(str)
-				{
-					case "周一":
-						return "Monday";
-						break;
-					case "周二":
-						return "Tuesday";
-						break;
-					case "周三":
-						return "Wednesday";
-						break;
-					case "周四":
-						return "Thursday";
-						break;
-					case "周五":
-						return "Friday";
-						break;
-					case "周六":
-						return "Saturday";
-						break;
-					case "周日":
-						return "Sunday";
-						break;
-					default:
-						return "Monday";
-						break;
-				}
-			}
-
-			function getMonth(id)
-			{
-				switch(id)
-				{
-					case 1:
-						return "January";
-						break;
-					case 2:
-						return "February";
-						break;
-					case 3:
-						return "March";
-						break;
-					case 4:
-						return "April";
-						break;
-					case 5:
-						return "May";
-						break;
-					case 6:
-						return "June";
-						break;
-					case 7:
-						return "July";
-						break;
-					case 8:
-						return "August";
-						break;
-					case 9:
-						return "September";
-						break;
-					case 10:
-						return "October";
-						break;
-					case 11:
-						return "November";
-						break;
-					case 12:
-						return "December";
-						break;
-					default:
-						return "December";
-						break;
-				}
-			}
-
-			function getWeather(str)
-			{
-				switch(str)
-				{
-					case "小雨":
-						break;
-					case "大雨":
-						break;
-					case "雷雨":
-						break;
-					case "雾霾":
-						break;
-					default:
-						break;
-				}
-			}
-
 	</script> 	
 	
 </body>
