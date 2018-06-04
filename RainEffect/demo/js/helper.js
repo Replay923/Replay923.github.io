@@ -2,7 +2,7 @@ function getTQBegin()
 {
 
 // 获取城市  
-var cityUrl = "http://restapi.amap.com/v3/ip?output=json&key=761d856bd2714d9d486c9dfb3dcd796c&callback=?";  
+var cityUrl = "http://restapi.amap.com/v3/ip?output=json&key=761d856bd2714d9d486c9dfb3dcd796c";  
 var cityName = "北京";
 var cityAdCode = "110101";
 
@@ -12,7 +12,7 @@ $.getJSON(cityUrl, function(data) {
         return;
     cityName = data.city;
     cityAdCode = data.adcode;
-    $.getJSON("http://restapi.amap.com/v3/weather/weatherInfo?city="+cityName+"&key=761d856bd2714d9d486c9dfb3dcd796c&callback=?",
+    $.getJSON("http://restapi.amap.com/v3/weather/weatherInfo?city="+cityName+"&key=761d856bd2714d9d486c9dfb3dcd796c",
     function(gaodeTQ)
     {
         try { 
@@ -34,7 +34,7 @@ $.getJSON(cityUrl, function(data) {
             alert(err); } 
 
 
-    $.getJSON("http://restapi.amap.com/v3/weather/weatherInfo?city="+cityName+"&extensions=all&key=761d856bd2714d9d486c9dfb3dcd796c&callback=?",
+    $.getJSON("http://restapi.amap.com/v3/weather/weatherInfo?city="+cityName+"&extensions=all&key=761d856bd2714d9d486c9dfb3dcd796c",
     function(gaodeTQ)
     {
         try {  
