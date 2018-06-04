@@ -27,7 +27,8 @@ $.getJSON(cityUrl, function(data) {
             var month = dateSplit[1];
             var year = dateSplit[0];
 
-            document.getElementById("Temperature-0").innerHTML = live.temperature + "°<small>C</small>" + live.weather;
+            document.getElementById("Temperature-0").innerHTML = live.temperature + "°<small>C</small>";
+            document.getElementById("Weather-0").innerHTML = "<small>" +  + live.weather + "</small>";
         }
         catch (err) {  
             alert(err); } 
@@ -58,7 +59,8 @@ $.getJSON(cityUrl, function(data) {
                     else if(weather_data[i] != null)				
                     {
                         document.getElementById("weekAndMonth-" + i).innerHTML = getWeek(weather_data[i].week) + ", " + day + "<sup>th</sup> of " + getMonth(month) + " " + year;
-                        document.getElementById("Temperature-" + i).innerHTML = live.daytemp +"  昼:" + live.dayweather + "<small>~ " + live.nighttemp + "°C</small>  夜:" + live.nightweather;
+                        document.getElementById("Temperature-" + i).innerHTML = weather_data[i].daytemp + "<small>~ " +  weather_data[i].nighttemp + "°C</small>";
+                        document.getElementById("Weather-" + i).innerHTML = "<small> 昼:" +  weather_data[i].dayweather + " ~ 夜:" +  weather_data[i].nightweather + "</small>";
                     }
                 }
             }
