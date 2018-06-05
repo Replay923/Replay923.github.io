@@ -11660,7 +11660,9 @@ var _times2 = _interopRequireDefault(_times);
 var _random = require('./random');
 
 var textureRainFg = undefined,
-    textureRainBg = undefined,
+		textureRainBg = undefined,
+		textureStormLightningNormalFg = undefined,
+		textureStormLightningNormalBg = undefined,
     textureStormLightningFg = undefined,
     textureStormLightningBg = undefined,
     textureFalloutFg = undefined,
@@ -11679,11 +11681,11 @@ var textureFg = undefined,
 
 var textureBgSize = {
   width: 384,
-  height: 256
+  height: 216
 };
 var textureFgSize = {
   width: 96 * 2,
-  height: 64 * 2
+  height: 54 * 2
 };
 
 var raindrops = undefined,
@@ -11697,12 +11699,15 @@ var curWeatherData = null;
 var blend = { v: 0 };
 
 function loadTextures() {
-  (0, _imageLoader2["default"])([{ name: "dropAlpha", src: "img/drop-alpha.png" }, { name: "dropColor", src: "img/drop-color.png" }, { name: "textureRainFg", src: "img/weather/texture-rain-fg.png" }, { name: "textureRainBg", src: "img/weather/texture-rain-bg.png" }, { name: "textureStormLightningFg", src: "img/weather/texture-storm-lightning-fg.png" }, { name: "textureStormLightningBg", src: "img/weather/texture-storm-lightning-bg.png" }, { name: "textureFalloutFg", src: "img/weather/texture-fallout-fg.png" }, { name: "textureFalloutBg", src: "img/weather/texture-fallout-bg.png" }, { name: "textureSunFg", src: "img/weather/texture-sun-fg.png" }, { name: "textureSunBg", src: "img/weather/texture-sun-bg.png" }, { name: "textureDrizzleFg", src: "img/weather/texture-drizzle-fg.png" }, { name: "textureDrizzleBg", src: "img/weather/texture-drizzle-bg.png" }]).then(function (images) {
+  (0, _imageLoader2["default"])([{ name: "dropAlpha", src: "img/drop-alpha.png" }, { name: "dropColor", src: "img/drop-color.png" }, { name: "textureRainFg", src: "img/weather/texture-rain-fg.png" }, { name: "textureRainBg", src: "img/weather/texture-rain-bg.png" },{ name: "textureStormLightningNormalFg", src: "img/weather/texture-storm-lightning-normal-fg.png" }, { name: "textureStormLightningNormalBg", src: "img/weather/texture-storm-lightning-normal-bg.png" }, { name: "textureStormLightningFg", src: "img/weather/texture-storm-lightning-fg.png" }, { name: "textureStormLightningBg", src: "img/weather/texture-storm-lightning-bg.png" }, { name: "textureFalloutFg", src: "img/weather/texture-fallout-fg.png" }, { name: "textureFalloutBg", src: "img/weather/texture-fallout-bg.png" }, { name: "textureSunFg", src: "img/weather/texture-sun-fg.png" }, { name: "textureSunBg", src: "img/weather/texture-sun-bg.png" }, { name: "textureDrizzleFg", src: "img/weather/texture-drizzle-fg.png" }, { name: "textureDrizzleBg", src: "img/weather/texture-drizzle-bg.png" }]).then(function (images) {
     textureRainFg = images.textureRainFg.img;
     textureRainBg = images.textureRainBg.img;
 
     textureFalloutFg = images.textureFalloutFg.img;
     textureFalloutBg = images.textureFalloutBg.img;
+
+		textureStormLightningNormalFg = images.textureStormLightningNormalFg.img;
+		textureStormLightningNormalBg = images.textureStormLightningNormalBg.img;
 
     textureStormLightningFg = images.textureStormLightningFg.img;
     textureStormLightningBg = images.textureStormLightningBg.img;
@@ -11827,8 +11832,8 @@ function setupWeatherData() {
       drizzleSize: [2, 6],
       trailRate: 1,
       trailScaleRange: [0.15, 0.3],
-      fg: textureRainFg,
-      bg: textureRainBg,
+      fg: textureStormLightningNormalFg,
+      bg: textureStormLightningNormalBg,
       flashFg: textureStormLightningFg,
       flashBg: textureStormLightningBg,
       flashChance: 0.1
