@@ -29,7 +29,7 @@ $.getJSON(cityUrl, function(data) {
 
             document.getElementById("Temperature-0").innerHTML = live.temperature + "°<small>C</small>";
 			var weatherMode = getWeather(live.weather);	
-			document.getElementById("slide-1").getAttributeNode('data-weather').value = weatherMode;
+			document.getElementById("slide-0").getAttributeNode('data-weather').value = weatherMode;
 			document.getElementById("item-0").className = getWeatherCss(weatherMode);
         }
         catch (err) {  
