@@ -28,7 +28,9 @@ $.getJSON(cityUrl, function(data) {
             var year = dateSplit[0];
 
             document.getElementById("Temperature-0").innerHTML = live.temperature + "°<small>C</small>";
-            document.getElementById("Weather-0").innerHTML = live.weather;
+			var weatherMode = getWeather(live.weather);	
+			document.getElementById("slide-1").getAttributeNode('data-weather').value = weatherMode;
+			document.getElementById("item-0").className = getWeatherCss(weatherMode);
         }
         catch (err) {  
             alert(err); } 
@@ -60,7 +62,10 @@ $.getJSON(cityUrl, function(data) {
                     {
                         document.getElementById("weekAndMonth-" + i).innerHTML = getWeek(weather_data[i].week) + ", " + day + "<sup>th</sup> of " + getMonth(month) + " " + year;
                         document.getElementById("Temperature-" + i).innerHTML = weather_data[i].daytemp + "<small>~ " +  weather_data[i].nighttemp + "°C</small>";
-                        document.getElementById("Weather-" + i).innerHTML = "昼:" +  weather_data[i].dayweather + " ~ 夜:" +  weather_data[i].nightweather;
+						
+						var weatherMode = getWeather(weather_data[i].nighttemp);	
+						document.getElementById("slide-" + i).getAttributeNode('data-weather').value = weatherMode;
+						document.getElementById("item-" + i).className = getWeatherCss(weatherMode);
                     }
                 }
             }
@@ -152,19 +157,102 @@ function getMonth(str)
 	}
 }
 
+function getWeatherCss(str)
+{
+	switch(str)
+	{
+		case "sunny":
+			return "wi wi-day-sunny wi-big";
+			break;
+		case "drizzle":
+			return "wi wi-day-sprinkle wi-big";
+			break;
+		case "rain":
+			return "wi wi-day-rain-wind wi-big";
+			break;
+		case "storm":
+			return "wi wi-day-storm-showers wi-big";
+			break;
+		case "fallout":
+			break;
+		default:
+			return "wi wi-day-sprinkle wi-big";
+			break;
+	}
+}
+
 function getWeather(str)
 {
 	switch(str)
 	{
+		case "晴":
+		case "多云":
+			return "sunny";
+			break;
+
+		case "阴":
+			break;
+
 		case "小雨":
+		case "小雨-中雨":
+			return "drizzle";
 			break;
+
+		case "中雨":
 		case "大雨":
+		case "冻雨":
+		case "雨夹雪":
+			return "rain";
 			break;
-		case "雷雨":
+
+		case "暴雨":
+		case "大暴雨":
+		case "特大暴雨":
+		case "中雨-大雨":
+		case "大雨-暴雨":
+		case "暴雨-大暴雨":
+		case "大暴雨-特大暴雨":
+		case "阵雨":
+		case "雷阵雨":
+		case "雷阵雨并伴有冰雹":
+			return "storm";
 			break;
-		case "雾霾":
+			
+		case "阵雪":
+		case "小雪":
+		case "中雪":
+		case "大雪":
+		case "暴雪":
+		case "小雪-中雪":
+		case "中雪-大雪":
+		case "大雪-暴雪":
+			return "fallout";
 			break;
+
+
+
+		case "雾":
+			break;
+		case "轻雾":
+			break;
+		case "霾":
+			return "fallout";
+			break;
+			
+		case "沙尘暴":	
+		case "浮尘":
+		case "扬沙":
+		case "强沙尘暴":
+
+
+		case "飑":
+		case "龙卷风":
+		case "弱高吹雪":
+			return "fallout";
+			break;
+			
 		default:
+			return "drizzle";
 			break;
 	}
 }
