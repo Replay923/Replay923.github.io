@@ -11790,6 +11790,9 @@ function setupWeather() {
   window.addEventListener("hashchange", function (event) {
     updateWeather();
   });
+	window.addEventListener("load", function (event) {
+    updateWeather();
+  });
   updateWeather();
 }
 function setupWeatherData() {
