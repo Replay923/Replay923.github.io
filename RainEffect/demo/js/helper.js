@@ -175,6 +175,7 @@ function getWeatherCss(str)
 			return "wi wi-day-storm-showers wi-big";
 			break;
 		case "fallout":
+			return "wi wi-day-fog wi-big";
 			break;
 		default:
 			return "wi wi-day-sprinkle wi-big";
