@@ -60,10 +60,11 @@ $.getJSON(cityUrl, function(data) {
                     }
                     else if(weather_data[i] != null)				
                     {
+						var weatherMode = getWeather(weather_data[i].nightweather);
+
                         document.getElementById("weekAndMonth-" + i).innerHTML = getWeek(weather_data[i].week) + ", " + day + "<sup>th</sup> of " + getMonth(month) + " " + year;
                         document.getElementById("Temperature-" + i).innerHTML = weather_data[i].daytemp + "<small>~ " +  weather_data[i].nighttemp + "°C</small>";
-						
-						var weatherMode = getWeather(weather_data[i].nighttemp);	
+													
 						document.getElementById("slide-" + i).getAttributeNode('data-weather').value = weatherMode;
 						document.getElementById("item-" + i).className = getWeatherCss(weatherMode);
                     }
