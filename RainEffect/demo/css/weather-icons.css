@@ -36,10 +36,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 .wi-big {
-  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1, mirror=1);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(mirror=1);
   -webkit-transform: scale(1, 1);
   -ms-transform: scale(2, 2);
-  transform: scale(1.5, 1.5);
+  transform: scale(2, 2);
 }
 .wi-fw {
   text-align: center;
