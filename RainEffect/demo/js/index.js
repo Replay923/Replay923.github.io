@@ -11786,11 +11786,11 @@ function setupFlash() {
   }, 500);
 }
 function setupWeather() {
-  setupWeatherData();
-  window.addEventListener("hashchange", function (event) {
+	setupWeatherData();
+	document.getElementById("slide-0").addEventListener("hashchange", function (event) {
     updateWeather();
   });
-	window.addEventListener("load", function (event) {
+  window.addEventListener("hashchange", function (event) {
     updateWeather();
   });
   updateWeather();
