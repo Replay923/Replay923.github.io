@@ -28,11 +28,17 @@ layout: default
 
     {% endif %}
 </style>
+
 <header class="intro-header" >
     <iframe src="{{page.iframe}}"/>
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                        <div class="site-heading">
+                                <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                                <!--<hr class="small">-->
+                                <span class="subheading">{{ page.description }}</span>
+                        </div>
                     <div class="post-heading">
                         <div class="tags">
                             {% for tag in page.tags %}
@@ -289,7 +295,7 @@ layout: default
          * - told/imply users that there has more content below
          * - let user can scroll in mobile device, seeing the keynote-view is unscrollable
          */
-        $header.style.height = (window.innerHeight-400) + 'px';
+        $header.style.height = (window.innerHeight-500) + 'px';
     }
     document.addEventListener('DOMContentLoaded', function(){
         resize();
