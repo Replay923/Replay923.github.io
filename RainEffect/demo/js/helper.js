@@ -74,7 +74,7 @@ $.getJSON(cityUrl, function(data) {
 
             document.getElementById("Temperature-0").innerHTML = live.temperature + "°<small>C</small>";
 			var weatherMode = getWeather(live.weather);	
-			document.getElementById("slide-0").getAttributeNode('data-weather').value = weatherMode;
+			document.getElementById("slide-0").getAttributeNode('data-weather').value = getWeatherShow(weatherMode);
 			document.getElementById("item-0").className = getWeatherCss(weatherMode);
 
 			M_Event.fireEvent("updateWeather");
@@ -112,7 +112,7 @@ $.getJSON(cityUrl, function(data) {
                         document.getElementById("weekAndMonth-" + i).innerHTML = getWeek(weather_data[i].week) + ", " + day + "<sup>th</sup> of " + getMonth(month) + " " + year;
                         document.getElementById("Temperature-" + i).innerHTML = weather_data[i].daytemp + "<small>~ " +  weather_data[i].nighttemp + "°C</small>";
 													
-						document.getElementById("slide-" + i).getAttributeNode('data-weather').value = weatherMode;
+						document.getElementById("slide-" + i).getAttributeNode('data-weather').value = getWeatherShow(weatherMode);
 						document.getElementById("item-" + i).className = getWeatherCss(weatherMode);
                     }
                 }
@@ -213,19 +213,69 @@ function getWeatherCss(str)
 			return "wi wi-day-sunny wi-big";
 			break;
 		case "drizzle":
-			return "wi wi-day-sprinkle wi-big";
+			return "wi wi-sprinkle wi-big";
 			break;
 		case "rain":
-			return "wi wi-day-rain-wind wi-big";
+			return "wi wi-rain wi-big";
+			break;
+		case "sleet":
+			return "wi wi-sleet wi-big";
+			break;
+		case "snow":
+			return "wi wi-snow wi-big";
 			break;
 		case "storm":
-			return "wi wi-day-storm-showers wi-big";
+			return "wi wi-thunderstorm wi-big";
 			break;
-		case "fallout":
-			return "wi wi-day-fog wi-big";
+		case "fog":
+			return "wi wi-fog wi-big";
+			break;
+		case "cloudy":
+			return "wi wi-cloudy wi-big";
+			break;
+		case "cloud":
+			return "wi wi-day-cloudy wi-big";
+			break;
+		case "tornado":
+			return "wi wi-tornado wi-big";
+			break;
+		case "sandstorm":
+			return "wi wi-sandstorm wi-big";
 			break;
 		default:
 			return "wi wi-day-sprinkle wi-big";
+			break;
+	}
+}
+
+function getWeatherShow(str)
+{
+	switch(str)
+	{
+		case "sunny":
+		case "cloud":
+			return "sunny";
+			break;
+
+		case "cloudy":
+		case "drizzle":
+			return "drizzle";
+			break;
+		case "rain":
+		case "snow":
+			return "rain";
+			break;
+		case "storm":
+			return "storm";
+			break;
+		case "tornado":
+		case "sandstorm":
+		case "fog":
+			return "fallout";
+			break;
+
+		default:
+			return "drizzle";
 			break;
 	}
 }
@@ -235,11 +285,14 @@ function getWeather(str)
 	switch(str)
 	{
 		case "晴":
-		case "多云":
 			return "sunny";
 			break;
-
+		
+		case "多云":
+			return "cloud";
+			break;
 		case "阴":
+			return "cloudy";
 			break;
 
 		case "小雨":
@@ -249,9 +302,12 @@ function getWeather(str)
 
 		case "中雨":
 		case "大雨":
+			return "rain";
+			break;
+
 		case "冻雨":
 		case "雨夹雪":
-			return "rain";
+			return "sleet";
 			break;
 
 		case "暴雨":
@@ -275,30 +331,28 @@ function getWeather(str)
 		case "小雪-中雪":
 		case "中雪-大雪":
 		case "大雪-暴雪":
-			return "fallout";
+			return "snow";
 			break;
-
-
 
 		case "雾":
-			break;
 		case "轻雾":
-			break;
 		case "霾":
-			return "fallout";
+			return "fog";
 			break;
 			
 		case "沙尘暴":	
 		case "浮尘":
 		case "扬沙":
 		case "强沙尘暴":
-
+		case "弱高吹雪":
+			return "sandstorm";
+			break;
 
 		case "飑":
 		case "龙卷风":
-		case "弱高吹雪":
-			return "fallout";
+			return "tornado";
 			break;
+		
 			
 		default:
 			return "drizzle";
