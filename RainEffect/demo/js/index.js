@@ -11787,9 +11787,9 @@ function setupFlash() {
 }
 function setupWeather() {
 	setupWeatherData();
-	document.getElementById("slide-0").addEventListener("hashchange", function (event) {
+	M_Event.addEvent("updateWeather", function() {
     updateWeather();
-  });
+	});
   window.addEventListener("hashchange", function (event) {
     updateWeather();
   });
