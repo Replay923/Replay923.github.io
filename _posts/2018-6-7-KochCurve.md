@@ -4,7 +4,7 @@ title:      KochCurve 				# 标题
 subtitle:   笔记-Unity中创建简单Koch图形 #副标题
 date:       2018-6-7				# 时间
 author:     Replay 						# 作者
-header-img: img/tag-bg-silk-9.png 	#这篇文章标题背景图片
+header-img: img/tag-bg-silk-10.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - 笔记
