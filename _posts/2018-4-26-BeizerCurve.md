@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      BeizerCurve 				# 标题 
 subtitle:   笔记-Unity中创建贝塞尔曲线 #副标题
-date:       2018-6-1				# 时间
+date:       2018-4-26				# 时间
 author:     Replay 						# 作者
 header-img: img/tag-bg-silk-9.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档

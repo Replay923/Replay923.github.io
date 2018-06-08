@@ -2,7 +2,7 @@
 layout:     post   				    # 使用的布局（不需要改）
 title:      KochCurve 				# 标题 
 subtitle:   笔记-Unity中创建简单Koch图形 #副标题
-date:       2018-6-7				# 时间
+date:       2018-4-30				# 时间
 author:     Replay 						# 作者
 header-img: img/tag-bg-silk-10.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
