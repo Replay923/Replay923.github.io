@@ -48,7 +48,7 @@ function getTQBegin()
 
 // 获取城市  
 var cityUrl = "https://restapi.amap.com/v3/ip?output=json&key=761d856bd2714d9d486c9dfb3dcd796c";  
-var cityName = "北京";
+var cityName = "地点：北京";
 var cityAdCode = "110101";
 
 //获取天气
@@ -57,7 +57,7 @@ $.getJSON(cityUrl, function(data) {
         return;
     cityName = data.city;
     cityAdCode = data.adcode;
-    $.getJSON("https://restapi.amap.com/v3/weather/weatherInfo?city="+cityName+"&key=761d856bd2714d9d486c9dfb3dcd796c",
+    $.getJSON("https://restapi.amap.com/v3/weather/weatherInfo?city="+cityAdCode+"&key=761d856bd2714d9d486c9dfb3dcd796c",
     function(gaodeTQ)
     {
         try { 
@@ -72,9 +72,10 @@ $.getJSON(cityUrl, function(data) {
             var month = dateSplit[1];
             var year = dateSplit[0];
 
-            document.getElementById("Temperature-0").innerHTML = live.temperature + "°<small>C</small>";
+			document.getElementById("Temperature-0").innerHTML = live.temperature + "°<small>C</small>";
+			
 			var weatherMode = getWeather(live.weather);	
-			document.getElementById("slide-0").getAttributeNode('data-weather').value = getWeatherShow(weatherMode);
+			document.getElementById("slide-0").getAttributeNode('data-weather').value = getWeatherShow(weatherMode);		
 			document.getElementById("item-0").className = getWeatherCss(weatherMode);
 
 			M_Event.fireEvent("updateWeather");
@@ -83,7 +84,7 @@ $.getJSON(cityUrl, function(data) {
             alert(err); } 
 
 
-    $.getJSON("https://restapi.amap.com/v3/weather/weatherInfo?city="+cityName+"&extensions=all&key=761d856bd2714d9d486c9dfb3dcd796c",
+    $.getJSON("https://restapi.amap.com/v3/weather/weatherInfo?city="+cityAdCode+"&extensions=all&key=761d856bd2714d9d486c9dfb3dcd796c",
     function(gaodeTQ)
     {
         try {  
@@ -98,8 +99,9 @@ $.getJSON(cityUrl, function(data) {
                     var dateSplit=strDate.split("-");								
                     var day = dateSplit[2];
                     var month = dateSplit[1];
-                    var year = dateSplit[0];
-
+					var year = dateSplit[0];
+					
+					document.getElementById("cityName-" + i).innerHTML = "地点：" + cityName;
                     document.getElementById("date-" + i).innerHTML = month + "/" + day;
                     if(i == 0)
                     {
