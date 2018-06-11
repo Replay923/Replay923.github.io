@@ -56,7 +56,8 @@ $.getJSON(cityUrl, function(data) {
     if(data.status != "1" || data.info != "OK")
         return;
     cityName = data.city;
-    cityAdCode = data.adcode;
+	cityAdCode = data.adcode;
+	document.getElementById("cityName").innerHTML = "地点：" + cityName;
     $.getJSON("https://restapi.amap.com/v3/weather/weatherInfo?city="+cityAdCode+"&key=761d856bd2714d9d486c9dfb3dcd796c",
     function(gaodeTQ)
     {
@@ -72,8 +73,7 @@ $.getJSON(cityUrl, function(data) {
             var month = dateSplit[1];
             var year = dateSplit[0];
 
-			document.getElementById("Temperature-0").innerHTML = live.temperature + "°<small>C</small>";
-			
+			document.getElementById("Temperature-0").innerHTML = live.temperature + "°<small>C</small>";		
 			var weatherMode = getWeather(live.weather);	
 			document.getElementById("slide-0").getAttributeNode('data-weather').value = getWeatherShow(weatherMode);		
 			document.getElementById("item-0").className = getWeatherCss(weatherMode);
@@ -100,8 +100,6 @@ $.getJSON(cityUrl, function(data) {
                     var day = dateSplit[2];
                     var month = dateSplit[1];
 					var year = dateSplit[0];
-					
-					document.getElementById("cityName-" + i).innerHTML = "地点：" + cityName;
                     document.getElementById("date-" + i).innerHTML = month + "/" + day;
                     if(i == 0)
                     {
