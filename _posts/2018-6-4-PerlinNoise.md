@@ -4,7 +4,7 @@ title:      PerlinNoise 				# 标题
 subtitle:   笔记-C#柏林噪声的探讨与实现 #副标题
 date:       2018-6-4				# 时间
 author:     Replay 						# 作者
-header-img: img/tag-bg-silk-11.png 	#这篇文章标题背景图片
+header-img: img/tag-bg-silk-8.png 	#这篇文章标题背景图片
 catalog: true 						# 是否归档
 tags:								#标签
     - 笔记
