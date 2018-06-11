@@ -90,6 +90,26 @@
 	bottom: 28vh;
 }
 
+.city{
+	font-size: 1em;
+	font-weight: 700;
+	margin: 0 0 1em;
+	color: #252445;
+
+	text-align: center;
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-webkit-align-items: center;
+	align-items: center;
+	position: absolute;
+	bottom: 20vh;
+}
+
 .nav-item {
 	display: block;
 	padding: 1em;
@@ -161,5 +181,8 @@
 	}
 	.slideshow__nav {
 		bottom: 6em;
+	}
+	.city{
+		bottom: 2em;
 	}
 }
