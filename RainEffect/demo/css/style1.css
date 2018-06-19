@@ -186,3 +186,18 @@
 		bottom: 2em;
 	}
 }
+
+@media screen and (max-height: 22em) {
+	.slideshow {
+		font-size: 5vh;
+	}
+	.slide {
+		padding-top: 20vh;
+	}
+	.slideshow__nav {
+		bottom: 3em;
+	}
+	.city{
+		bottom: 0em;
+	}
+}
