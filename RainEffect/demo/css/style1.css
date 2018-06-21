@@ -174,10 +174,10 @@
 
 @media screen and (max-height: 39em) {
 	.slideshow {
-		font-size: 75%;
+		font-size: 3vh;
 	}
 	.slide {
-		padding-top: 35vh;
+		padding-top: 20vh;
 	}
 	.slideshow__nav {
 		bottom: 6em;
