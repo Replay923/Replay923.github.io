@@ -177,7 +177,7 @@
 		font-size: 3vh;
 	}
 	.slide {
-		padding-top: 20vh;
+		padding-top: center;
 	}
 	.slideshow__nav {
 		bottom: 6em;
@@ -192,7 +192,7 @@
 		font-size: 5vh;
 	}
 	.slide {
-		padding-top: 20vh;
+		padding-top: center;
 	}
 	.slideshow__nav {
 		bottom: 3em;
