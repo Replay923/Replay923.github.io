@@ -74,7 +74,21 @@
 	<script type="text/javascript" src="js/index.min.js"></script>
 	<script type="text/javascript" src="../../js/jquery.min.js"></script>	
 	<script type="text/javascript">
-		getTQBegin();
+	function display(className){   
+		var traget=document.getElementsByClassName(className);   
+    	if(traget.style.display=="none")  
+    	{ traget.style.display="";  
+    	}else{ traget.style.display="none";   
+    	}   
+	} 
+	display('container');
+	document.onreadystatechange=pageOnReady;
+    function pageOnReady()
+    {
+        if(document.readyState == "complete") //当页面加载完成，显示元素
+			display('container');
+    }	
+	getTQBegin();	
 	</script>	
 </body>
 
