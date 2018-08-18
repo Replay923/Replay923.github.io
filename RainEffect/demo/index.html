@@ -74,6 +74,8 @@
 	<script type="text/javascript" src="js/index.min.js"></script>
 	<script type="text/javascript" src="../../js/jquery.min.js"></script>	
 	<script type="text/javascript">
+	var iframe = document.documentElement;
+    iframe.style.display="none";
 	M_Event.addEvent("updateWeather", function() {
 		var iframe = document.documentElement;
     	iframe.style.display="";
