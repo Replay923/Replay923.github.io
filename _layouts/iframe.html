@@ -30,18 +30,19 @@ layout: default
 </style>
 
 <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <iframe src="{{page.iframe}}"/>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="site-heading">
-                        <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                        <!--<hr class="small">-->
-                        <span class="subheading">{{ page.description }}</span>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+                    <!--<hr class="small">-->
+                    <span class="subheading">{{ page.description }}</span>
                 </div>
             </div>
         </div>
+    </div>
+    <iframe class="iframe-header" src="{{page.iframe}}"/>
+        
     </iframe>
 </header>
 
@@ -273,6 +274,8 @@ layout: default
 
 <!-- resize header to fullscreen keynotes -->
 <script>
+    var $iframe = document.getElementsByClassName("iframe-header")[0];
+    $iframe.style.display="none";
     var $header = document.getElementsByTagName("header")[0];
     function resize(){
         /*
