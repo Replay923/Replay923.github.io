@@ -1,7 +1,7 @@
 # Site settings
 title: Replay Blog                                                      #你博客的标题
 SEOTitle:   Replay Blog                                       #显示在浏览器上搜索的时候显示的标题
-header-img: img/tag-bg-silk-4.png                                   #显示在首页的背景图片
+header-img: img/post-bg-github-cup.jpg                                  #显示在首页的背景图片
 email: morning92345@gmail.com
 description: "Every failure is leading towards success."            #网站介绍
 keyword: "Replay, Replay Blog, Replay923, 个人网站, 游戏开发, Unity, c#, 设计, 独立开发者, 刁民, Morning"    #关键词
