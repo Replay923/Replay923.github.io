@@ -74,14 +74,19 @@
 	<script type="text/javascript" src="js/index.min.js"></script>
 	<script type="text/javascript" src="../../js/jquery.min.js"></script>	
 	<script type="text/javascript">
-	function display(className,style){   
-		var traget=document.getElementsByClassName(className);   
-		traget.style.display=style;
-	} 
-	M_Event.addEvent("updateWeather", function() {
-		display("demo-1","");
-	});
-	display("demo-1","none");	
+	function hide(className)
+	{
+		var traget=document.getElementsByClassName(className); 
+		traget.style.display="none";
+		traget.style.visibility="hidden";
+	}
+	hide('demo-1');
+	function show(className)
+	{
+		var traget=document.getElementsByClassName(className); 
+		traget.style.display="block";
+		traget.style.visibility="visible";
+	}	
 	getTQBegin();	
 	</script>	
 </body>
