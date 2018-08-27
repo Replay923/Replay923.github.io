@@ -48,8 +48,8 @@ function getTQBegin()
 
 // 获取城市  
 var cityUrl = "https://restapi.amap.com/v3/ip?output=json&key=761d856bd2714d9d486c9dfb3dcd796c";  
-var cityName = "地点：北京";
-var cityAdCode = "110101";
+var cityName = "北京";
+var cityAdCode = "110000";
 
 //获取天气
 $.getJSON(cityUrl, function(data) {
@@ -57,7 +57,9 @@ $.getJSON(cityUrl, function(data) {
         return;
     cityName = data.city;
 	cityAdCode = data.adcode;
-	document.getElementById("cityName").innerHTML = "地点：" + cityName;
+	if(cityName.length>0)
+		document.getElementById("cityName").innerHTML = "地点：" + cityName;
+		
     $.getJSON("https://restapi.amap.com/v3/weather/weatherInfo?city="+cityAdCode+"&key=761d856bd2714d9d486c9dfb3dcd796c",
     function(gaodeTQ)
     {
