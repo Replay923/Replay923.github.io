@@ -122,6 +122,16 @@ systemctl is-enabled supervisord
 
 ### 配置完成啦.
 
+## 常用的相关管理命令
+```Shell
+supervisorctl restart <application name> ;重启指定应用
+supervisorctl stop <application name> ;停止指定应用
+supervisorctl start <application name> ;启动指定应用
+supervisorctl restart all ;重启所有应用
+supervisorctl stop all ;停止所有应用
+supervisorctl start all ;启动所有应用
+```
+
 ## Talk
 
 [将ASP.NET Core应用程序部署至生产环境中（CentOS7）](https://www.cnblogs.com/ants/p/5732337.html)
