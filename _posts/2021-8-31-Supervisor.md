@@ -118,6 +118,7 @@ d) 执行命令来验证是否为开机启动
 ```Shell
 systemctl is-enabled supervisord
 ```
+![](https://replay923.github.io/BlogResources/Supervisor/3.png)
 
 ### 配置完成啦.
 
