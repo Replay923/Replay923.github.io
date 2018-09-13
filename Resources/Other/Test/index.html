@@ -1,167 +1,81 @@
-<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en" class="no-js">
 
 <head>
-	<title>The Greedy Cave</title>
-	<meta http-equiv="charset" content="utf-8">
-	<meta name="browsermode" content="application" />
-	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1, target-densitydpi=device-dpi"
-	/>
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="renderer" content="webkit|ie-comp|ie-stand">
-	<meta name="full-screen" content="true" />
-	<meta name="tencent-x5-page-decoration" content="portrait" />
-	<meta name="oupengmobile" content="game,fullscreen,lockrotation,portrait" />
-	<meta name="screen-orientation" content="portrait" />
-	<meta name="x5-orientation" content="portrait" />
-	<meta name="x5-fullscreen" content="true" />
-	<meta name="360-fullscreen" content="true" />
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<style type="text/css">
-		html {
-			-ms-touch-action: none;
-			-webkit-user-select: none;
-			overflow: hidden;
-			padding: 0;
-			border: 0;
-			margin: 0;
-			position: absolute;
-		}
-
-		body {
-			background: #000000;
-			padding: 0;
-			border: 0;
-			margin: 0;
-			position: absolute;
-		}
-
-		.rotate-90 {
-			transform: rotate(90deg);
-			-webkit-transform: rotate(90deg);
-		}
-
-		.rotate90 {
-			transform: rotate(-90deg);
-			-webkit-transform: rotate(-90deg);
-		}
-	</style>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- <title>Rain Effect Experiments | Demo 1 | Codrops</title>
+	<meta name="description" content="Some WebGL experiments with raindrop effects" />
+	<meta name="keywords" content="webgl, raindrops, effect, rain, web, video, background" />
+	<meta name="author" content="Lucas Bebber for Codrops" />
+	<link rel="shortcut icon" href="favicon.ico"> -->
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700,500,900' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/style1.css" />
+	<link rel="stylesheet" type="text/css" href="css/weather-icons.min.css" />
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]--> 
 </head>
 
-<body >
-	<script src="lang/EN/EN.js" ></script>
-	<script src="game.js" ></script>
-
-	<img id="gameBorder" style="position: absolute"></img>
-	<canvas id="canvas" style="border:0px solid #c3c3c3;padding:0px;margin:0px;position:absolute;">
-		Your browser does not support the canvas element.
-	</canvas>
-	<canvas id="myCanvas" style="border:0px solid #c3c3c3;padding:0px;margin:0px;position:absolute;">
-		Your browser does not support the canvas element.
-	</canvas>
-
-	<div id="bg" style="margin:auto; background-size:100% 100%; position:relative;"></div>
-	<input id="lang" type="text" value="EN" size="15" style="font-size:28px;border:0;outline:none;background:none;text-align:center;position:absolute;color:white;display:none"/>
-	<div id="debug" style="width:300px;position:absolute; top:25px; left:0px; font-size:12px;color:#ffffff"></div>
-	<input id="cdKey" type="text" value="" style="padding:0;border:0px;margin:0;background:none;position:absolute;display:none;color:#ffffff;outline:0px"/>
-	<input id="cname" type="text" value="" maxlength="14" style="padding:0;border:3px;margin:0;background:none;position:absolute;color:#ffffff;outline:0px"/>
-	<input id="guildname" type="text" value="" maxlength="14" style="padding:0;border:3px;margin:0;background:none;position:absolute;color:#ffffff;outline:0px"/>
-	<input id="guilddesc" type="text" value="" maxlength="14" style="padding:0;border:3px;margin:0;background:none;position:absolute;color:#ffffff;outline:0px"/>
+<body class="demo-1">
+	<div class="image-preload">
+		<img src="img/drop-color.png" alt="">
+		<img src="img/drop-alpha.png" alt="">
+		<img src="img/weather/texture-rain-fg.png" />
+		<img src="img/weather/texture-rain-bg.png" />
+		<img src="img/weather/texture-sun-fg.png" />
+		<img src="img/weather/texture-sun-bg.png" />
+		<img src="img/weather/texture-fallout-fg.png" />
+		<img src="img/weather/texture-fallout-bg.png" />
+		<img src="img/weather/texture-drizzle-fg.png" />
+		<img src="img/weather/texture-drizzle-bg.png" />
+	</div>
+	<div class="container">
+		<div class="slideshow">
+			<canvas width="1" height="1" id="container" style="position:absolute"></canvas>
+			<!-- Heavy Rain -->
+			<div class="slide" id="slide-0" data-weather="rain">
+				<div class="slide__element slide__element--date" id="weekAndMonth-0">Sunday, 24<sup>th</sup> of October 1949</div>
+				<div class="slide__element slide__element--temp" id="Temperature-0">12°<small>C</small></div>
+			</div>
+			<!-- Drizzle -->
+			<div class="slide" id="slide-1" data-weather="drizzle">
+				<div class="slide__element slide__element--date" id="weekAndMonth-1">Saturday, 25<sup>th</sup> of October 1949</div>
+				<div class="slide__element slide__element--temp" id="Temperature-1">18°<small>C</small></div>			
+			</div>
+			<!-- Sunny -->
+			<div class="slide" id="slide-2" data-weather="sunny">
+				<div class="slide__element slide__element--date" id="weekAndMonth-2">Monday, 26<sup>th</sup> of October 1949</div>
+				<div class="slide__element slide__element--temp" id="Temperature-2">25°<small>C</small></div>
+			</div>
+			<!-- Heavy rain -->
+			<div class="slide" id="slide-3" data-weather="storm">
+				<div class="slide__element slide__element--date" id="weekAndMonth-3">Wednesday, 28<sup>th</sup> of October 1949</div>
+				<div class="slide__element slide__element--temp" id="Temperature-3">20°<small>C</small></div>	
+			</div>
+			<nav class="slideshow__nav">
+				<a class="nav-item" href="#slide-0"><i id="item-0" class=""></i><span id="date-0"></span></a>
+				<a class="nav-item" href="#slide-1"><i id="item-1" class=""></i><span id="date-1"></span></a>
+				<a class="nav-item" href="#slide-2"><i id="item-2" class=""></i><span id="date-2"></span></a>
+				<a class="nav-item" href="#slide-3"><i id="item-3" class=""></i><span id="date-3"></span></a>
+			</nav>
+			<nav class="city">
+				<div class="nav-item" id="cityName"></div>
+			</nav>
+		</div>
+		<p class="nosupport">Sorry, but your browser does not support WebGL!</p>
+	</div>
 	
-    <script type="text/javascript">
-		alert("login");
-		document.writeln("before login");
-		window.external.notify("login");
-		document.writeln("after login");
-        alert("loginEnd");
-
-        function MG_CallBack(account,id,token) {
-            console.log("account="+account);
-
-            Global.GLOBAL_PLATEFORM = true ;
-            Global.GLOBAL_ACCOUNT = account + "";
-            Global.GLOBAL_OPENID = account + "";
-            Global.GLOBAL_IP = "";
-            Global.GLOBAL_USER_IP = "127.0.0.1";
-            Global.GLOBAL_REGION = getRegion() ? getRegion() : "US";
-            Global.GLOBAL_PAY_URL = "";
-            Global.GLOBAL_SID = "100001";
-            Global.GLOBAL_PF = "";
-            Global.GLOBAL_ENTRY_DOMAIN = "https://tldkht.vrseastar.com/";
-            Global.GLOBAL_ACCOUNT_PREFIX = 1;
-            Global.GLOBAL_LANG = "EN";
-            Global.GLOBAL_RESOURE_HOST = "";
-            Global.GLOBAL_TIMESTAMP = "0";
-            Global.GLOBAL_AUTHKEY = getKey("authkey") ? getKey("authkey") : "";
-            Global.GAME_PLATFORM = "win10";
-            first();
-        }
-
-		function getKey(key, srcString) {
-			var result,
-				sourceParams = (typeof srcString === 'string') ? srcString : window.location.search.substr(1),
-				//regExp = new RegExp("(\\?|&)+" + key + "=([^&\\?]*)");
-				regExp = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
-			result = sourceParams.match(regExp);
-			return (!result ? "" : unescape(result[2]));
-		}
-		function loadPayPage(param, isItem, isAny) {
-            winPay(param);
-		}
-
-		function getRegion() {
-			var region ="US";
-			console.log(">>>>getRegion", region);
-			return region;
-		}
-
-        var purchaseCatalog = {
-            c60: "cave_crystals_01",
-            c180: "cave_crystals_02",
-            c300: "cave_crystals_03",
-            c680: "cave_crystals_04",
-            c1280: "cave_crystals_05",
-            c3280: "cave_crystals_06"
-        };
-
-        var CallbackId = "CallbackId";
-
-        function winPay(param) {
-            var string = param.split('&');
-            var data = {};
-            for (var i = 0; i < string.length; i++) {
-                var str = string[i].split('=');
-                data[str[0]] = str[1];
-            }
-            console.log(data);
-
-            //purchase.openid = data.account;
-            //purchase.gold = data.gold;
-            //purchase.money = data.money;
-            //purchase.sid = data.qqSID;
-            //purchase.region = data.region;
-
-            var Pay = new Object();
-            Pay.Comment = data.qqSID;
-            Pay.DigitalGoodsKey = purchaseCatalog["c" + data.gold];
-            Pay.CallbackId = CallbackId;
-
-            var value = JSON.stringify(Pay);
-
-            window.external.notify(value);
-        }
-
-        function MG_PayBack(mgpayback) {
-            console.log(mgpayback);
-            var value=JSON.parse(mgpayback);
-            var count=value[0].Count;
-            var comment=value[0].Comment;
-            var name=value[0].Goods.Name;
-            var tag=value[0].Goods.Tag;
-        }
-
-	</script>
+	<script type="text/javascript" src="js/helper.min.js"></script>
+	<!-- /container -->
+	<script type="text/javascript" src="js/index.min.js"></script>
+	<script type="text/javascript" src="../../js/jquery.min.js"></script>	
+	<script type="text/javascript">
+	window.external.notify("login");
+	</script>	
 </body>
 
 </html>
