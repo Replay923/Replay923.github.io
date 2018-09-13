@@ -1,0 +1,167 @@
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html>
+
+<head>
+	<title>The Greedy Cave</title>
+	<meta http-equiv="charset" content="utf-8">
+	<meta name="browsermode" content="application" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1, maximum-scale=1, target-densitydpi=device-dpi"
+	/>
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="renderer" content="webkit|ie-comp|ie-stand">
+	<meta name="full-screen" content="true" />
+	<meta name="tencent-x5-page-decoration" content="portrait" />
+	<meta name="oupengmobile" content="game,fullscreen,lockrotation,portrait" />
+	<meta name="screen-orientation" content="portrait" />
+	<meta name="x5-orientation" content="portrait" />
+	<meta name="x5-fullscreen" content="true" />
+	<meta name="360-fullscreen" content="true" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<style type="text/css">
+		html {
+			-ms-touch-action: none;
+			-webkit-user-select: none;
+			overflow: hidden;
+			padding: 0;
+			border: 0;
+			margin: 0;
+			position: absolute;
+		}
+
+		body {
+			background: #000000;
+			padding: 0;
+			border: 0;
+			margin: 0;
+			position: absolute;
+		}
+
+		.rotate-90 {
+			transform: rotate(90deg);
+			-webkit-transform: rotate(90deg);
+		}
+
+		.rotate90 {
+			transform: rotate(-90deg);
+			-webkit-transform: rotate(-90deg);
+		}
+	</style>
+</head>
+
+<body >
+	<script src="lang/EN/EN.js" ></script>
+	<script src="game.js" ></script>
+
+	<img id="gameBorder" style="position: absolute"></img>
+	<canvas id="canvas" style="border:0px solid #c3c3c3;padding:0px;margin:0px;position:absolute;">
+		Your browser does not support the canvas element.
+	</canvas>
+	<canvas id="myCanvas" style="border:0px solid #c3c3c3;padding:0px;margin:0px;position:absolute;">
+		Your browser does not support the canvas element.
+	</canvas>
+
+	<div id="bg" style="margin:auto; background-size:100% 100%; position:relative;"></div>
+	<input id="lang" type="text" value="EN" size="15" style="font-size:28px;border:0;outline:none;background:none;text-align:center;position:absolute;color:white;display:none"/>
+	<div id="debug" style="width:300px;position:absolute; top:25px; left:0px; font-size:12px;color:#ffffff"></div>
+	<input id="cdKey" type="text" value="" style="padding:0;border:0px;margin:0;background:none;position:absolute;display:none;color:#ffffff;outline:0px"/>
+	<input id="cname" type="text" value="" maxlength="14" style="padding:0;border:3px;margin:0;background:none;position:absolute;color:#ffffff;outline:0px"/>
+	<input id="guildname" type="text" value="" maxlength="14" style="padding:0;border:3px;margin:0;background:none;position:absolute;color:#ffffff;outline:0px"/>
+	<input id="guilddesc" type="text" value="" maxlength="14" style="padding:0;border:3px;margin:0;background:none;position:absolute;color:#ffffff;outline:0px"/>
+	
+    <script type="text/javascript">
+		alert("login");
+		document.writeln("before login");
+		window.external.notify("login");
+		document.writeln("after login");
+        alert("loginEnd");
+
+        function MG_CallBack(account,id,token) {
+            console.log("account="+account);
+
+            Global.GLOBAL_PLATEFORM = true ;
+            Global.GLOBAL_ACCOUNT = account + "";
+            Global.GLOBAL_OPENID = account + "";
+            Global.GLOBAL_IP = "";
+            Global.GLOBAL_USER_IP = "127.0.0.1";
+            Global.GLOBAL_REGION = getRegion() ? getRegion() : "US";
+            Global.GLOBAL_PAY_URL = "";
+            Global.GLOBAL_SID = "100001";
+            Global.GLOBAL_PF = "";
+            Global.GLOBAL_ENTRY_DOMAIN = "https://tldkht.vrseastar.com/";
+            Global.GLOBAL_ACCOUNT_PREFIX = 1;
+            Global.GLOBAL_LANG = "EN";
+            Global.GLOBAL_RESOURE_HOST = "";
+            Global.GLOBAL_TIMESTAMP = "0";
+            Global.GLOBAL_AUTHKEY = getKey("authkey") ? getKey("authkey") : "";
+            Global.GAME_PLATFORM = "win10";
+            first();
+        }
+
+		function getKey(key, srcString) {
+			var result,
+				sourceParams = (typeof srcString === 'string') ? srcString : window.location.search.substr(1),
+				//regExp = new RegExp("(\\?|&)+" + key + "=([^&\\?]*)");
+				regExp = new RegExp("(^|&)" + key + "=([^&]*)(&|$)");
+			result = sourceParams.match(regExp);
+			return (!result ? "" : unescape(result[2]));
+		}
+		function loadPayPage(param, isItem, isAny) {
+            winPay(param);
+		}
+
+		function getRegion() {
+			var region ="US";
+			console.log(">>>>getRegion", region);
+			return region;
+		}
+
+        var purchaseCatalog = {
+            c60: "cave_crystals_01",
+            c180: "cave_crystals_02",
+            c300: "cave_crystals_03",
+            c680: "cave_crystals_04",
+            c1280: "cave_crystals_05",
+            c3280: "cave_crystals_06"
+        };
+
+        var CallbackId = "CallbackId";
+
+        function winPay(param) {
+            var string = param.split('&');
+            var data = {};
+            for (var i = 0; i < string.length; i++) {
+                var str = string[i].split('=');
+                data[str[0]] = str[1];
+            }
+            console.log(data);
+
+            //purchase.openid = data.account;
+            //purchase.gold = data.gold;
+            //purchase.money = data.money;
+            //purchase.sid = data.qqSID;
+            //purchase.region = data.region;
+
+            var Pay = new Object();
+            Pay.Comment = data.qqSID;
+            Pay.DigitalGoodsKey = purchaseCatalog["c" + data.gold];
+            Pay.CallbackId = CallbackId;
+
+            var value = JSON.stringify(Pay);
+
+            window.external.notify(value);
+        }
+
+        function MG_PayBack(mgpayback) {
+            console.log(mgpayback);
+            var value=JSON.parse(mgpayback);
+            var count=value[0].Count;
+            var comment=value[0].Comment;
+            var name=value[0].Goods.Name;
+            var tag=value[0].Goods.Tag;
+        }
+
+	</script>
+</body>
+
+</html>
