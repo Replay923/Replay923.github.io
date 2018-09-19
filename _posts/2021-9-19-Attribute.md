@@ -81,7 +81,6 @@ public class BaseAttribute : Attribute
 
 ### 声明自定义特性
 
-下面为Sql脚本生成工具的一部分。<br>
 定义一个用来存储数据表名的类，一个新的自定义特性应派生自 System.Attribute 类
 ```CShapr
 using System;
