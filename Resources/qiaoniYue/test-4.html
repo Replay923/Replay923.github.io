@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="format-detection" content="email=no" />
+    <title>首页-h5实现的情况</title>
+    <script src="js/main.js"></script>
+    <style>
+        a,body,button,dd,div,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,html,img,input,legend,li,ol,p,table,td,th,ul {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            width: 100%;
+        }
+
+        /*将1rem=10px换为1rem=100px（或者其它容易换算的比例值）;不要在pc端使用rem。*/
+
+        html {
+            font-size: 625%;
+        }
+
+        body {
+            background-color: #efeff4;
+            color: #313131;
+            overflow: scroll;
+            overflow-x: hidden;
+            /*font-family:Helvetica;*/
+            /*用处：防止iPhone在坚屏转向横屏时放大文字*/
+            -webkit-text-size-adjust: none;
+        }
+
+        /*各分辨率媒体查询换算*/
+
+        @media screen and (min-width:360px) and (max-width:374px) and (orientation:portrait) {
+            html { font-size: 703%; }
+        }
+        @media screen and (min-width:375px) and (max-width:383px) and (orientation:portrait) {
+            html { font-size: 732.4%; }
+        }
+        @media screen and (min-width:384px) and (max-width:399px) and (orientation:portrait) {
+            html { font-size: 750%; }
+        }
+        @media screen and (min-width:400px) and (max-width:413px) and (orientation:portrait) {
+            html { font-size: 781.25%; }
+        }
+        @media screen and (min-width:414px) and (max-width:431px) and (orientation:portrait){
+            html { font-size: 808.6%; }
+        }
+        @media screen and (min-width:432px) and (max-width:479px) and (orientation:portrait){
+            html { font-size: 843.75%; }
+        }
+
+        /*大屏的屏幕查询还需优化*/
+        @media screen and (min-width:480px) and (max-width:768px) and (orientation:portrait){
+            html { font-size: 1000%; }
+        }
+        @media screen and (min-width:769px) and (max-width:1024px) and (orientation:portrait){
+            html { font-size: 1025%; }
+        }
+        @media screen and (min-width:1025px) and (max-width:2000px) and (orientation:portrait){
+            html { font-size: 2000%; }
+        }
+
+
+        /*设计稿px换算直接/100即可得到rem值。*/
+
+
+        ul,
+        ol,
+        li {
+            list-style: none;
+        }
+
+        fieldset,
+        img {
+            border: none;
+            outline: 0;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        a,
+        input,
+        img {
+            vertical-align: top;/* 图片底部会员缝隙，用这个就OK了 */
+        }
+
+        a {
+            color: #313131;
+            text-decoration: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0); /* 移动端点击时的高亮显示 */
+            blr:expression(this.onFocus=this.blur());
+            outline: 0;
+        }
+
+
+        a:link,
+        a:visited {
+            text-decoration: none;
+        }
+
+        a:hover,
+        a:active {
+            text-decoration: none;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: normal;
+        }
+
+        strong,
+        b {
+            font-weight: normal;
+        }
+
+        em,
+        i {
+            font-style: normal;
+        }
+
+
+        abbr,article,audio,canvas,datalist,details,figure,hgroup,output,progress,video {
+            display: block;
+            margin: 0;
+            padding: 0;
+        }
+
+        section,
+        nav,
+        menu,
+        footer,
+        aside,
+        header {
+            display: block;
+        }
+
+        button,
+        input,
+        select,
+        textarea {
+            font-family: inherit;
+            font-size: 100%;
+            margin: 0;
+            vertical-align: baseline;
+            border: none;
+            background-color: transparent;
+        }
+
+        button,
+        input[type="button"],
+        input[type="reset"],
+        input[type="submit"] {
+            -webkit-appearance: button;
+            cursor: pointer;
+            outline: none;
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        }
+
+        input:focus {
+            outline: none;
+        }
+
+        input::-webkit-input-speech-button {
+            display: none
+        }
+
+        /*部分css命名开始，方便以后修改*/
+
+        .main {
+            width: 100%;
+        }
+
+        .content {
+            overflow: hidden;
+        }
+
+        .item {
+            width: 50%;
+            float: left;
+            text-align: center;
+            padding-top: 5%;
+        }
+
+        .item a img {
+            width: 80%;
+        }
+
+        .item a p {
+            width: 100%;
+            text-align: center;
+            margin-top: .1rem;
+            font-size: .15rem;
+        }
+
+        /*首页头部*/
+
+        header {
+            width: 100%;
+            font-size: .14rem;
+        }
+
+        .header-bg {
+            padding: 4% 0;
+            background-color: #0078d7;
+            overflow: hidden;
+        }
+
+        .navBox {
+            float: left;
+            padding-left: .1rem;
+        }
+
+        .navIcon {
+            width: .2rem;
+            text-align: center;
+            overflow: hidden;
+        }
+
+        .navIcon img {
+            width: .2rem;
+            vertical-align: middle;
+        }
+
+        .nav {
+            position: absolute;
+            left: 10%;
+            top: 3%;
+            width: 25%;
+            background: #efefef;
+            color: #313131;
+            display: none;
+        }
+        .nav li {
+            padding: .05rem;
+            border-bottom: 1px solid #d8d9dd;
+            font-size: .12rem;
+        }
+
+
+        .meeting {
+            float:right;
+            font-size: .14rem;
+            color: #fff;
+            padding-right: .1rem;
+        }
+
+        /*首页banner*/
+
+        .banner {
+            width: 100%;
+        }
+
+        .banner img {
+            width: 100%;
+        }
+
+        /*提供服务service*/
+
+        .columns-ser {
+            width: 100%;
+        }
+
+        .columns-serTitle {
+            width: 100%;
+            background-color: #fff;
+            margin: .1rem 0;
+            padding: .1rem 0;
+        }
+
+        .columns-serTitle p {
+            width: 100%;
+            font-size: .15rem;
+            color: #0078d7;
+            font-weight: bold;
+            margin-left: .1rem;
+            border-left: 8px solid #0078d7;
+            padding-left: .1rem;
+        }
+
+        .columns-serContent {
+            width: 100%;
+        }
+
+        .columns-serContentBar {
+            overflow: hidden;
+        }
+
+        /*提供服务的css代码*/
+
+        .columns-ser-item {
+            float: left;
+            width: 50%;
+            height: 1.3rem;
+            overflow: hidden;
+            padding-left: .1rem;
+            box-sizing: border-box;
+            background-color: #fff;
+        }
+
+        .columns-ser-itemBlue {
+            background-color: #1d8fe9;
+        }
+
+        .columns-ser-itemIcon {
+            float: left;
+            width: .30rem;
+            vertical-align: middle;
+            margin-top: 25%;
+        }
+
+        .columns-ser-details {
+            float: left;
+            padding-left: 4%;
+            margin-top: 10%;
+            width: 70%;
+        }
+
+        .columns-ser-details h1 {
+            font-size: .14rem;
+            font-weight: bold;
+            color: #313131;
+            line-height: 2em;
+        }
+
+        .columns-ser-details p {
+            font-size: .12rem;
+            color: #656565;
+        }
+
+        .columns-ser-detailsBlue h1 {
+            color: #fff;
+        }
+
+        .columns-ser-detailsBlue p {
+            color: #bde2ff;
+        }
+
+        /*游戏的css代码*/
+
+        .columns-game {
+            width: 50%;
+            float: left;
+            padding-top: 5%;
+        }
+
+        .columns-gameLink {
+            display: block;
+            font-size: 0%;
+            text-align: center;
+        }
+
+        .columns-gameImg {
+            width: 80%;
+        }
+
+        .columns-gameP {
+            display: block;
+            font-size: .14rem;
+            padding-top: 5%;
+        }
+
+        /*客户介绍*/
+
+        .columns-customer {
+            width: 100%;
+            background-color: #fff;
+            margin-top: 2%;
+        }
+
+        .columns-customerImg {
+            display: block;
+            width: 94%;
+            padding:3% 0;
+            margin: 0 auto;
+        }
+
+        .columns-customerCon {
+            width: 94%;
+            padding:0 3%;
+            color:#4bafff;
+            font-size: .12rem;
+        }
+
+        .columns-customerCon span {
+            vertical-align: bottom;
+            display: inline;
+        }
+
+        .columns-customerCon-name {
+            color:#0078d7;
+            font-size: .15rem;
+            font-weight: bold;
+            margin-right: 1%;
+        }
+
+        .columns-customerCon-text {
+            color: #656565;
+            padding: 3%;
+        }
+
+        /*企业品牌合作代码-flex布局*/
+
+        .columns-company {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin: 2% 0;
+            background-color: #fff;
+            font-size: 0;
+        }
+
+        .columns-companyL {
+            width: 46%;
+            padding: 0 2%;
+        }
+
+        /*底部banner*/
+
+        .columns-des {
+            position: relative;
+            width: 100%;
+            margin: 2% 0 0 0;
+            text-align: center;
+            font-size: .12rem;
+            color: #fff;
+        }
+
+        .columns-des-banner {
+            width: 100%;
+            vertical-align: top;
+        }
+
+        .columns-des-text{
+            position:absolute;
+            top: .2rem;
+            left: 0;
+            padding: .2rem;
+            padding-top: 0;
+            z-index: 999;
+        }
+
+        .columns-des-text P {
+            margin-top: .1rem;
+        }
+
+        .columns-des-text .columns-desT {
+            font-size: .16rem;
+            margin-top: 0;
+        }
+
+        /*底部的css*/
+
+        .footerBox {
+            width: 100%;
+            padding:0 .1rem;
+            box-sizing: border-box;
+            background: #313131;
+            color: #d8dde0;
+            font-size: .12rem;
+            line-height: .25rem;
+        }
+
+        .footer-item h1{
+            font-size: .15rem;
+            color: #fff;
+            font-weight: bold;
+            line-height: .5rem;
+        }
+
+        .footer-item-part {
+            width:100%;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding-bottom: .2rem;
+        }
+
+        .footer-item-part li {
+            width: 50%;
+        }
+
+
+    </style>
+</head>
+<body>
+<!--首页头部-->
+<header class="header-bg">
+    <div class="navBox">
+        <a id="navIcon" class="navIcon">
+            <img src="img/nav.png" >
+        </a>
+    </div>
+    <ul class="nav" id="nav" style="display: none;">
+        <li>首页</li>
+        <li>SDK服务</li>
+        <li>SDK下载</li>
+        <li>开发文档</li>
+    </ul>
+    <a href="#" class="meeting">体验SDK</a>
+</header>
+
+<!--首页banner-->
+<div class="banner">
+    <img src="img/index-banner.jpg">
+</div>
+
+<!--提供服务-->
+<div class="columns-ser">
+    <div class="columns-serTitle">
+        <p>MG开放平台为您提供</p>
+    </div>
+    <div class="columns-serContent">
+        <ul class="columns-serContentBar">
+            <li class="columns-ser-item columns-ser-itemBlue">
+                <img src="img/service-1.png" class="columns-ser-itemIcon">
+                <div class="columns-ser-details columns-ser-detailsBlue">
+                    <h1>Win10应用接入</h1>
+                    <p>帮助全球安卓，IOS，PC，主机等多终端产品接入WIN10市场者服务</p>
+                </div>
+            </li>
+            <li class="columns-ser-item">
+                <img src="img/service-2.png" class="columns-ser-itemIcon">
+                <div class="columns-ser-details">
+                    <h1>数据中心</h1>
+                    <p>WIN10提供开发者提交应用的全面数据分析与监控</p>
+                </div>
+            </li>
+            <li class="columns-ser-item">
+                <img src="img/service-3.png" class="columns-ser-itemIcon">
+                <div class="columns-ser-details">
+                    <h1>开放能力</h1>
+                    <p>一流的数据中心，MG为全球开发者提供WIN10市场全球商店的各项数据</p>
+                </div>
+            </li>
+            <li class="columns-ser-item columns-ser-itemBlue">
+                <img src="img/service-4.png" class="columns-ser-itemIcon">
+                <div class="columns-ser-details columns-ser-detailsBlue">
+                    <h1>GWCC</h1>
+                    <p>GW联盟还会为成员提供高效的扶持资金，帮助开发者快速成长</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--更多游戏-->
+<div class="columns-ser">
+    <!--游戏推荐的标题-->
+    <div class="columns-serTitle">
+        <p>全球热门游戏推荐</p>
+    </div>
+    <!--游戏的主要内容-->
+    <div class="columns-serContent">
+        <ul class="columns-serContentBar">
+            <li class="columns-game">
+                <a href="columns-gameLink" class="columns-gameLink">
+                    <img src="img/content-1.png" class="columns-gameImg">
+                    <span class="columns-gameP">西方魔幻</span>
+                </a>
+            </li>
+            <li class="columns-game">
+                <a href="columns-gameLink" class="columns-gameLink">
+                    <img src="img/content-2.png" class="columns-gameImg">
+                    <span class="columns-gameP">蓝色奇缘</span>
+                </a>
+            </li>
+            <li class="columns-game">
+                <a href="columns-gameLink" class="columns-gameLink">
+                    <img src="img/content-1.png" class="columns-gameImg">
+                    <span class="columns-gameP">西方魔幻</span>
+                </a>
+            </li>
+            <li class="columns-game">
+                <a href="columns-gameLink" class="columns-gameLink">
+                    <img src="img/content-2.png" class="columns-gameImg">
+                    <span class="columns-gameP">蓝色奇缘</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!--客户介绍-->
+<div class="columns-ser">
+    <!--客户介绍的标题-->
+    <div class="columns-serTitle">
+        <p>已为超过1000+客户提供服务</p>
+    </div>
+    <!--客户介绍的内容-->
+    <div class="columns-serContent">
+        <ul class="columns-serContentBar">
+            <li class="columns-customer">
+                <a class="columns-customerImg">
+                    <img src="img/people.png" alt="" >
+                </a>
+                <p class="columns-customerCon">
+                    <span class="columns-customerCon-name">陈立明</span>
+                    <span>平安科技首席执行官</span>
+                </p>
+                <p class="columns-customerCon columns-customerCon-text">致力于把优秀好玩的游戏带给全球玩家，通过与全球领先的Win10发行商和渠道商Miracle Games联手。</p>
+            </li>
+            <li class="columns-customer">
+                <a class="columns-customerImg">
+                    <img src="img/people-2.png" alt="" >
+                </a>
+                <p class="columns-customerCon">
+                    <span class="columns-customerCon-name">万达</span>
+                    <span>Fintech SparkLabs</span>
+                </p>
+                <p class="columns-customerCon columns-customerCon-text">通过与全球领先的Win10发行商和渠道商Miracle Games联手，覆盖全球全平台用户，携手共赢。</p>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<!--合作品牌-->
+<div class="columns-ser">
+    <!--合作品牌合作的标题-->
+    <div class="columns-serTitle">
+        <p>企业合作</p>
+    </div>
+    <!--企业品牌合作主要内容-->
+    <div class="columns-serContent">
+        <div class="columns-company">
+            <div class="columns-companyL">
+                <img src="img/company-1.png" alt="腾讯">
+            </div>
+            <div class="columns-companyL">
+                <img src="img/company-2.png" alt="小米">
+            </div>
+            <div class="columns-companyL">
+                <img src="img/company-3.png" alt="联想">
+            </div>
+            <div class="columns-companyL">
+                <img src="img/company-4.png" alt="戴尔">
+            </div>
+            <div class="columns-companyL">
+                <img src="img/company-5.png" alt="三星">
+            </div>
+            <div class="columns-companyL">
+                <img src="img/company-6.png" alt="LG">
+            </div>
+            <div class="columns-companyL">
+                <img src="img/company-7.png" alt="中国电信">
+            </div>
+            <div class="columns-companyL">
+                <img src="img/company-8.png" alt="金立">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--bannerBottom底部图片框-->
+<!--<div class="columns-serContent columns-des">
+    <div class="columns-des-text">
+        <p class="columns-desT">MG是一艘航行于梦想的巨轮</p>
+        <p>MG是专注于Windows10终端应用和游戏推广运营的服务平台，我们的目标是帮助开发者在Windows10等平台上快速获取用户和快速变现。</p>
+    </div>
+
+</div>-->
+
+<!--footer底部内容-->
+<footer class="footerBox">
+    <div class="footer-item">
+        <h1>ABOUT US</h1>
+        <ul>
+            <li>MIRACLE GAMES竭诚为开发者服务</li>
+            <li>北京奇游灵动科技有限公司</li>
+            <li>Miracle Games Inc</li>
+            <li>QQ：2251467066</li>
+            <li>Email: yangyang@mguwp.com</li>
+        </ul>
+    </div>
+    <div class="footer-item">
+        <h1>Developer</h1>
+        <ul>
+            <li>登录注册</li>
+            <li>获取SDK</li>
+            <li>后台管理</li>
+            <li>技术支持</li>
+            <li>技术论坛</li>
+        </ul>
+    </div>
+    <div class="footer-item">
+        <h1>Quick Links</h1>
+        <ul class="footer-item-part">
+            <li>主页</li>
+            <li>合作</li>
+            <li>关于</li>
+            <li>联系</li>
+            <li>积分墙</li>
+            <li>支付系统</li>
+            <li>代理发行</li>
+            <li>推广服务</li>
+        </ul>
+    </div>
+</footer>
+
+</body>
+<script type="text/javascript" src="http://www.sz886.com/js/jquery-1.9.1.min.js"></script>
+<script>
+    window.onload = function(){
+        /*头部nav的点击隐藏事件*/
+        var navIcon = document.getElementById("navIcon");
+        var nav = document.getElementById("nav");
+        navIcon.onclick = function () {
+            if (nav.style.display == "") {
+                nav.style.display = "block";
+            }
+            else {
+                nav.style.display = "";
+            }
+        }
+    }
+</script>
+</html>
