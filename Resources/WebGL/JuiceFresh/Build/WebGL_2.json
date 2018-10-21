@@ -1,0 +1,13 @@
+{
+"companyName": "DefaultCompany",
+"productName": "JuiceWeChat",
+"dataUrl": "WebGL_2.data.unityweb",
+"asmCodeUrl": "WebGL_2.asm.code.unityweb",
+"asmMemoryUrl": "WebGL_2.asm.memory.unityweb",
+"asmFrameworkUrl": "WebGL_2.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20"
+}
