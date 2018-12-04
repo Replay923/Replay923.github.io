@@ -42,7 +42,10 @@ var M_Event = {
         return this;
     }
 };
-
+function UpdateWeather()
+{
+	M_Event.fireEvent("updateWeather");
+}
 function getTQBegin()
 {
 
