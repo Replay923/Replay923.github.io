@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Homerun Champion</title>
+	<meta charset="UTF-8" />
+    <meta name ="viewport" content="" data-original="width=device-width, initial-scale=1, maximum-scale=1.01, user-scalable=0, minimal-ui" />
+	<meta name="format-detection" content="telephone=no">
+	<meta name="HandheldFriendly" content="true" />
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="robots" content="noindex,nofollow" />
+	<meta name="apple-mobile-web-app-title" content="Homerun Champion">
+	<link rel="apple-touch-icon" href="asset/icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style>
+        body {
+    		margin: 0px 0px 1px 0px;
+            padding: 0;
+            background-color: #000000;
+			background-image:url('asset/bg.png');
+        }
+        #orientation {
+		    margin: 0 auto;
+		    position: absolute;
+		    top: 0;
+		    left: 0;
+		    width: 100%;
+		    height: 100%;
+		    background-image: url(asset/rotate.png);
+		    background-repeat: no-repeat;
+		    background-position: center;
+		    background-color: rgb(0, 0, 0);
+		    z-index: 999;
+		    display: none;
+		}
+    </style>
+
+	<script>
+		var game;
+	    // Package-ID
+	    window.famobi_gameID = "home-run-champion";
+	    window.famobi_gameJS = [
+	    	"js/phaser.min.js",
+	    	"js/utilaccel.min.js",
+	    	"js/utilsave.min.js",
+	    	"js/utilsound.min.js",
+	    	"js/boot.min.js",
+	    	"js/preloader.min.js",
+	    	"js/title.min.js",
+	    	"js/level.min.js",
+	    	"js/games.min.js",
+	    	function(){
+	    		startGame();
+	    	}
+	    ];
+
+	    (function (document, url, fgJS, firstJS) {
+	            fgJS = document.createElement('script');
+	            firstJS = document.getElementsByTagName('script')[0];
+	            fgJS.src = url + encodeURIComponent(document.location.href);
+	            firstJS.parentNode.insertBefore(fgJS, firstJS);
+	    })(document, './gameapi/v1.js?e=');
+	</script>
+<script src="https://connect.facebook.net/en_US/fbinstant.6.2.js"></script>
+</head>
+<body>
+
+<div id="game"></div>
+<div id="orientation"></div>
+
+<script type="text/javascript">
+function startGame()
+{
+	(function () {
+		//	No parameters given, which means no default state is created or started
+		game = new Phaser.Game(640, 960, Phaser.CANVAS, 'game');
+
+		game.state.add('boot', HomerunChampion.Boot, true);
+		game.state.add('preloader', HomerunChampion.Preloader);
+		game.state.add('title', HomerunChampion.Title);
+		game.state.add('level', HomerunChampion.Level);
+		game.state.add('games', HomerunChampion.Games);
+	})();
+}
+</script>
+<script>
+FBInstant.initializeAsync()
+  .then(function() {
+    var ad_s=null;        
+    FBInstant.getInterstitialAdAsync(
+  '2017418271672280_2017427921671315',
+).then(function(interstitial) {
+  ad_s=interstitial;
+  return interstitial.loadAsync();
+}).then(function() {
+  // Ad loaded
+  return ad_s.showAsync();
+});
+     // Start loading game assets here
+	});
+	
+	function ShowFBAD()
+	{
+		var ad_s=null;        
+    FBInstant.getInterstitialAdAsync(
+  '2017418271672280_2017427921671315',
+).then(function(interstitial) {
+  ad_s=interstitial;
+  return interstitial.loadAsync();
+}).then(function() {
+  // Ad loaded
+  return ad_s.showAsync();
+});
+	}
+
+  // Once all assets are loaded, tells the SDK 
+// to end loading view and start the game
+FBInstant.startGameAsync()
+  .then(function() {
+    // Retrieving context and player information can only be done
+    // once startGameAsync() resolves
+    var contextId = FBInstant.context.getID();
+    var contextType = FBInstant.context.getType();
+
+    var playerName = FBInstant.player.getName();
+    var playerPic = FBInstant.player.getPhoto();
+    var playerId = FBInstant.player.getID();
+
+    // Once startGameAsync() resolves it also means the loading view has 
+    // been removed and the user can see the game viewport
+
+    game.start();
+  });
+
+</script>
+</body>

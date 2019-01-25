@@ -1,0 +1,59 @@
+{
+"frames": {
+	"Banner foul 01.png": {
+		"frame": {"x":204, "y":291, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	},
+	"Banner foul 04.png": {
+		"frame": {"x":204, "y":194, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	},
+	"Banner homerun 01.png": {
+		"frame": {"x":204, "y":388, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	},
+	"Banner homerun 04.png": {
+		"frame": {"x":0, "y":291, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	},
+	"Banner strike 01.png": {
+		"frame": {"x":0, "y":194, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	},
+	"Banner strike 04.png": {
+		"frame": {"x":0, "y":97, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	},
+	"Banner strikeout 01.png": {
+		"frame": {"x":0, "y":0, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	},
+	"Banner strikeout 04.png": {
+		"frame": {"x":0, "y":388, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	},
+	"Banner hit 01.png": {
+		"frame": {"x":204, "y":97, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	},
+	"Banner hit 04.png": {
+		"frame": {"x":204, "y":0, "w":203, "h":96},
+		"spriteSourceSize": {"x":0,"y":0,"w":203,"h":96},
+		"sourceSize": {"w":203,"h":96}
+	}
+},
+"meta": {
+	"image": "effect.png",
+	"size": {"w": 512, "h": 512},
+	"scale": "1"
+}
+}

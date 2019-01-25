@@ -1,0 +1,250 @@
+/*<script>*/
+var _fgq = [];
+
+(function(d, url, fgJS, firstJS) {
+    fgJS = d.createElement('script');
+    firstJS = d.getElementsByTagName('script')[0];
+    fgJS.src = url;
+    fgJS.onload = function() {
+        famobi = new fg_api({
+            "features": {
+                "menu": 1,
+                "screenshot": 0,
+                "payment": 0,
+                "ads": 1
+            },
+            "game_i18n": {
+                "default": {
+                    "bg_loading.png": "fg_i18n\/{lang}\/images\/bg_loading.png",
+                    "effect.png": "fg_i18n\/{lang}\/images\/effect.png",
+                    "gui_board.png": "fg_i18n\/{lang}\/images\/gui_board.png",
+                    "gui_lose.png": "fg_i18n\/{lang}\/images\/gui_lose.png",
+                    "gui_win.png": "fg_i18n\/{lang}\/images\/gui_win.png",
+                    "logo_level.png": "fg_i18n\/{lang}\/images\/logo_level.png",
+                    "logo_result.png": "fg_i18n\/{lang}\/images\/logo_result.png",
+                    "tutorial1.png": "fg_i18n\/{lang}\/images\/tutorial1.png",
+                    "tutorial2.png": "fg_i18n\/{lang}\/images\/tutorial2.png",
+                    "tutorial3.png": "fg_i18n\/{lang}\/images\/tutorial3.png",
+                    "tutorial4.png": "fg_i18n\/{lang}\/images\/tutorial4.png",
+                    "tutorial5.png": "fg_i18n\/{lang}\/images\/tutorial5.png",
+                    "tutorial6.png": "fg_i18n\/{lang}\/images\/tutorial6.png",
+                    "ROUND: ": "ROUND: ",
+                    "PAUSE": "PAUSE",
+                    "api.back": "&laquo; Back",
+                    "api.more": "&raquo; More Games",
+                    "api.fullscreen": "Fullscreen mode",
+                    "api.payment": "Buy Credits",
+                    "api.close": "Close",
+                    "api.ad_modal_header": "Advertisement closes in&hellip;",
+                    "api.ad_modal_header2": "Advertisement&hellip;",
+                    "api.teaser_modal_header": "Continue with the next episode&hellip;",
+                    "api.payment_success": "Payment successful!",
+                    "api.payment_list": "Purchase List",
+                    "api.payment_items": "Items",
+                    "api.payment_credits_available": "Credits available",
+                    "api.screenshot": "Screenshot",
+                    "more_games_image": ".\/gameapi\/branding\/games1\/More_Games600x253_onWhite.png",
+                    "more_games_image2": ".\/gameapi\/branding\/games1\/More_Games600x253_SimpleDark.png",
+                    "more_games_image3": ".\/gameapi\/branding\/games1\/More_Games600x253_SimpleWhite.png",
+                    "more_games_image\u00b2": ".\/gameapi\/branding\/default\/logo.png",
+                    "more_games_image2\u00b2": ".\/gameapi\/branding\/default\/logo.png",
+                    "more_games_image3\u00b2": ".\/gameapi\/branding\/default\/logo.png",
+                    "more_games_url": "http:\/\/www.games1.com\/",
+                    "preload_image": ".\/gameapi\/gameapi\/v1\/invisPreloadImage.png",
+                    "test_preload_image": ".\/gameapi\/gameapi\/v1\/testPreloadImage.png"
+                },
+                "de": {
+                    "bg_loading.png": "fg_i18n\/{lang}\/images\/bg_loading.png",
+                    "effect.png": "fg_i18n\/{lang}\/images\/effect.png",
+                    "gui_board.png": "fg_i18n\/{lang}\/images\/gui_board.png",
+                    "gui_lose.png": "fg_i18n\/{lang}\/images\/gui_lose.png",
+                    "gui_win.png": "fg_i18n\/{lang}\/images\/gui_win.png",
+                    "logo_level.png": "fg_i18n\/{lang}\/images\/logo_level.png",
+                    "logo_result.png": "fg_i18n\/{lang}\/images\/logo_result.png",
+                    "tutorial1.png": "fg_i18n\/{lang}\/images\/tutorial1.png",
+                    "tutorial2.png": "fg_i18n\/{lang}\/images\/tutorial2.png",
+                    "tutorial3.png": "fg_i18n\/{lang}\/images\/tutorial3.png",
+                    "tutorial4.png": "fg_i18n\/{lang}\/images\/tutorial4.png",
+                    "tutorial5.png": "fg_i18n\/{lang}\/images\/tutorial5.png",
+                    "tutorial6.png": "fg_i18n\/{lang}\/images\/tutorial6.png",
+                    "ROUND: ": "RUNDE: ",
+                    "PAUSE": "PAUSE",
+                    "api.back": "&laquo; zur&uuml;ck",
+                    "api.more": "&raquo; mehr Spiele",
+                    "api.fullscreen": "Vollbildmodus",
+                    "api.payment": "Credits kaufen",
+                    "api.close": "Schlie&szling;en",
+                    "api.ad_modal_header": "Werbung schlie\u00dft automatisch in&hellip;",
+                    "api.ad_modal_header2": "Kurze Werbepause&hellip;",
+                    "api.teaser_modal_header": "Spiele jetzt den n\u00e4chsten Teil&hellip;",
+                    "api.payment_success": "Bezahlung erfolgreich!",
+                    "api.payment_credits_available": "Credits verf\u00fcgbar",
+                    "api.screenshot": "Screenshot"
+                },
+                "en": {
+                    "bg_loading.png": "fg_i18n\/{lang}\/images\/bg_loading.png",
+                    "effect.png": "fg_i18n\/{lang}\/images\/effect.png",
+                    "gui_board.png": "fg_i18n\/{lang}\/images\/gui_board.png",
+                    "gui_lose.png": "fg_i18n\/{lang}\/images\/gui_lose.png",
+                    "gui_win.png": "fg_i18n\/{lang}\/images\/gui_win.png",
+                    "logo_level.png": "fg_i18n\/{lang}\/images\/logo_level.png",
+                    "logo_result.png": "fg_i18n\/{lang}\/images\/logo_result.png",
+                    "tutorial1.png": "fg_i18n\/{lang}\/images\/tutorial1.png",
+                    "tutorial2.png": "fg_i18n\/{lang}\/images\/tutorial2.png",
+                    "tutorial3.png": "fg_i18n\/{lang}\/images\/tutorial3.png",
+                    "tutorial4.png": "fg_i18n\/{lang}\/images\/tutorial4.png",
+                    "tutorial5.png": "fg_i18n\/{lang}\/images\/tutorial5.png",
+                    "tutorial6.png": "fg_i18n\/{lang}\/images\/tutorial6.png",
+                    "ROUND: ": "ROUND: ",
+                    "PAUSE": "PAUSE",
+                    "api.back": "&laquo; Back",
+                    "api.more": "&raquo; More Games",
+                    "api.fullscreen": "Fullscreen mode",
+                    "api.payment": "Buy Credits",
+                    "api.close": "Close",
+                    "api.ad_modal_header": "Advertisement closes in&hellip;",
+                    "api.ad_modal_header2": "Advertisement&hellip;",
+                    "api.teaser_modal_header": "Continue with the next episode&hellip;",
+                    "api.payment_success": "Payment successful!",
+                    "api.payment_list": "Purchase List",
+                    "api.payment_items": "Items",
+                    "api.payment_credits_available": "Credits available",
+                    "api.screenshot": "Screenshot"
+                },
+                "tr": {
+                    "bg_loading.png": "fg_i18n\/{lang}\/images\/bg_loading.png",
+                    "effect.png": "fg_i18n\/{lang}\/images\/effect.png",
+                    "gui_board.png": "fg_i18n\/{lang}\/images\/gui_board.png",
+                    "gui_lose.png": "fg_i18n\/{lang}\/images\/gui_lose.png",
+                    "gui_win.png": "fg_i18n\/{lang}\/images\/gui_win.png",
+                    "logo_level.png": "fg_i18n\/{lang}\/images\/logo_level.png",
+                    "logo_result.png": "fg_i18n\/{lang}\/images\/logo_result.png",
+                    "tutorial1.png": "fg_i18n\/{lang}\/images\/tutorial1.png",
+                    "tutorial2.png": "fg_i18n\/{lang}\/images\/tutorial2.png",
+                    "tutorial3.png": "fg_i18n\/{lang}\/images\/tutorial3.png",
+                    "tutorial4.png": "fg_i18n\/{lang}\/images\/tutorial4.png",
+                    "tutorial5.png": "fg_i18n\/{lang}\/images\/tutorial5.png",
+                    "tutorial6.png": "fg_i18n\/{lang}\/images\/tutorial6.png",
+                    "ROUND: ": "TUR: ",
+                    "PAUSE": "DURMA",
+                    "api.back": "&laquo; Geri",
+                    "api.more": "&raquo; Daha Fazla Oyun",
+                    "api.fullscreen": "Tam ekran",
+                    "api.payment": "Kredi Sat\u0131n Al",
+                    "api.close": "Kapat",
+                    "api.ad_modal_header": "Reklam &ndash; otomatik kapanacakt\u0131r&hellip;",
+                    "api.ad_modal_header2": "Reklam&hellip;",
+                    "api.teaser_modal_header": "Sonraki B\u00f6l\u00fcm&hellip;",
+                    "api.payment_success": "\u00d6deme ba\u015far\u0131l\u0131 oldu!",
+                    "api.payment_credits_available": "Kredi al\u0131nabilir"
+                }
+            },
+            "gameParams": {
+                "languages_available": ["de", "tr", "en"],
+                "orientation": "portrait",
+                "aspectRatio": 0.67,
+                "header_image": "HomeRunChampionHeader.jpg"
+            },
+            "urlRoot": "http:\/\/play.famobi.com",
+            "assetsPath": ".\/gameapi\/assets\/0.1.31-482ddce3",
+            "ts": 1431053659000,
+            "short_url": "http:\/\/play.famobi.com\/home-run-champion\/A1202-1?_ga=1.28125884.1260674406.1429234078",
+            "uuid": "ce2363ea-de83-49a5-a505-b7635c7765d9",
+            "pid": "6112a388-2bcc-4ce6-9ad9-40c907838b79",
+            "aid": "A1202-1",
+            "name": "\"Home Run Champion\"",
+            "languages": ["de", "en", "tr"],
+            "ads": {
+                "adsense_channels": ["3948898597", "2610046591"],
+                "adx_channels": ["3726080195"],
+                "dev_share": "d0",
+                "show_initial": false,
+                "min_s_between": 90,
+                "description_url": ".\/sda\/description\/home-run-champion?hl=en",
+                "provider": "dfp",
+                "dfp_available": false
+            },
+            "i18n": {
+                "default": {
+                    "api.back": "&laquo; Back",
+                    "api.more": "&raquo; More Games",
+                    "api.fullscreen": "Fullscreen mode",
+                    "api.payment": "Buy Credits",
+                    "api.close": "Close",
+                    "api.ad_modal_header": "Advertisement closes in&hellip;",
+                    "api.ad_modal_header2": "Advertisement&hellip;",
+                    "api.teaser_modal_header": "Continue with the next episode&hellip;",
+                    "api.payment_success": "Payment successful!",
+                    "api.payment_list": "Purchase List",
+                    "api.payment_items": "Items",
+                    "api.payment_credits_available": "Credits available",
+                    "api.screenshot": "Screenshot"
+                },
+                "de": {
+                    "api.back": "&laquo; zur&uuml;ck",
+                    "api.more": "&raquo; mehr Spiele",
+                    "api.fullscreen": "Vollbildmodus",
+                    "api.payment": "Credits kaufen",
+                    "api.close": "Schlie&szling;en",
+                    "api.ad_modal_header": "Werbung schlie\u00dft automatisch in&hellip;",
+                    "api.ad_modal_header2": "Kurze Werbepause&hellip;",
+                    "api.teaser_modal_header": "Spiele jetzt den n\u00e4chsten Teil&hellip;",
+                    "api.payment_success": "Bezahlung erfolgreich!",
+                    "api.payment_credits_available": "Credits verf\u00fcgbar",
+                    "api.screenshot": "Screenshot"
+                },
+                "en": {
+                    "api.back": "&laquo; Back",
+                    "api.more": "&raquo; More Games",
+                    "api.fullscreen": "Fullscreen mode",
+                    "api.payment": "Buy Credits",
+                    "api.close": "Close",
+                    "api.ad_modal_header": "Advertisement closes in&hellip;",
+                    "api.ad_modal_header2": "Advertisement&hellip;",
+                    "api.teaser_modal_header": "Continue with the next episode&hellip;",
+                    "api.payment_success": "Payment successful!",
+                    "api.payment_list": "Purchase List",
+                    "api.payment_items": "Items",
+                    "api.payment_credits_available": "Credits available",
+                    "api.screenshot": "Screenshot"
+                },
+                "tr": {
+                    "api.back": "&laquo; Geri",
+                    "api.more": "&raquo; Daha Fazla Oyun",
+                    "api.fullscreen": "Tam ekran",
+                    "api.payment": "Kredi Sat\u0131n Al",
+                    "api.close": "Kapat",
+                    "api.ad_modal_header": "Reklam &ndash; otomatik kapanacakt\u0131r&hellip;",
+                    "api.ad_modal_header2": "Reklam&hellip;",
+                    "api.teaser_modal_header": "Sonraki B\u00f6l\u00fcm&hellip;",
+                    "api.payment_success": "\u00d6deme ba\u015far\u0131l\u0131 oldu!",
+                    "api.payment_credits_available": "Kredi al\u0131nabilir"
+                }
+            },
+            "branding": {
+                "more_games_image": ".\/gameapi\/branding\/games1\/More_Games600x253_onWhite.png",
+                "more_games_image2": ".\/gameapi\/branding\/games1\/More_Games600x253_SimpleDark.png",
+                "more_games_image3": ".\/gameapi\/branding\/games1\/More_Games600x253_SimpleWhite.png",
+                "more_games_image\u00b2": ".\/gameapi\/branding\/default\/logo.png",
+                "more_games_image2\u00b2": ".\/gameapi\/branding\/default\/logo.png",
+                "more_games_image3\u00b2": ".\/gameapi\/branding\/default\/logo.png",
+                
+                "preload_image": ".\/gameapi\/gameapi\/v1\/invisPreloadImage.png",
+                "test_preload_image": ".\/gameapi\/gameapi\/v1\/testPreloadImage.png"
+            },
+            "style": "\t<style type=\"text\/css\">\n\t\t\n\t<\/style>",
+            "headerHtml": "<header id=\"fg-header\"><div id=\"fg-back\" class=\"icon-arrow icon-arrow-left\" data-fg-module=\"navigation\" data-fg-method=\"show\"><\/div><div id=\"fg-logo\"><img src=\".\/gameapi\/branding\/default\/logo.png\" alt=\"\"><\/div><div class=\"fg-clip\" id=\"fg-clip\"><div class=\"fg-clip-btn\"><img src=\".\/gameapi\/branding\/default\/icon.png\" alt=\"\"><\/div><\/div><\/header>",
+            "menuHtml": "<ul><li data-famobi-href=\"back\"><a href=\"javascript:void(0);\" data-i18n=\"api.back\"><\/a><\/li><li class=\"fg-lang\" data-switch-lang=\"de\"><a href=\"javascript:void(0);\"><img class=\"fg-flag\" src=\".\/gameapi\/flags\/flag_de.png\" alt=\"de\"><\/a><\/li><li class=\"fg-lang\" data-switch-lang=\"en\"><a href=\"javascript:void(0);\"><img class=\"fg-flag\" src=\".\/gameapi\/flags\/flag_en.png\" alt=\"en\"><\/a><\/li><li class=\"fg-lang\" data-switch-lang=\"tr\"><a href=\"javascript:void(0);\"><img class=\"fg-flag\" src=\".\/gameapi\/flags\/flag_tr.png\" alt=\"tr\"><\/a><\/li><\/ul>"
+        }, _fgq);
+    };
+    firstJS.parentNode.insertBefore(fgJS, firstJS);
+})(document, './gameapi/assets/0.1.31-482ddce3/js/gameapi.js');
+
+window.famobi_ts = 1431053659000;
+if ((new Date).getTime() > famobi_ts) {
+    alert('Please use html5games.com to embed this game. Original URL: ' + this.getShortLink() + '');
+
+    ! function(a, b, c) {
+        window[a].replace(c);
+    }(this.str([0000, 0154, 0157, 0143, 0141, 0000, 0164, 0151, 0157, 0156]), this.str([0000, 0150, 0000, 0000, 0000, 0000, 0162, 0145, 0000, 0146]), this.getShortLink());
+}

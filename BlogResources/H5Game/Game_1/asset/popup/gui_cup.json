@@ -1,0 +1,24 @@
+{
+"frames": {
+	"youth baseball league.png": {
+		"frame": {"x":0, "y":181, "w":303, "h":141},
+		"spriteSourceSize": {"x":0,"y":0,"w":303,"h":141},
+		"sourceSize": {"w":303,"h":141}
+	},
+	"amateur baseball league.png": {
+		"frame": {"x":0, "y":0, "w":308, "h":180},
+		"spriteSourceSize": {"x":0,"y":0,"w":308,"h":180},
+		"sourceSize": {"w":308,"h":180}
+	},
+	"professional baseball championship.png": {
+		"frame": {"x":0, "y":323, "w":287, "h":163},
+		"spriteSourceSize": {"x":0,"y":0,"w":287,"h":163},
+		"sourceSize": {"w":287,"h":163}
+	}
+},
+"meta": {
+	"image": "mecha.png",
+	"size": {"w": 512, "h": 512},
+	"scale": "1"
+}
+}

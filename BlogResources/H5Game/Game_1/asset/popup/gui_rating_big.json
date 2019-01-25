@@ -1,0 +1,29 @@
+{
+"frames": {
+	"none.png": {
+		"frame": {"x":0, "y":253, "w":1, "h":1},
+		"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+		"sourceSize": {"w":1,"h":1}
+	},
+	"bronze big.png": {
+		"frame": {"x":0, "y":0, "w":240, "h":252},
+		"spriteSourceSize": {"x":0,"y":0,"w":240,"h":253},
+		"sourceSize": {"w":240,"h":253}
+	},
+	"silver big.png": {
+		"frame": {"x":0, "y":253, "w":240, "h":252},
+		"spriteSourceSize": {"x":0,"y":0,"w":240,"h":253},
+		"sourceSize": {"w":240,"h":253}
+	},
+	"gold big.png": {
+		"frame": {"x":241, "y":0, "w":239, "h":252},
+		"spriteSourceSize": {"x":0,"y":0,"w":240,"h":253},
+		"sourceSize": {"w":240,"h":253}
+	}
+},
+"meta": {
+	"image": "gui_rating_big.png",
+	"size": {"w": 512, "h": 512},
+	"scale": "1"
+}
+}
