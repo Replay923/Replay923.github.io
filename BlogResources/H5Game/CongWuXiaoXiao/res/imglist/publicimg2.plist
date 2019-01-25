@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>publicimg/bg1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{636,599}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{636,599}</string>
+			</dict>
+			<key>publicimg/info.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{786,1},{559,99}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{559,99}</string>
+			</dict>
+			<key>publicimg/start.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,602},{165,160}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{165,160}</string>
+			</dict>
+			<key>publicimg/statbg.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{163,602},{149,152}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{149,152}</string>
+			</dict>
+			<key>publicimg/beibig2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{461,602},{148,139}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{154,146}</string>
+			</dict>
+			<key>publicimg/beibig3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314,602},{153,145}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{154,146}</string>
+			</dict>
+			<key>publicimg/beismall1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{887,131},{131,122}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{136,128}</string>
+			</dict>
+			<key>publicimg/beismall2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{887,255},{131,122}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{136,128}</string>
+			</dict>
+			<key>publicimg/beismall3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{887,1},{136,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{136,128}</string>
+			</dict>
+			<key>publicimg/beibig1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{611,606},{148,139}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{154,146}</string>
+			</dict>
+			<key>publicimg/petok.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,864},{300,141}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{300,141}</string>
+			</dict>
+			<key>publicimg/petpng1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{639,1},{603,145}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{603,145}</string>
+			</dict>
+			<key>publicimg/petbg1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{813,864},{148,205}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{148,205}</string>
+			</dict>
+			<key>publicimg/petbg2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{605,864},{150,206}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{150,206}</string>
+			</dict>
+			<key>publicimg/backbtn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{303,864},{300,141}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{300,141}</string>
+			</dict>
+			<key>publicimg/closegame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{887,379},{118,112}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,112}</string>
+			</dict>
+			<key>publicimg/closesound.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{461,743},{118,112}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{118,112}</string>
+			</dict>
+			<key>publicimg/opensound.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{575,747},{118,112}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,112}</string>
+			</dict>
+			<key>publicimg/4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{163,756},{106,119}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{106,119}</string>
+			</dict>
+			<key>gameselectlayer/close.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{786,562},{300,178}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{300,178}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>publicimg2.png</string>
+			<key>realTextureFileName</key>
+			<string>publicimg2.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

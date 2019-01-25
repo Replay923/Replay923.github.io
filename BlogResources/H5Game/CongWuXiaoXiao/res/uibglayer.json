@@ -1,0 +1,171 @@
+{
+  "ID": "dedd653a-f74f-428b-b6d4-0ad6eb865e78",
+  "Version": "3.10.0.0",
+  "Name": "uibglayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 76,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uibglayer/2.png",
+              "Plist": "imglist/level4.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {},
+            "Position": {
+              "X": -2.0,
+              "Y": -2.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0031,
+              "Y": -0.0018
+            },
+            "PreSize": {
+              "X": 1.0063,
+              "Y": 0.2676
+            },
+            "LeftMargin": -2.0,
+            "RightMargin": -2.0,
+            "TopMargin": 834.0,
+            "BottomMargin": -2.0,
+            "Tag": 141,
+            "ActionTag": -1504821812,
+            "Size": {
+              "X": 644.0,
+              "Y": 304.0
+            },
+            "Name": "Sprite_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "uibglayer/1.png",
+              "Plist": "imglist/petimg1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleY": 1.0
+            },
+            "Position": {
+              "X": -2.0,
+              "Y": 1135.6727
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0031,
+              "Y": 0.9997
+            },
+            "PreSize": {
+              "X": 1.0063,
+              "Y": 0.7359
+            },
+            "LeftMargin": -2.0,
+            "RightMargin": -2.0,
+            "TopMargin": 0.3273,
+            "BottomMargin": 299.6727,
+            "Tag": 140,
+            "ActionTag": 64022768,
+            "Size": {
+              "X": 644.0,
+              "Y": 836.0
+            },
+            "Name": "Sprite_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "SingleColor": {
+              "R": 150,
+              "G": 200
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": -1.0023,
+              "Y": 6.9994
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": -0.0016,
+              "Y": 0.0062
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 1.0
+            },
+            "LeftMargin": -1.0023,
+            "RightMargin": 1.0023,
+            "TopMargin": -6.9994,
+            "BottomMargin": 6.9994,
+            "Tag": 57,
+            "ActionTag": 1633559949,
+            "Size": {
+              "X": 640.0,
+              "Y": 1136.0
+            },
+            "Name": "pPet",
+            "ctype": "PanelObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/level4.plist",
+        "imglist/level4.png",
+        "imglist/petimg1.plist",
+        "imglist/petimg1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

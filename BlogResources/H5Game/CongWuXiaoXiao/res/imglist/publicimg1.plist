@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>publicimg/1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{639,1},{566,331}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{566,331}</string>
+			</dict>
+			<key>publicimg/6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{292,944},{89,31}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{89,31}</string>
+			</dict>
+			<key>publicimg/7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{636,798}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{636,798}</string>
+			</dict>
+			<key>publicimg/10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,801},{300,141}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{300,141}</string>
+			</dict>
+			<key>publicimg/select.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{162,944},{72,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{72,68}</string>
+			</dict>
+			<key>publicimg/btnmenu.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{547,801},{147,158}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,158}</string>
+			</dict>
+			<key>publicimg/btnreplay.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{639,569},{147,158}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,158}</string>
+			</dict>
+			<key>publicimg/returngame.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{696,729},{147,158}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{147,158}</string>
+			</dict>
+			<key>publicimg/score.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,944},{77,77}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{77,77}</string>
+			</dict>
+			<key>publicimg/gold.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{232,944},{58,58}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{58,58}</string>
+			</dict>
+			<key>publicimg/gem.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{80,944},{80,68}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{80,68}</string>
+			</dict>
+			<key>publicimg/beitransparent1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{788,569},{136,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{136,128}</string>
+			</dict>
+			<key>publicimg/beitransparent2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{696,889},{136,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{136,128}</string>
+			</dict>
+			<key>publicimg/beitransparent3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{834,889},{136,128}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{136,128}</string>
+			</dict>
+			<key>publicimg/closeui.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{845,707},{118,112}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{118,112}</string>
+			</dict>
+			<key>publicimg/buybtn.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{303,801},{242,117}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{242,117}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>publicimg1.png</string>
+			<key>realTextureFileName</key>
+			<string>publicimg1.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

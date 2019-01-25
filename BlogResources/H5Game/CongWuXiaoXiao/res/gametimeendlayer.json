@@ -1,0 +1,376 @@
+{
+  "ID": "ff34ff64-68dc-4d64-b6a5-bc7f2794250d",
+  "Version": "3.10.0.0",
+  "Name": "gametimeendlayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 32,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "achievement/endui01.png",
+              "Plist": "imglist/achievementplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 700.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.6162
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.2236
+            },
+            "TopMargin": 309.0,
+            "BottomMargin": 573.0,
+            "Tag": 53,
+            "Children": [
+              {
+                "FontSize": 35,
+                "LabelText": "1111111111",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 360.0,
+                  "Y": 192.6464
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 250,
+                  "B": 106
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5625,
+                  "Y": 0.7585
+                },
+                "PreSize": {
+                  "X": 0.2813,
+                  "Y": 0.1378
+                },
+                "LeftMargin": 270.0,
+                "RightMargin": 190.0,
+                "TopMargin": 43.8536,
+                "BottomMargin": 175.1464,
+                "Tag": 104,
+                "ActionTag": -1761537074,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 35.0
+                },
+                "Name": "txtscore_df",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "achievement/best.png",
+                  "Plist": "imglist/achievementplist.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 222.4749,
+                  "Y": 121.532
+                },
+                "Scale": {
+                  "ScaleX": 0.9522,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3476,
+                  "Y": 0.4785
+                },
+                "PreSize": {
+                  "X": 0.1156,
+                  "Y": 0.1181
+                },
+                "LeftMargin": 185.4749,
+                "RightMargin": 380.5251,
+                "TopMargin": 117.468,
+                "BottomMargin": 106.532,
+                "Tag": 56,
+                "ActionTag": 1653773886,
+                "Size": {
+                  "X": 74.0,
+                  "Y": 30.0
+                },
+                "Name": "best_4",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FontSize": 35,
+                "LabelText": "11111",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 338.4664,
+                  "Y": 37.8596
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 250,
+                  "B": 106
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5289,
+                  "Y": 0.1491
+                },
+                "PreSize": {
+                  "X": 0.1406,
+                  "Y": 0.1378
+                },
+                "LeftMargin": 293.4664,
+                "RightMargin": 256.5336,
+                "TopMargin": 198.6404,
+                "BottomMargin": 20.3596,
+                "Tag": 105,
+                "ActionTag": 250981047,
+                "Size": {
+                  "X": 90.0,
+                  "Y": 35.0
+                },
+                "Name": "txtgold_df",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 35,
+                "LabelText": "1111111111",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 360.0,
+                  "Y": 121.4229
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 250,
+                  "B": 106
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5625,
+                  "Y": 0.478
+                },
+                "PreSize": {
+                  "X": 0.2813,
+                  "Y": 0.1378
+                },
+                "LeftMargin": 270.0,
+                "RightMargin": 190.0,
+                "TopMargin": 115.0771,
+                "BottomMargin": 103.9229,
+                "Tag": 106,
+                "ActionTag": 1669503796,
+                "Size": {
+                  "X": 180.0,
+                  "Y": 35.0
+                },
+                "Name": "txtbestscore_df",
+                "ctype": "TextObjectData"
+              }
+            ],
+            "ActionTag": 221383577,
+            "Size": {
+              "X": 640.0,
+              "Y": 254.0
+            },
+            "Name": "endui",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/backbtn.png",
+              "Plist": "imglist/publicimg2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 160.0,
+              "Y": 260.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.25,
+              "Y": 0.2289
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.1241
+            },
+            "LeftMargin": 10.0,
+            "RightMargin": 330.0,
+            "TopMargin": 805.5,
+            "BottomMargin": 189.5,
+            "Tag": 54,
+            "ActionTag": 1165694308,
+            "Size": {
+              "X": 300.0,
+              "Y": 141.0
+            },
+            "Name": "backbtn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/btnrplay.png",
+              "Plist": "imglist/gameplaylayer2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 476.8242,
+              "Y": 259.9998
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.745,
+              "Y": 0.2289
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.1268
+            },
+            "LeftMargin": 326.8242,
+            "RightMargin": 13.1758,
+            "TopMargin": 804.0002,
+            "BottomMargin": 187.9998,
+            "Tag": 55,
+            "ActionTag": 1021642804,
+            "Size": {
+              "X": 300.0,
+              "Y": 144.0
+            },
+            "Name": "btnRplay",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/achievementplist.plist",
+        "imglist/achievementplist.png",
+        "imglist/gameplaylayer2.plist",
+        "imglist/gameplaylayer2.png",
+        "imglist/publicimg2.plist",
+        "imglist/publicimg2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

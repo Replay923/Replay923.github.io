@@ -1,0 +1,311 @@
+{
+  "ID": "c6761196-31b9-47ec-8462-f139c1830569",
+  "Version": "3.10.0.0",
+  "Name": "petbackpacklayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 16,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/7.png",
+              "Plist": "imglist/publicimg1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 536.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4718
+            },
+            "PreSize": {
+              "X": 0.9937,
+              "Y": 0.7025
+            },
+            "LeftMargin": 2.0,
+            "RightMargin": 2.0,
+            "TopMargin": 200.9998,
+            "BottomMargin": 137.0002,
+            "Tag": 41,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "itemlayer/pagedown.png",
+                  "Plist": "imglist/level4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 420.5225,
+                  "Y": 74.6271
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.6612,
+                  "Y": 0.0935
+                },
+                "PreSize": {
+                  "X": 0.0896,
+                  "Y": 0.0789
+                },
+                "LeftMargin": 392.0225,
+                "RightMargin": 186.9775,
+                "TopMargin": 691.8729,
+                "BottomMargin": 43.1271,
+                "Tag": 180,
+                "ActionTag": 770502651,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 63.0
+                },
+                "Name": "btnPageDown",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "itemlayer/pageup.png",
+                  "Plist": "imglist/level4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 216.5321,
+                  "Y": 74.6271
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3405,
+                  "Y": 0.0935
+                },
+                "PreSize": {
+                  "X": 0.0896,
+                  "Y": 0.0789
+                },
+                "LeftMargin": 188.0321,
+                "RightMargin": 390.9679,
+                "TopMargin": 691.8729,
+                "BottomMargin": 43.1271,
+                "Tag": 179,
+                "ActionTag": 1692402371,
+                "Size": {
+                  "X": 57.0,
+                  "Y": 63.0
+                },
+                "Name": "btnPageUp",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "pet/pettitle.png",
+                  "Plist": "imglist/petlist1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 317.9111,
+                  "Y": 725.8697
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4999,
+                  "Y": 0.9096
+                },
+                "PreSize": {
+                  "X": 0.9811,
+                  "Y": 0.1178
+                },
+                "LeftMargin": 5.9111,
+                "RightMargin": 6.0889,
+                "TopMargin": 25.1303,
+                "BottomMargin": 678.8697,
+                "Tag": 242,
+                "ActionTag": -1123400836,
+                "Size": {
+                  "X": 624.0,
+                  "Y": 94.0
+                },
+                "Name": "pettitle_5",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "pet/mypet.png",
+                  "Plist": "imglist/petlist1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 319.9999,
+                  "Y": 728.317
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5031,
+                  "Y": 0.9127
+                },
+                "PreSize": {
+                  "X": 0.3884,
+                  "Y": 0.1266
+                },
+                "LeftMargin": 196.4999,
+                "RightMargin": 192.5001,
+                "TopMargin": 19.183,
+                "BottomMargin": 677.817,
+                "Tag": 243,
+                "ActionTag": 1747422632,
+                "Size": {
+                  "X": 247.0,
+                  "Y": 101.0
+                },
+                "Name": "mypet_6",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -524151923,
+            "Size": {
+              "X": 636.0,
+              "Y": 798.0
+            },
+            "Name": "backpackUI",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/4.png",
+              "Plist": "imglist/publicimg2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 67.0,
+              "Y": 928.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1047,
+              "Y": 0.8169
+            },
+            "PreSize": {
+              "X": 0.1656,
+              "Y": 0.1048
+            },
+            "LeftMargin": 14.0,
+            "RightMargin": 520.0,
+            "TopMargin": 148.5,
+            "BottomMargin": 868.5,
+            "Tag": 72,
+            "ActionTag": -2081114650,
+            "Size": {
+              "X": 106.0,
+              "Y": 119.0
+            },
+            "Name": "btnClose",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/level4.plist",
+        "imglist/level4.png",
+        "imglist/petlist1.plist",
+        "imglist/petlist1.png",
+        "imglist/publicimg1.plist",
+        "imglist/publicimg1.png",
+        "imglist/publicimg2.plist",
+        "imglist/publicimg2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

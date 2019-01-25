@@ -1,0 +1,578 @@
+{
+  "ID": "24f38d09-5a0f-4009-a0a8-92ad1d7da2c5",
+  "Version": "3.10.0.0",
+  "Name": "gameplaytimelayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 39,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/ui02.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 855.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7526
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.1787
+            },
+            "TopMargin": 179.5,
+            "BottomMargin": 753.5,
+            "Tag": 40,
+            "ActionTag": -1746962135,
+            "Size": {
+              "X": 640.0,
+              "Y": 203.0
+            },
+            "Name": "uiinfo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/pausebtn.png",
+              "Plist": "imglist/gameplaylayer1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 560.0,
+              "Y": 1050.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.875,
+              "Y": 0.9243
+            },
+            "PreSize": {
+              "X": 0.1656,
+              "Y": 0.1048
+            },
+            "LeftMargin": 507.0,
+            "RightMargin": 27.0,
+            "TopMargin": 26.5,
+            "BottomMargin": 990.5,
+            "Tag": 41,
+            "ActionTag": 1980215068,
+            "Size": {
+              "X": 106.0,
+              "Y": 119.0
+            },
+            "Name": "pausebtn",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/bdicon.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 319.9998,
+              "Y": 98.0003
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0863
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 278.4998,
+            "RightMargin": 278.5002,
+            "TopMargin": 997.9997,
+            "BottomMargin": 58.0003,
+            "Tag": 22,
+            "ActionTag": -322854400,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "Name": "bdicon_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/bdicon.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 213.9995,
+              "Y": 98.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3344,
+              "Y": 0.0863
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 172.4995,
+            "RightMargin": 384.5005,
+            "TopMargin": 997.9998,
+            "BottomMargin": 58.0002,
+            "Tag": 46,
+            "ActionTag": -8375562,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "Name": "bdicon_1_0",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/bdicon.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 534.9988,
+              "Y": 98.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8359,
+              "Y": 0.0863
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 493.4988,
+            "RightMargin": 63.5012,
+            "TopMargin": 997.9998,
+            "BottomMargin": 58.0002,
+            "Tag": 47,
+            "ActionTag": 348568122,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "Name": "bdicon_1_1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/bdicon.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 108.9996,
+              "Y": 98.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1703,
+              "Y": 0.0863
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 67.4996,
+            "RightMargin": 489.5004,
+            "TopMargin": 997.9998,
+            "BottomMargin": 58.0002,
+            "Tag": 48,
+            "ActionTag": 536414687,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "Name": "bdicon_1_2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/bdicon.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 426.9999,
+              "Y": 98.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6672,
+              "Y": 0.0863
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 385.4999,
+            "RightMargin": 171.5001,
+            "TopMargin": 997.9998,
+            "BottomMargin": 58.0002,
+            "Tag": 49,
+            "ActionTag": -1592481632,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "Name": "bdicon_1_3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/gas6.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 533.9993,
+              "Y": 96.9995
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8344,
+              "Y": 0.0854
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 492.4993,
+            "RightMargin": 64.5007,
+            "TopMargin": 999.0005,
+            "BottomMargin": 56.9995,
+            "Tag": 54,
+            "ActionTag": 565151496,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "VisibleForFrame": false,
+            "Name": "gas5",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/gas5.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 426.0002,
+              "Y": 96.9995
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6656,
+              "Y": 0.0854
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 384.5002,
+            "RightMargin": 172.4998,
+            "TopMargin": 999.0005,
+            "BottomMargin": 56.9995,
+            "Tag": 53,
+            "ActionTag": 1938996710,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "VisibleForFrame": false,
+            "Name": "gas4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/gas3.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 319.0002,
+              "Y": 96.9999
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4984,
+              "Y": 0.0854
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 277.5002,
+            "RightMargin": 279.4998,
+            "TopMargin": 999.0001,
+            "BottomMargin": 56.9999,
+            "Tag": 52,
+            "ActionTag": -1176333804,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "VisibleForFrame": false,
+            "Name": "gas3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/gas2.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 212.9998,
+              "Y": 96.9995
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3328,
+              "Y": 0.0854
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 171.4998,
+            "RightMargin": 385.5002,
+            "TopMargin": 999.0005,
+            "BottomMargin": 56.9995,
+            "Tag": 51,
+            "ActionTag": 555996637,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "VisibleForFrame": false,
+            "Name": "gas2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/gas1.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 107.9996,
+              "Y": 96.9995
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1687,
+              "Y": 0.0854
+            },
+            "PreSize": {
+              "X": 0.1297,
+              "Y": 0.0704
+            },
+            "LeftMargin": 66.4996,
+            "RightMargin": 490.5004,
+            "TopMargin": 999.0005,
+            "BottomMargin": 56.9995,
+            "Tag": 50,
+            "ActionTag": -526860419,
+            "Size": {
+              "X": 83.0,
+              "Y": 80.0
+            },
+            "VisibleForFrame": false,
+            "Name": "gas1",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/gameplaylayer1.plist",
+        "imglist/gameplaylayer1.png",
+        "imglist/gameplaylayer3.plist",
+        "imglist/gameplaylayer3.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

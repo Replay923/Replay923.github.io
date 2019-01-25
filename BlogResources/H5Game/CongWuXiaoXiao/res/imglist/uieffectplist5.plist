@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>pngdata/uieffect/losepng2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{510,367}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{510,367}</string>
+			</dict>
+			<key>pngdata/uieffect/diceeffect1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,370},{210,210}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{210,210}</string>
+			</dict>
+			<key>pngdata/uieffect/gifteffect1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1000,31},{22,27}}</string>
+				<key>offset</key>
+				<string>{-2,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{28,34}</string>
+			</dict>
+			<key>pngdata/uieffect/gifteffect2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1000,1},{22,28}}</string>
+				<key>offset</key>
+				<string>{-2,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{28,34}</string>
+			</dict>
+			<key>pngdata/uieffect/gifteffect3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,802},{596,123}}</string>
+				<key>offset</key>
+				<string>{0,5}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{692,146}</string>
+			</dict>
+			<key>pngdata/uieffect/gifteffect4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,602},{450,122}}</string>
+				<key>offset</key>
+				<string>{0,4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{543,145}</string>
+			</dict>
+			<key>pngdata/uieffect/gifteffect5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{845,1},{799,94}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{799,94}</string>
+			</dict>
+			<key>pngdata/uieffect/gifteffect6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{701,1},{609,142}}</string>
+				<key>offset</key>
+				<string>{-2,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{619,151}</string>
+			</dict>
+			<key>pngdata/uieffect/gifteffect7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{513,1},{599,186}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{681,209}</string>
+			</dict>
+			<key>pngdata/uieffect/live1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{941,1},{57,52}}</string>
+				<key>offset</key>
+				<string>{0,-4}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{57,60}</string>
+			</dict>
+			<key>pngdata/uieffect/live2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{599,612},{238,243}}</string>
+				<key>offset</key>
+				<string>{-1,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{256,256}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>uieffectplist5.png</string>
+			<key>realTextureFileName</key>
+			<string>uieffectplist5.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

@@ -1,0 +1,417 @@
+{
+  "ID": "f1e9b770-b56d-4454-942f-f6cf0b5d30ef",
+  "Version": "3.10.0.0",
+  "Name": "incubationpetlayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 12,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/4.png",
+              "Plist": "imglist/publicimg2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 68.0,
+              "Y": 928.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.1063,
+              "Y": 0.8169
+            },
+            "PreSize": {
+              "X": 0.1656,
+              "Y": 0.1048
+            },
+            "LeftMargin": 15.0,
+            "RightMargin": 519.0,
+            "TopMargin": 148.5,
+            "BottomMargin": 868.5,
+            "Tag": 135,
+            "ActionTag": 1423270565,
+            "Size": {
+              "X": 106.0,
+              "Y": 119.0
+            },
+            "Name": "btnClose",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameselectlayer/17.png",
+              "Plist": "imglist/gameselectlayer.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 572.0,
+              "Y": 928.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8938,
+              "Y": 0.8169
+            },
+            "PreSize": {
+              "X": 0.1656,
+              "Y": 0.1048
+            },
+            "LeftMargin": 519.0,
+            "RightMargin": 15.0,
+            "TopMargin": 148.5,
+            "BottomMargin": 868.5,
+            "Tag": 170,
+            "ActionTag": -1473216489,
+            "Size": {
+              "X": 106.0,
+              "Y": 119.0
+            },
+            "Name": "btnSet",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/petpng1.png",
+              "Plist": "imglist/publicimg2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 420.7658
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.3704
+            },
+            "PreSize": {
+              "X": 0.9422,
+              "Y": 0.1276
+            },
+            "LeftMargin": 18.5,
+            "RightMargin": 18.5,
+            "TopMargin": 642.7342,
+            "BottomMargin": 348.2658,
+            "Tag": 135,
+            "Children": [
+              {
+                "FontSize": 30,
+                "LabelText": "+100000%",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 457.0832,
+                  "Y": 38.6532
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 101,
+                  "G": 85,
+                  "B": 78
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.758,
+                  "Y": 0.2666
+                },
+                "PreSize": {
+                  "X": 0.199,
+                  "Y": 0.2069
+                },
+                "LeftMargin": 397.0832,
+                "RightMargin": 85.9167,
+                "TopMargin": 91.3468,
+                "BottomMargin": 23.6532,
+                "Tag": 172,
+                "ActionTag": 1700698959,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 30.0
+                },
+                "Name": "txtAddScore_df",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FontSize": 30,
+                "LabelText": "+100000%",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 241.1048,
+                  "Y": 37.6531
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "R": 101,
+                  "G": 85,
+                  "B": 78
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3998,
+                  "Y": 0.2597
+                },
+                "PreSize": {
+                  "X": 0.199,
+                  "Y": 0.2069
+                },
+                "LeftMargin": 181.1048,
+                "RightMargin": 301.8952,
+                "TopMargin": 92.3469,
+                "BottomMargin": 22.6531,
+                "Tag": 173,
+                "ActionTag": 799285683,
+                "Size": {
+                  "X": 120.0,
+                  "Y": 30.0
+                },
+                "Name": "txtAddgold_df",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "publicimg/score.png",
+                  "Plist": "imglist/publicimg1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 359.0072,
+                  "Y": 39.5229
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5954,
+                  "Y": 0.2726
+                },
+                "PreSize": {
+                  "X": 0.1277,
+                  "Y": 0.531
+                },
+                "LeftMargin": 320.5072,
+                "RightMargin": 205.4928,
+                "TopMargin": 66.9771,
+                "BottomMargin": 1.0229,
+                "Tag": 174,
+                "ActionTag": -81995236,
+                "Size": {
+                  "X": 77.0,
+                  "Y": 77.0
+                },
+                "Name": "score_25",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "publicimg/gold.png",
+                  "Plist": "imglist/publicimg1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 143.6894,
+                  "Y": 36.6535
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2383,
+                  "Y": 0.2528
+                },
+                "PreSize": {
+                  "X": 0.0962,
+                  "Y": 0.4
+                },
+                "LeftMargin": 114.6894,
+                "RightMargin": 430.3106,
+                "TopMargin": 79.3465,
+                "BottomMargin": 7.6535,
+                "Tag": 175,
+                "ActionTag": 1287776110,
+                "Size": {
+                  "X": 58.0,
+                  "Y": 58.0
+                },
+                "Name": "gold_26",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 800738546,
+            "Size": {
+              "X": 603.0,
+              "Y": 145.0
+            },
+            "Name": "petinfo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/petok.png",
+              "Plist": "imglist/publicimg2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": -85.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": -0.0748
+            },
+            "PreSize": {
+              "X": 0.4688,
+              "Y": 0.1241
+            },
+            "LeftMargin": 170.0,
+            "RightMargin": 170.0,
+            "TopMargin": 1150.5,
+            "BottomMargin": -155.5,
+            "Tag": 136,
+            "ActionTag": -2119642409,
+            "Size": {
+              "X": 300.0,
+              "Y": 141.0
+            },
+            "Name": "petok",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/gameselectlayer.plist",
+        "imglist/gameselectlayer.png",
+        "imglist/publicimg1.plist",
+        "imglist/publicimg1.png",
+        "imglist/publicimg2.plist",
+        "imglist/publicimg2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

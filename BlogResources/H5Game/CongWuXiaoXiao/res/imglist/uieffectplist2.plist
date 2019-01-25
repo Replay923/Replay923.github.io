@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>pngdata/uieffect/brokenshelleggeffect10.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{405,442}}</string>
+				<key>offset</key>
+				<string>{-1,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{432,466}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshelleggeffect2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{859,1},{196,144}}</string>
+				<key>offset</key>
+				<string>{0,4}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{215,166}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshelleggeffect3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{408,242},{185,232}}</string>
+				<key>offset</key>
+				<string>{-2,3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{200,246}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshelleggeffect4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,794},{228,252}}</string>
+				<key>offset</key>
+				<string>{-4,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{242,265}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshelleggeffect5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{642,236},{166,249}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{182,271}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshelleggeffect6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{255,794},{251,224}}</string>
+				<key>offset</key>
+				<string>{-1,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{266,236}</string>
+			</dict>
+			<key>pngdata/uieffect/btnbuy1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{554,429},{213,207}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{213,207}</string>
+			</dict>
+			<key>pngdata/uieffect/btnbuy1effect1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{481,688},{75,71}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{77,72}</string>
+			</dict>
+			<key>pngdata/uieffect/btnbuy1effect2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{744,644},{177,166}}</string>
+				<key>offset</key>
+				<string>{-2,1}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{197,187}</string>
+			</dict>
+			<key>pngdata/uieffect/btnbuy2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{631,1},{233,226}}</string>
+				<key>offset</key>
+				<string>{-4,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{240,228}</string>
+			</dict>
+			<key>pngdata/uieffect/btnbuy2effect1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314,688},{92,86}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{92,86}</string>
+			</dict>
+			<key>pngdata/uieffect/btnbuy2effect2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{408,1},{239,221}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{239,221}</string>
+			</dict>
+			<key>pngdata/uieffect/btnbuy3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314,445},{238,241}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{238,241}</string>
+			</dict>
+			<key>pngdata/uieffect/btnbuy3effect1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{402,688},{82,77}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{82,77}</string>
+			</dict>
+			<key>pngdata/uieffect/btnbuy3effect2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{508,765},{245,234}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{245,234}</string>
+			</dict>
+			<key>pngdata/uieffect/egg1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,445},{311,347}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{311,347}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>uieffectplist2.png</string>
+			<key>realTextureFileName</key>
+			<string>uieffectplist2.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

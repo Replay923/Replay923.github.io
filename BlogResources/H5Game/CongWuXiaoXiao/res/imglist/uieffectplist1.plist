@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+	<dict>
+		<key>frames</key>
+		<dict>
+			<key>pngdata/uieffect/achievementgem1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{657,232},{100,100}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{100,100}</string>
+			</dict>
+			<key>pngdata/uieffect/achievementgem2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,952},{86,66}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{86,66}</string>
+			</dict>
+			<key>pngdata/uieffect/achievementgold1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{89,952},{70,70}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{70,70}</string>
+			</dict>
+			<key>pngdata/uieffect/backpackpet1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,730},{220,211}}</string>
+				<key>offset</key>
+				<string>{2,2}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{227,218}</string>
+			</dict>
+			<key>pngdata/uieffect/backpackpet2.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{214,730},{220,210}}</string>
+				<key>offset</key>
+				<string>{2,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{227,212}</string>
+			</dict>
+			<key>pngdata/uieffect/backpackpet3.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{627,351},{227,198}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{227,201}</string>
+			</dict>
+			<key>pngdata/uieffect/backpackpet4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{627,736},{227,177}}</string>
+				<key>offset</key>
+				<string>{0,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{227,179}</string>
+			</dict>
+			<key>pngdata/uieffect/backpackpet5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{856,232},{227,149}}</string>
+				<key>offset</key>
+				<string>{0,1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{227,154}</string>
+			</dict>
+			<key>pngdata/uieffect/backpackpet6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{627,551},{227,183}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{227,188}</string>
+			</dict>
+			<key>pngdata/uieffect/backpackpet7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{426,730},{227,199}}</string>
+				<key>offset</key>
+				<string>{0,0}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{227,203}</string>
+			</dict>
+			<key>pngdata/uieffect/backpackpet8.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{657,1},{229,194}}</string>
+				<key>offset</key>
+				<string>{-1,-1}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{232,196}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshellegg4.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,380},{311,348}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{313,349}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshellegg5.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{314,380},{311,348}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{313,349}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshellegg6.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{344,1},{311,348}}</string>
+				<key>offset</key>
+				<string>{-1,0}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{313,349}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshellegg7.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{1,1},{341,377}}</string>
+				<key>offset</key>
+				<string>{0,2}</string>
+				<key>rotated</key>
+				<false />
+				<key>sourceSize</key>
+				<string>{357,391}</string>
+			</dict>
+			<key>pngdata/uieffect/brokenshelleggeffect1.png</key>
+			<dict>
+				<key>frame</key>
+				<string>{{853,1},{229,149}}</string>
+				<key>offset</key>
+				<string>{-3,3}</string>
+				<key>rotated</key>
+				<true />
+				<key>sourceSize</key>
+				<string>{245,162}</string>
+			</dict>
+		</dict>
+		<key>metadata</key>
+		<dict>
+			<key>format</key>
+			<integer>2</integer>
+			<key>textureFileName</key>
+			<string>uieffectplist1.png</string>
+			<key>realTextureFileName</key>
+			<string>uieffectplist1.png</string>
+			<key>size</key>
+			<string>{1024,1024}</string>
+		</dict>
+		<key>texture</key>
+		<dict>
+			<key>width</key>
+			<integer>1024</integer>
+			<key>height</key>
+			<integer>1024</integer>
+		</dict>
+	</dict>
+</plist>

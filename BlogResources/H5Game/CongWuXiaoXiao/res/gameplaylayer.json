@@ -1,0 +1,1190 @@
+{
+  "ID": "149c831e-1c00-46bb-9fe7-f26345f531c9",
+  "Version": "3.10.0.0",
+  "Name": "gameplaylayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 4,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameselectlayer/17.png",
+              "Plist": "imglist/gameselectlayer.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 559.0939,
+              "Y": 1051.5437
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.8736,
+              "Y": 0.9257
+            },
+            "PreSize": {
+              "X": 0.1656,
+              "Y": 0.1048
+            },
+            "LeftMargin": 506.0939,
+            "RightMargin": 27.9061,
+            "TopMargin": 24.9563,
+            "BottomMargin": 992.0437,
+            "Tag": 48,
+            "ActionTag": -1289933118,
+            "Size": {
+              "X": 106.0,
+              "Y": 119.0
+            },
+            "Name": "btnSet",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/ui01.png",
+              "Plist": "imglist/gameplaylayer3.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 855.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.7526
+            },
+            "PreSize": {
+              "X": 1.0,
+              "Y": 0.1761
+            },
+            "TopMargin": 181.0,
+            "BottomMargin": 755.0,
+            "Tag": 18,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/level.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 62.1225,
+                  "Y": 66.5791
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0971,
+                  "Y": 0.3329
+                },
+                "PreSize": {
+                  "X": 0.0984,
+                  "Y": 0.085
+                },
+                "LeftMargin": 36.6225,
+                "RightMargin": 552.3775,
+                "TopMargin": 123.4209,
+                "BottomMargin": 56.5791,
+                "Tag": 20,
+                "ActionTag": -1042504384,
+                "Size": {
+                  "X": 51.0,
+                  "Y": 20.0
+                },
+                "Name": "level_13",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/scorebg.png",
+                  "Plist": "imglist/gameplaylayer4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 146.692,
+                  "Y": 38.9602
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2292,
+                  "Y": 0.1948
+                },
+                "PreSize": {
+                  "X": 0.1344,
+                  "Y": 0.22
+                },
+                "LeftMargin": 103.692,
+                "RightMargin": 450.308,
+                "TopMargin": 139.0398,
+                "BottomMargin": 16.9602,
+                "Tag": 251,
+                "Children": [
+                  {
+                    "FontSize": 20,
+                    "LabelText": "9999999",
+                    "HorizontalAlignmentType": "HT_Center",
+                    "VerticalAlignmentType": "VT_Center",
+                    "OutlineColor": {
+                      "G": 0,
+                      "B": 0
+                    },
+                    "ShadowColor": {
+                      "R": 110,
+                      "G": 110,
+                      "B": 110
+                    },
+                    "ShadowOffsetX": 2.0,
+                    "ShadowOffsetY": -2.0,
+                    "AnchorPoint": {
+                      "ScaleX": 0.5,
+                      "ScaleY": 0.5
+                    },
+                    "Position": {
+                      "X": 43.1631,
+                      "Y": 23.9958
+                    },
+                    "Scale": {
+                      "ScaleX": 1.0,
+                      "ScaleY": 1.0
+                    },
+                    "CColor": {
+                      "R": 106,
+                      "G": 43,
+                      "B": 42
+                    },
+                    "IconVisible": false,
+                    "PrePosition": {
+                      "X": 0.5019,
+                      "Y": 0.5454
+                    },
+                    "PreSize": {
+                      "X": 0.814,
+                      "Y": 0.4545
+                    },
+                    "LeftMargin": 8.1631,
+                    "RightMargin": 7.8369,
+                    "TopMargin": 10.0042,
+                    "BottomMargin": 13.9958,
+                    "Tag": 252,
+                    "ActionTag": 486144983,
+                    "Size": {
+                      "X": 70.0,
+                      "Y": 20.0
+                    },
+                    "Name": "txtScore_df",
+                    "ctype": "TextObjectData"
+                  }
+                ],
+                "ActionTag": -1963130586,
+                "Size": {
+                  "X": 86.0,
+                  "Y": 44.0
+                },
+                "Name": "scorebg",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/start1.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 145.9997,
+                  "Y": 65.9987
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.2281,
+                  "Y": 0.33
+                },
+                "PreSize": {
+                  "X": 0.0625,
+                  "Y": 0.2
+                },
+                "LeftMargin": 125.9997,
+                "RightMargin": 474.0003,
+                "TopMargin": 114.0013,
+                "BottomMargin": 45.9987,
+                "Tag": 21,
+                "ActionTag": 1728008816,
+                "Size": {
+                  "X": 40.0,
+                  "Y": 40.0
+                },
+                "Name": "start1",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/start2.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 208.6971,
+                  "Y": 65.9987
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.3261,
+                  "Y": 0.33
+                },
+                "PreSize": {
+                  "X": 0.0812,
+                  "Y": 0.2
+                },
+                "LeftMargin": 182.6971,
+                "RightMargin": 405.3029,
+                "TopMargin": 114.0013,
+                "BottomMargin": 45.9987,
+                "Tag": 22,
+                "ActionTag": 1113602015,
+                "Size": {
+                  "X": 52.0,
+                  "Y": 40.0
+                },
+                "Name": "start2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/start3.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 308.7056,
+                  "Y": 65.9987
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4824,
+                  "Y": 0.33
+                },
+                "PreSize": {
+                  "X": 0.0969,
+                  "Y": 0.2
+                },
+                "LeftMargin": 277.7056,
+                "RightMargin": 300.2944,
+                "TopMargin": 114.0013,
+                "BottomMargin": 45.9987,
+                "Tag": 23,
+                "ActionTag": 775710726,
+                "Size": {
+                  "X": 62.0,
+                  "Y": 40.0
+                },
+                "Name": "start3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/step.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 65.0,
+                  "Y": 142.2216
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.1016,
+                  "Y": 0.7111
+                },
+                "PreSize": {
+                  "X": 0.1016,
+                  "Y": 0.175
+                },
+                "LeftMargin": 32.5,
+                "RightMargin": 542.5,
+                "TopMargin": 40.2784,
+                "BottomMargin": 124.7216,
+                "Tag": 19,
+                "ActionTag": 1307525232,
+                "Size": {
+                  "X": 65.0,
+                  "Y": 35.0
+                },
+                "Name": "step_12",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 956763115,
+            "Size": {
+              "X": 640.0,
+              "Y": 200.0
+            },
+            "Name": "uiinfo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/item1.png",
+              "Plist": "imglist/gameplaylayer1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 79.9999,
+              "Y": 63.7045
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.125,
+              "Y": 0.0561
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.1118
+            },
+            "LeftMargin": 29.9999,
+            "RightMargin": 510.0001,
+            "TopMargin": 1008.7955,
+            "BottomMargin": 0.2045,
+            "Tag": 101,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "10000",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 21.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 252,
+                  "B": 158
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1654
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.189
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 20.0,
+                "TopMargin": 94.0,
+                "BottomMargin": 9.0,
+                "Tag": 65,
+                "ActionTag": 1296276900,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 24.0
+                },
+                "Name": "itemCount_df",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/addpng.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1575
+                },
+                "PreSize": {
+                  "X": 0.18,
+                  "Y": 0.1417
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": 41.0,
+                "TopMargin": 98.0,
+                "BottomMargin": 11.0,
+                "Tag": 23,
+                "ActionTag": -2010137549,
+                "Size": {
+                  "X": 18.0,
+                  "Y": 18.0
+                },
+                "Name": "additem",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 741220460,
+            "Size": {
+              "X": 100.0,
+              "Y": 127.0
+            },
+            "Name": "btnItem1",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/item2.png",
+              "Plist": "imglist/gameplaylayer1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 200.0,
+              "Y": 64.0001
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.3125,
+              "Y": 0.0563
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.1118
+            },
+            "LeftMargin": 150.0,
+            "RightMargin": 390.0,
+            "TopMargin": 1008.4999,
+            "BottomMargin": 0.5001,
+            "Tag": 102,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "10000",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 21.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 252,
+                  "B": 158
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1654
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.189
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 20.0,
+                "TopMargin": 94.0,
+                "BottomMargin": 9.0,
+                "Tag": 109,
+                "ActionTag": -659434918,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 24.0
+                },
+                "Name": "itemCount_df",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/addpng.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1575
+                },
+                "PreSize": {
+                  "X": 0.18,
+                  "Y": 0.1417
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": 41.0,
+                "TopMargin": 98.0,
+                "BottomMargin": 11.0,
+                "Tag": 22,
+                "ActionTag": -1726119001,
+                "Size": {
+                  "X": 18.0,
+                  "Y": 18.0
+                },
+                "Name": "additem",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1260502366,
+            "Size": {
+              "X": 100.0,
+              "Y": 127.0
+            },
+            "Name": "btnItem2",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/item3.png",
+              "Plist": "imglist/gameplaylayer1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 319.9999,
+              "Y": 64.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.0563
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.1118
+            },
+            "LeftMargin": 269.9999,
+            "RightMargin": 270.0001,
+            "TopMargin": 1008.5,
+            "BottomMargin": 0.5,
+            "Tag": 103,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "10000",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 21.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 252,
+                  "B": 158
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1654
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.189
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 20.0,
+                "TopMargin": 94.0,
+                "BottomMargin": 9.0,
+                "Tag": 111,
+                "ActionTag": -1069139244,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 24.0
+                },
+                "Name": "itemCount_df",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/addpng.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1575
+                },
+                "PreSize": {
+                  "X": 0.18,
+                  "Y": 0.1417
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": 41.0,
+                "TopMargin": 98.0,
+                "BottomMargin": 11.0,
+                "Tag": 21,
+                "ActionTag": -7106136,
+                "Size": {
+                  "X": 18.0,
+                  "Y": 18.0
+                },
+                "Name": "additem",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 606375009,
+            "Size": {
+              "X": 100.0,
+              "Y": 127.0
+            },
+            "Name": "btnItem3",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/item4.png",
+              "Plist": "imglist/achievementplist.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 439.9995,
+              "Y": 64.0007
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.6875,
+              "Y": 0.0563
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.1118
+            },
+            "LeftMargin": 389.9995,
+            "RightMargin": 150.0005,
+            "TopMargin": 1008.4993,
+            "BottomMargin": 0.5007,
+            "Tag": 104,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "10000",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 21.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 252,
+                  "B": 158
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1654
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.189
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 20.0,
+                "TopMargin": 94.0,
+                "BottomMargin": 9.0,
+                "Tag": 113,
+                "ActionTag": -329247872,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 24.0
+                },
+                "Name": "itemCount_df",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/addpng.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1575
+                },
+                "PreSize": {
+                  "X": 0.18,
+                  "Y": 0.1417
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": 41.0,
+                "TopMargin": 98.0,
+                "BottomMargin": 11.0,
+                "Tag": 20,
+                "ActionTag": -531277265,
+                "Size": {
+                  "X": 18.0,
+                  "Y": 18.0
+                },
+                "Name": "additem",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1367465412,
+            "Size": {
+              "X": 100.0,
+              "Y": 127.0
+            },
+            "Name": "btnItem4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameplaylayer/item5.png",
+              "Plist": "imglist/gameplaylayer2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 559.9998,
+              "Y": 64.0002
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.875,
+              "Y": 0.0563
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.1118
+            },
+            "LeftMargin": 509.9998,
+            "RightMargin": 30.0002,
+            "TopMargin": 1008.4998,
+            "BottomMargin": 0.5002,
+            "Tag": 105,
+            "Children": [
+              {
+                "FontSize": 24,
+                "LabelText": "10000",
+                "HorizontalAlignmentType": "HT_Center",
+                "VerticalAlignmentType": "VT_Center",
+                "OutlineColor": {
+                  "G": 0,
+                  "B": 0
+                },
+                "ShadowColor": {
+                  "R": 110,
+                  "G": 110,
+                  "B": 110
+                },
+                "ShadowOffsetX": 2.0,
+                "ShadowOffsetY": -2.0,
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 21.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {
+                  "G": 252,
+                  "B": 158
+                },
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1654
+                },
+                "PreSize": {
+                  "X": 0.6,
+                  "Y": 0.189
+                },
+                "LeftMargin": 20.0,
+                "RightMargin": 20.0,
+                "TopMargin": 94.0,
+                "BottomMargin": 9.0,
+                "Tag": 115,
+                "ActionTag": 196775218,
+                "Size": {
+                  "X": 60.0,
+                  "Y": 24.0
+                },
+                "Name": "itemCount_df",
+                "ctype": "TextObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/addpng.png",
+                  "Plist": "imglist/gameplaylayer1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 50.0,
+                  "Y": 20.0
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.1575
+                },
+                "PreSize": {
+                  "X": 0.18,
+                  "Y": 0.1417
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": 41.0,
+                "TopMargin": 98.0,
+                "BottomMargin": 11.0,
+                "Tag": 19,
+                "ActionTag": -1357132486,
+                "Size": {
+                  "X": 18.0,
+                  "Y": 18.0
+                },
+                "Name": "additem",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": 1350729696,
+            "Size": {
+              "X": 100.0,
+              "Y": 127.0
+            },
+            "Name": "btnItem5",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/achievementplist.plist",
+        "imglist/achievementplist.png",
+        "imglist/gameplaylayer1.plist",
+        "imglist/gameplaylayer1.png",
+        "imglist/gameplaylayer2.plist",
+        "imglist/gameplaylayer2.png",
+        "imglist/gameplaylayer3.plist",
+        "imglist/gameplaylayer3.png",
+        "imglist/gameplaylayer4.plist",
+        "imglist/gameplaylayer4.png",
+        "imglist/gameselectlayer.plist",
+        "imglist/gameselectlayer.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

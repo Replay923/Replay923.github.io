@@ -1,0 +1,134 @@
+{
+  "ID": "2879b317-684a-42c8-9f3c-113624ab4fab",
+  "Version": "3.10.0.0",
+  "Name": "paywaitlayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 49,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "publicimg/bg1.png",
+              "Plist": "imglist/publicimg2.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0,
+              "Y": 570.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.5018
+            },
+            "PreSize": {
+              "X": 0.9937,
+              "Y": 0.5273
+            },
+            "LeftMargin": 2.0,
+            "RightMargin": 2.0,
+            "TopMargin": 266.5,
+            "BottomMargin": 270.5,
+            "Tag": 54,
+            "ActionTag": -487623572,
+            "Size": {
+              "X": 636.0,
+              "Y": 599.0
+            },
+            "Name": "bg1_4",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "IsCustomSize": true,
+            "FontSize": 40,
+            "LabelText": "Text Label1111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111111",
+            "HorizontalAlignmentType": "HT_Center",
+            "VerticalAlignmentType": "VT_Center",
+            "OutlineColor": {
+              "G": 0,
+              "B": 0
+            },
+            "ShadowColor": {
+              "R": 110,
+              "G": 110,
+              "B": 110
+            },
+            "ShadowOffsetX": 2.0,
+            "ShadowOffsetY": -2.0,
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.4874,
+              "Y": 591.1108
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {
+              "R": 135,
+              "G": 77,
+              "B": 38
+            },
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5008,
+              "Y": 0.5203
+            },
+            "PreSize": {
+              "X": 0.7813,
+              "Y": 0.3521
+            },
+            "LeftMargin": 70.4874,
+            "RightMargin": 69.5126,
+            "TopMargin": 344.8892,
+            "BottomMargin": 391.1108,
+            "Tag": 53,
+            "ActionTag": 1740918748,
+            "Size": {
+              "X": 500.0,
+              "Y": 400.0
+            },
+            "Name": "txtContent_df",
+            "ctype": "TextObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/publicimg2.plist",
+        "imglist/publicimg2.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

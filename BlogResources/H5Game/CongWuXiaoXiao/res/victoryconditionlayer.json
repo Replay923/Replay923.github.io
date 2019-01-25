@@ -1,0 +1,307 @@
+{
+  "ID": "d1fd822b-5ca7-4c62-827d-afbab32ccba4",
+  "Version": "3.10.0.0",
+  "Name": "victoryconditionlayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 87,
+        "Children": [
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "pet/sbg1.png",
+              "Plist": "imglist/petlist1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 320.0011,
+              "Y": 557.0026
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.5,
+              "Y": 0.4903
+            },
+            "PreSize": {
+              "X": 0.9344,
+              "Y": 0.3283
+            },
+            "LeftMargin": 21.0011,
+            "RightMargin": 20.9989,
+            "TopMargin": 392.4974,
+            "BottomMargin": 370.5026,
+            "Tag": 113,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "pet/sbg3.png",
+                  "Plist": "imglist/petlist1.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 299.0,
+                  "Y": 152.4263
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5,
+                  "Y": 0.4086
+                },
+                "PreSize": {
+                  "X": 0.8629,
+                  "Y": 0.4236
+                },
+                "LeftMargin": 41.0,
+                "RightMargin": 41.0,
+                "TopMargin": 141.5737,
+                "BottomMargin": 73.4263,
+                "Tag": 114,
+                "ActionTag": 1340062891,
+                "Size": {
+                  "X": 516.0,
+                  "Y": 158.0
+                },
+                "Name": "sbg3_2",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameselectlayer/sbg2.png",
+                  "Plist": "imglist/gameselectlayer.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 299.0493,
+                  "Y": 302.0957
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5001,
+                  "Y": 0.8099
+                },
+                "PreSize": {
+                  "X": 0.9732,
+                  "Y": 0.252
+                },
+                "LeftMargin": 8.0493,
+                "RightMargin": 7.9507,
+                "TopMargin": 23.9043,
+                "BottomMargin": 255.0957,
+                "Tag": 115,
+                "ActionTag": 1890853640,
+                "Size": {
+                  "X": 582.0,
+                  "Y": 94.0
+                },
+                "Name": "sbg2_3",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameselectlayer/icon.png",
+                  "Plist": "imglist/gameselectlayer.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 297.9999,
+                  "Y": 309.7221
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.4983,
+                  "Y": 0.8304
+                },
+                "PreSize": {
+                  "X": 0.3696,
+                  "Y": 0.5228
+                },
+                "LeftMargin": 187.4999,
+                "RightMargin": 189.5001,
+                "TopMargin": -34.2221,
+                "BottomMargin": 212.2221,
+                "Tag": 116,
+                "ActionTag": -1757909639,
+                "Size": {
+                  "X": 221.0,
+                  "Y": 195.0
+                },
+                "Name": "levelicon",
+                "ctype": "SpriteObjectData"
+              },
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameselectlayer/line.png",
+                  "Plist": "imglist/gameselectlayer.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 304.2958,
+                  "Y": 151.6454
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.5089,
+                  "Y": 0.4066
+                },
+                "PreSize": {
+                  "X": 0.7625,
+                  "Y": 0.0241
+                },
+                "LeftMargin": 76.2958,
+                "RightMargin": 65.7042,
+                "TopMargin": 216.8546,
+                "BottomMargin": 147.1454,
+                "Tag": 118,
+                "ActionTag": 2126805166,
+                "Size": {
+                  "X": 456.0,
+                  "Y": 9.0
+                },
+                "Name": "line_6",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -2146950475,
+            "Size": {
+              "X": 598.0,
+              "Y": 373.0
+            },
+            "Name": "uiinfo",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "gameselectlayer/level.png",
+              "Plist": "imglist/gameselectlayer.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 319.0001,
+              "Y": 758.054
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.4984,
+              "Y": 0.6673
+            },
+            "PreSize": {
+              "X": 0.2516,
+              "Y": 0.0502
+            },
+            "LeftMargin": 238.5001,
+            "RightMargin": 240.4999,
+            "TopMargin": 349.446,
+            "BottomMargin": 729.554,
+            "Tag": 117,
+            "ActionTag": -12729766,
+            "Size": {
+              "X": 161.0,
+              "Y": 57.0
+            },
+            "Name": "level_5",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/gameselectlayer.plist",
+        "imglist/gameselectlayer.png",
+        "imglist/petlist1.plist",
+        "imglist/petlist1.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}

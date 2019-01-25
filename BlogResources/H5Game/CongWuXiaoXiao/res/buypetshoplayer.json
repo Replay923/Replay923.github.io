@@ -1,0 +1,223 @@
+{
+  "ID": "75193354-74b1-4f3e-a159-f03aef1d4882",
+  "Version": "3.10.0.0",
+  "Name": "buypetshoplayer",
+  "Content": {
+    "Content": {
+      "Animation": {
+        "Duration": 0,
+        "Speed": 1.0,
+        "Timelines": [],
+        "ctype": "TimelineActionData"
+      },
+      "AnimationList": [],
+      "ObjectData": {
+        "Tag": 243,
+        "Children": [
+          {
+            "ClipAble": false,
+            "BackColorAlpha": 102,
+            "ComboBoxIndex": 1,
+            "SingleColor": {
+              "R": 0,
+              "G": 0,
+              "B": 0
+            },
+            "FirstColor": {
+              "R": 150,
+              "G": 200
+            },
+            "EndColor": {},
+            "ColorVector": {
+              "ScaleY": 1.0
+            },
+            "Scale9Width": 1,
+            "Scale9Height": 1,
+            "TouchEnable": true,
+            "AnchorPoint": {},
+            "Position": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 0.0,
+              "Y": 0.0
+            },
+            "PreSize": {
+              "X": 2.3438,
+              "Y": 1.0
+            },
+            "RightMargin": -860.0,
+            "Tag": 328,
+            "ActionTag": -482333612,
+            "Size": {
+              "X": 1500.0,
+              "Y": 1136.0
+            },
+            "Alpha": 128,
+            "Name": "bgpn",
+            "ctype": "PanelObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "Normal",
+              "Path": "pet/petbg.png",
+              "Plist": ""
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5137,
+              "ScaleY": 0.4676
+            },
+            "Position": {
+              "X": 952.6996,
+              "Y": 574.2366
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.4886,
+              "Y": 0.5055
+            },
+            "PreSize": {
+              "X": 1.3078,
+              "Y": 0.735
+            },
+            "LeftMargin": 522.7327,
+            "RightMargin": -719.7327,
+            "TopMargin": 117.2094,
+            "BottomMargin": 183.7906,
+            "Tag": 326,
+            "Children": [
+              {
+                "FileData": {
+                  "Type": "MarkedSubImage",
+                  "Path": "gameplaylayer/petshop.png",
+                  "Plist": "imglist/gameplaylayer4.plist"
+                },
+                "BlendFunc": {
+                  "Src": 1,
+                  "Dst": 771
+                },
+                "AnchorPoint": {
+                  "ScaleX": 0.5,
+                  "ScaleY": 0.5
+                },
+                "Position": {
+                  "X": 61.1516,
+                  "Y": 754.0541
+                },
+                "Scale": {
+                  "ScaleX": 1.0,
+                  "ScaleY": 1.0
+                },
+                "CColor": {},
+                "IconVisible": false,
+                "PrePosition": {
+                  "X": 0.0731,
+                  "Y": 0.9031
+                },
+                "PreSize": {
+                  "X": 0.1195,
+                  "Y": 0.1198
+                },
+                "LeftMargin": 11.1516,
+                "RightMargin": 725.8484,
+                "TopMargin": 30.9459,
+                "BottomMargin": 704.0541,
+                "Tag": 327,
+                "ActionTag": -802469408,
+                "Size": {
+                  "X": 80.0,
+                  "Y": 80.0
+                },
+                "Name": "btnopenpage",
+                "ctype": "SpriteObjectData"
+              }
+            ],
+            "ActionTag": -65212409,
+            "Size": {
+              "X": 837.0,
+              "Y": 835.0
+            },
+            "Name": "petbg",
+            "ctype": "SpriteObjectData"
+          },
+          {
+            "FileData": {
+              "Type": "MarkedSubImage",
+              "Path": "pet/closepage.png",
+              "Plist": "imglist/petlist1.plist"
+            },
+            "BlendFunc": {
+              "Src": 1,
+              "Dst": 771
+            },
+            "AnchorPoint": {
+              "ScaleX": 0.5,
+              "ScaleY": 0.5
+            },
+            "Position": {
+              "X": 718.8983,
+              "Y": 919.8608
+            },
+            "Scale": {
+              "ScaleX": 1.0,
+              "ScaleY": 1.0
+            },
+            "CColor": {},
+            "IconVisible": false,
+            "PrePosition": {
+              "X": 1.1233,
+              "Y": 0.8097
+            },
+            "PreSize": {
+              "X": 0.1563,
+              "Y": 0.088
+            },
+            "LeftMargin": 668.8983,
+            "RightMargin": -128.8983,
+            "TopMargin": 166.1392,
+            "BottomMargin": 869.8608,
+            "Tag": 325,
+            "ActionTag": -622462636,
+            "Size": {
+              "X": 100.0,
+              "Y": 100.0
+            },
+            "Name": "btnclosepage",
+            "ctype": "SpriteObjectData"
+          }
+        ],
+        "Size": {
+          "X": 640.0,
+          "Y": 1136.0
+        },
+        "Name": "Layer",
+        "ctype": "LayerObjectData"
+      },
+      "UsedResources": [
+        "imglist/gameplaylayer4.plist",
+        "imglist/gameplaylayer4.png",
+        "imglist/petlist1.plist",
+        "imglist/petlist1.png",
+        "pet/petbg.png"
+      ],
+      "ctype": "GameFileData"
+    }
+  },
+  "Type": "Layer"
+}
