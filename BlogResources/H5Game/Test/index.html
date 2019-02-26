@@ -20,11 +20,12 @@
                 };
             
                 function MgPaymentResult(result,paymentResult){
-                    alert('recharge success');
+                    alert('recharge success_step_1');
                     alert(paymentResult);
                     var msg="失败";
                     var orderKey="",goodsKey="",goodsTag="",goodsNum="",coinUnit="",price="",customerKey="",comment="";
                     if(result=="success"){
+                        alert('recharge success_step_2');
                         msg="成功";
                         var jsonPaymentResult=JSON.parse(paymentResult);
                         orderKey=jsonPaymentResult.orderKey;
@@ -35,6 +36,8 @@
                         price=jsonPaymentResult.price;
                         customerKey=jsonPaymentResult.customerKey;
                         comment=jsonPaymentResult.comment;
+
+                        alert(jsonPaymentResult);
                         var url = '/Win10Game/ajaxback';
                         win10_back_params.order_id = orderKey;
                         win10_back_params.money = price;
