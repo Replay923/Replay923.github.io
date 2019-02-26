@@ -1,7 +1,7 @@
 <html>
 <body>
 
-        <button type="button" onclick="MgPaymentResult()">MS Pay</button>
+        <button type="button" onclick="MsPay()">MS Pay</button>
 
         <script language="javascript" src="https://api.mguwp.net/web/json2.js" ></script>		
         <script language="javascript" src="https://api.mguwp.net/web/h4sdk.js" ></script>
@@ -21,11 +21,10 @@
             
                 function MgPaymentResult(result,paymentResult){
                     alert('recharge success_step_1');
-                    alert(paymentResult);
-                    paymentResult="{\"result\":null,\"comment\":\"abcd-efg\",\"orderKey\":\"bababba\",\"goodsKey\":\"gagagag\",\"price\":\"4.99\"}";
+                    alert(result +" -\n"+ paymentResult);
                     var msg="失败";
                     var orderKey="",goodsKey="",goodsTag="",goodsNum="",coinUnit="",price="",customerKey="",comment="";
-                    //if(result=="success"){
+                    if(result=="success"){
                         alert('recharge success_step_2');
                         msg="成功";
                         var jsonPaymentResult=JSON.parse(paymentResult);
@@ -56,7 +55,7 @@
                                 }
                             }
                         });
-                   // }
+                    }
                 }
             </script>
     </body>
