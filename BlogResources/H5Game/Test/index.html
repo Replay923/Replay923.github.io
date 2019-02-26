@@ -37,7 +37,7 @@
                         customerKey=jsonPaymentResult.customerKey;
                         comment=jsonPaymentResult.comment;
 
-                        alert(jsonPaymentResult);
+                        alert(orderKey +" "+price);
                         var url = '/Win10Game/ajaxback';
                         win10_back_params.order_id = orderKey;
                         win10_back_params.money = price;
