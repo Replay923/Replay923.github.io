@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script>
+
+        function func1() {
+            // 首先判断我们对象是否正确插入
+            //window.external.notify("123   " + window.bubble);
+
+            //if (window.bubble) {
+                //调用的我们消息函数
+            window.external.mgExchange("closeWindow", external);
+            //}
+        }
+    </script>
+</head>
+<body>
+    <div style="margin-top:100px">
+        <button id="fun1Btn" onclick="func1();">Call method 1</button>
+    </div>
+</body>
+</html>
