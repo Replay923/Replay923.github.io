@@ -10,7 +10,7 @@
         function func1() {
             // 首先判断我们对象是否正确插入
             //window.external.notify("123   " + window.bubble);
-
+            document.getElementById("Out").innerText = external;
             //if (window.bubble) {
                 //调用的我们消息函数
             window.external.mgExchange("closeWindow", external);
@@ -22,5 +22,8 @@
     <div style="margin-top:100px">
         <button id="fun1Btn" onclick="func1();">Call method 1</button>
     </div>
+    <br />
+    <b id="Out">
+    </b>
 </body>
 </html>
