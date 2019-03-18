@@ -4,17 +4,30 @@
 <head>
     <meta charset="utf-8" />
     <title></title>
+    <script language="javascript" src="https://api.mguwp.net/web/json2.js"></script>
+    <script language="javascript" src="https://api.mguwp.net/web/h4sdk.js"></script>
+    <script>
+        var play_url = "./playgame.php";
+        function MgLoginResult(rs,loginrs) {
+            var userinfo = JSON.parse(loginrs);
+             alert(userinfo.userId);
+             alert(userinfo.token);
+        }
 
+        function showLogin() {
+            var jsonLoginPara = new Object();
+            openMgLogin(JSON.stringify(jsonLoginPara));
+        }
+        
+    </script>
     <script>
 
         function func1() {
             // 首先判断我们对象是否正确插入
             //window.external.notify("123   " + window.bubble);
             document.getElementById("Out").innerText = external;
-            //if (window.bubble) {
-                //调用的我们消息函数
-            window.external.mgExchange("closeWindow LOL", external);
-            //}
+            showLogin();
+
         }
     </script>
 </head>
