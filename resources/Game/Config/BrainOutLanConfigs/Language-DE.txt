@@ -1,0 +1,255 @@
+--Level guide.  key^问题^提示^通关后告知  （注意： 一句中，` 标记为换行 ^为分隔符)  此行不翻译。
+level_info_1^Finde die größte Zahl^Warum nicht die größte Größe versuchen?^Nicht schlecht!
+level_info_2^Hilf der alten Dame, den Fluss zu überqueren^Ziehe den Fluss hinter die alte Dame!^Danke für deine Hilfe! 
+level_info_3^Erstelle ein Rechteck!^Versuche, das Quadrat ein wenig über den Bildschirm hinaus zu ziehen.^Du hast es geschafft!
+level_info_4^Ich welche Richtung zeigt der Finger?^Der Finger zeigt nach „Rechts“!^Gut gemacht!
+level_info_5^Finde etwas, das man nicht essen kann!^Kannst du den Hühnerstall essen?^Du bist fantastisch! 
+level_info_6^In welche Richtung zeigt das Licht der Taschenlampe?^Die Taschenlampe ist jetzt ausgeschaltet! Es gibt kein Licht!^Schlau! 
+level_info_7^Welche 3 Nummern addieren sich zu 12?^3+3+6=12^Du hast gerade ein schwieriges mathematisches Problem gelöst!
+level_info_8^Kannst du den Unterschied herausfinden?^Du kannst die Wassermelone bewegen.^Du bist ausgezeichnet!
+level_info_10^Wie lautet die Nummer unter dem geparkten Auto?^Warum bewegst du das Auto nicht vom Parkplatz weg?^Du bist ein Genie!
+level_info_11^Wie viele Unterschiede kannst du zwischen den beiden Bildern erkennen?^Kuchen 6, Gabel 2, insgesamt 8^Unglaublich!
+level_info_12^Welche Buchstaben des Alphabets hören die Menschen am liebsten?^Die Menschen mögen es, CDs zu hören!^Hahaha. Das nächste Quiz ist super einfach! 
+level_info_13^Wie viele Pommes frites gibt es unten?^Einige Pommes frites können weggeschoben werden!^Gute Arbeit!
+level_info_14^Kannst du diese Frage lösen?^Gib 39 ein^Du hast das Problem sehr sorgfältig gelesen!
+level_info_15^Hey! Wie spät ist es jetzt?^Gib die Systemzeit ein!^Ja! Du hast recht!
+level_info_16^Kannst du etwas essbares finden?^Ziehe zwei Figuren zusammen, um eine Fleischscheibe zu erhalten.^Wow! So wird es gemacht!
+level_info_17^Bewege 1 Streichholz, um die größte Zahl zu erhalten!^909^Das hast du heute wirklich gut gemacht!
+level_info_18^Lege alles in die Schachtel^Alles! Inklusive aller Wörter!^Eine magische Schachtel kann alles aufnehmen!
+level_info_19^Wie dick wird ein 0,08 cm dickes Papier, wenn man es 6-mal in der Hälfte faltet?^0,08^Egal, wie oft man es faltet! Es ist immer noch ein 0,08 cm dickes Papier!
+level_info_20^Rauchverbot^Mach die Zigarette aus!^Großartig! Jetzt nicht mehr rauchen!
+level_info_21^Welche geometrische Form hat die meisten Seiten?^Ein Kreis hat unendlich viele Seiten.^ Hat ein Kreis 0 oder unendlich viele Seiten? Das ist die Frage!
+level_info_22^Tippe 2 Minuten lang auf den Bildschirm. Der Rekord ist 500-mal Tippen. Kannst du den Rekord brechen?^Tippe kontinuierlich auf den Rekord, um ihn zu brechen!^Wie oft hast du es versucht?
+level_info_23^Wie viele Eier sind noch übrig, nachdem du sie zerbrochen hast?^0, es ist nichts mehr übrig, wenn du sie zerbrochen hast.^Ausgezeichnet!
+level_info_24^Als Zoe 6 Jahre alt war, war Lulu doppelt so alt wie sie. Zoe ist jetzt 10 Jahre alt, wie alt ist Lulu?^16 Jahre alt!^Ja, das stimmt!
+level_info_25^Wenn 1 = 5, 2 = 15, 3 = 215, 4 = 3215, dann 5=?^Wenn 1 = 5, natürlich 5 = 1^Unglaublich!
+level_info_26^Bitte schalte den Ventilator ein^Berühre gleichzeitig zwei Drähte!^Vergiss nicht, dass der menschliche Körper Strom leiten kann!
+level_info_27^Wenn es fünf Minuten dauert, 1 Ei zu kochen, wie lange dauert es dann, 6 Eier zu kochen?^Koche sie zusammen!^Es ist fantastisch!
+level_info_28^Füge im Folgenden die 3 größten Zahlen hinzu!^7 + 8 + 9 = 24^Vergiss nicht die Tastaturnummer!
+level_info_29^Eine einfache Frage! Führe die folgende Gleichung durch.^Versuche, 3 zu drehen.^Du hast recht! 3 + 5 = 8
+level_info_30^Lass uns Stein, Schere, Papier spielen! Einer ist Schere, der andere ist Papier! Wie viele Finger sind das jetzt insgesamt?^20^Zwei Personen, 20 Finger!
+level_info_31^Auf welche Zahl wird der Stundenzeiger nach 3 Stunden zeigen?^9. Es ist nur ein Bild, die Uhr funktioniert nicht!^Vielleicht kannst du ja 3 Stunden warten, um die Antwort zu bekommen ~ Haha
+level_info_32^Wie viele Dreiecke gibt es in einem Pentagramm?^11^WOW! Du bist ein Genie!
+level_info_33^Wie viele schwarze Punkte gibt es?^Wenn du genau hinsiehst, gibt es keine schwarzen Punkte im Bild.^Deine Augen sind nicht verschwommen!
+level_info_34^Korrigiere die Richtung^Rotiere dein Gerät!^Du kannst eine neue Welt entdecken, wenn du die Dinge aus einem anderen Blickwinkel siehst!
+level_info_35^13 Kinder spielen Verstecken im Kindergarten! 10 Kinder wurden gefunden. Wie viele Kinder sind noch übrig?^2^Vergiss nicht, dass ein Kind am Suchen ist!
+level_info_36^Gehe zum Ausgang^Labyrinth geschlossen! Bitte umgehen!^Ich wusste, dass du es schaffen kannst!
+level_info_37^Welcher Eimer enthält Wasser?^Drehe dein Handy^Stelle die Eimer auf den Kopf und schon fließt das Wasser heraus!
+level_info_38^Du musst das Spiel gewinnen! Jetzt bist du dran!|Zoe:|Du:^Fülle zwei Schachteln auf einmal!^Betrügst du etwa?
+level_info_39^3 Damen, die jeweils 2 Töchter haben, essen gemeinsam zu Abend. Wie viele Stühle brauchen sie mindestens?^7 Stühle^3 Damen = 1 alte Dame + 2 junge Damen
+level_info_40^Finde das Herz^Kombiniere zwei Figuren zu einem Herzen.^Gut gemacht!
+level_info_41^Eine klischeehafte Frage. Wen würdest du retten? Deine Mutter oder deine Freundin?^Ich habe dich nicht gebeten, nur eine Person zu retten.^Dies ist jedoch keine ernste Frage, du hast ja gar keine Freundin!
+level_info_42^Finde das Foto^Drücke und halte den Umschlag, um das Foto auszuleeren!^WOW! Warum bist du so klug!
+level_info_43^Hilf Zoe, das Saft-Sediment am Boden zu trinken.^Ziehe den unteren Teil zu ihrem Mund.^WOW! Köstlich!
+level_info_44^Töte die fiese Fliege!^Lege 1 Finger auf den Bildschirm, um sie anzuziehen, und verwende dann einen anderen Finger, um sie zu töten.^OMG, du bist verrückt!...
+level_info_45^Welche Farbe kommt am häufigsten vor?^Hast du den Hintergrund bemerkt?^Ganz genau!
+level_info_46^Du musst dieses Spiel erneut gewinnen! Jetzt bist du dran!|Zoe:|Du:^ Ziehe “O” oben! Es ist nützlich!^Schummelst du schon wieder??
+level_info_47^Wecke die Eule auf.^Eulen sind nachtaktiv, ziehe die Sonne aus dem Bildschirm.^Großartig! Du hast das Gehirn eines Genies!
+level_info_48^Finde die dunkelste Farbe auf dem Bildschirm!^OMG! Welche Farbe haben die Texte?^Gute Arbeit!
+level_info_49^Welche Klaue ähnelt der ausgestreckten Klaue der Katze?^Natürlich ist die linke Kralle der Katze der rechten Kralle am ähnlichsten.^WOW! Ich liebe Miau~~~~
+level_info_50^Finde die Süßigkeiten in der Schachtel!^Schüttle die Schachtel, um die Eier zu zerbrechen.^Unglaublich! 
+level_info_51^Halte die Waage im Gleichgewicht!^Eine leere Waage ist im Gleichgewicht!^Bist du ein Genie?
+level_info_52^HILFE! Wo ist mein Ring?^Öffne die Dose und füttere meinen Hund, er wird es dir sagen!^Meine Güte!!!
+level_info_53^Korrigiere die Gleichung^Wische ein halbes W ab. Wie, es funktioniert nicht? Versuche es einfach noch einmal!^Du hast es zustande gebracht!
+level_info_54^Lasse alle Glühbirnen aufleuchten^Du musst nur die letzte herausziehen.^Bingo!
+level_info_55^Wie viele Küken gibt es?^Beachte die versteckten Küken unter den Tasten.^Du hast Glück gehabt!
+level_info_56^Kannst du dieses Problem lösen?^Ziehe „-” von 1 zu? und mache, dass das Resultat „2” ist!^Du wirst immer besser und besser!
+level_info_57^Tippe auf einen Schmetterling über den Texten!^Ziehe die Texte unter den Schmetterling!^Aha! Lass dich nicht nochmal täuschen!
+level_info_58^Mama ist wieder da! Hilf mir, das Gamepad zu verstecken!^Bedecke das Gamepad für eine Weile mit deinem Finger.^Gut mitgedacht!
+level_info_59^Hilf dem Baby einzuschlafen^Schaukle das Baby und singe das Baby in deinen Armen in den Schlaf.^WOW! Du singst toll! Das Baby schläft jetzt!
+level_info_60^Tippe von links nach rechts auf die Früchte und dann auf das Sechseck, den Kreis und das Rechteck.^Ist der Erdnuss eine Frucht?^Es ist wichtig, die Anleitung sorgfältig zu lesen!
+level_info_61^Bitte schreibe die richtige Antwort auf.^Was ist die Antwort auf 4 + 5?^Jetzt hast du es herausgefunden!
+level_info_62^Finde das größte Feuer!^Feuer plus Feuer?^Je mehr, desto lustiger! 
+level_info_63^Stell die Giraffe in den Kühlschrank!^Vergrößere den Kühlschrank und ziehe dann die Giraffe hinein.^Du hast es kapiert! Ausgezeichnet!
+level_info_64^Hilf dem kleinen Mädchen, den Kuchen zu essen.^Bewege ein Brett und springe dann!^Perfekt!
+level_info_65^Öffne die Schachtel^Niemand kann die Schachtel mit nur einer Hand öffnen!^Coooooool!!
+level_info_65_low^Öffne die Schachtel^Ein Finger hebt den Deckel an^Coooooool!!
+level_info_66^Nochmal! Was wäre, wenn deine Freundin und deine Mutter zur gleichen Zeit in den Fluss fallen würden?^Wach einfach auf! Schüttle dein Handy!^XD Du hast gar keine Freundin!
+level_info_67^Tippe in der folgenden Reihenfolge:|1, 6, 8, 2, 20, 17, 60, 33^Merke dir die Reihenfolge, bevor du mit dem Tippen beginnst!^Du wirst immer besser, wirklich!
+level_info_68^Bitte notiere dir eine zweistellige Nummer gemäß dem Bild.^Berechne den Umfang!^Nichts kann dich jetzt noch aufhalten!!!
+level_info_69^Wie isst man die Nudeln?^Warte! Du musst vielleicht die Nudeln abdecken! Versuche, deinen Finger zu benutzen!^So kocht man Instant-Nudeln!
+level_info_70^Verdammt! Ich kann dieses Chaos nicht ertragen!^Reinige die falsche Farbe!^Jetzt sieht es besser aus!
+level_info_71^Bitte gib ein 5-stelliges Zahlenpasswort ein^Der Spiegel reflektiert eine korrekte Antwort!^Coooool!
+level_info_72^Finde das Sechseck^Versuche, selbst ein Sechseck zu erschaffen!^Fantastisch!!!
+level_info_73^Wie kann man dieses Level abschließen?^Vergiss nicht, die Maus zu benutzen! Bewegen und mit der rechten Maustaste klicken!^So einfach!
+level_info_74^Hilf Tom, ihre Aufmerksamkeit zu erregen.^Hmmm... Vielleicht schnappst du dir ihre Handtasche?^Das ist aber kein guter Weg, um die Aufmerksamkeit deines Schwarmes zu wecken!
+level_info_75^Finde das größte Rechteck^Vergiss den Hintergrund nicht wieder!^Du lernst so schnell!!
+level_info_76^Tippe dreimal auf das orangefarbene Rechteck und dann fünfmal auf das grüne Rechteck!^Warte nach dem 6. Tippen ein paar Sekunden, bis die Farbe wieder grün wird!^Das ist eine knifflige Sache! Haha!
+level_info_77^Fülle das? aus^28 - 15 = 13, 45 - 28 = 17, 66 - 45 = 21, ? - 66 = 25^Du musst echt gut sein in Mathe!
+level_info_78^Hilf der kleinen Fledermaus einzuschlafen^Kippe das Handy auf den Kopf!^Fledermäuse schlafen verkehrt herum!
+level_info_79^Hilfe! Der Berg ist zu schwer!^Ziehe einfach 000 weg^Du hast gerade ein Leben gerettet!
+level_info_80^Gib die größtmögliche Zahl ein.^Erinnerst du dich an das Symbol für Unendlichkeit? Zwei o sehen aus wie...? ^ Schlau! Unendlich ist die größtmögliche Zahl!
+level_info_81^Der kleine Elefant ist so einsam^Halte lange gedrückt, um den Elefanten zu duplizieren!^Siehst du, er ist nicht mehr einsam!
+level_info_82^Welchen Traum möchtest du verwirklichen?^Klicke gleichzeitig auf 3 Schaltflächen^Wer will sie nicht alle haben!
+level_info_83^Finde die versteckten Sterne^Schüttle sie!^Okay, okay, jetzt hör schon auf, bitte...
+level_info_84^Zeit zum Schlafengehen, bitte hilf mir, das Licht auszuschalten!^Lege dein Handy mit der Vorderseite nach unten^Gute Nacht!!
+level_info_85^Finde die Regel heraus und schreibe die Antwort auf^9^Du hast dein Gehirn heute in Schwung gebracht!
+level_info_86^ZOZO ist kalt. Kannst du einen Weg finden, sie aufzuwärmen?^Reibe den Körper des Mädchens, um ihn aufzuwärmen.^Großartig! ZOZO ist gerührt und beschließt, dich zu heiraten!
+level_info_87^Hebe den Stein nicht hoch! Es ist ekelhaft darunter! ^Niemand kann den Stein mit nur einem Finger hochheben!^Oh Gott! Ich sagte doch, du sollst das nicht tun!
+level_info_88^Setze die Formen in den richtigen Rahmen.^Vielleicht können wir einige von ihnen in einen Rahmen stellen?^Tolle Arbeit!
+level_info_89^Mische rot und blau zusammen^Verwende deinen Finger, um die Öffnung zu blockieren, während du das Handy schüttelst.^Versuche es nicht, wenn du chemische Experimente durchführst! Es ist zu gefährlich!
+level_info_90^Tippe von links nach rechts auf die Früchte, tippe dann auf das Sechseck, das Quadrat und den Diamanten.^Drehe dein Handy um 45° und du wirst ein Quadrat finden.^Wow! Weiter so! 
+level_info_91^Hilf dem Baby, einen neuen Haarschnitt zu kriegen^Leg das Baby schlafen und schneide ihm dann die Haare. Wie?^Prost! Jetzt weißt du, wie man großartige Eltern abgibt!
+level_info_92^Welches ist das Billigste?^Welche Zahl ist die kleinste?^Mache eine Pause und bereite dich auf das nächste vor!
+level_info_93^Tippe 10-mal auf die blaue Schaltfläche und dann einmal auf die rote Schaltfläche.^Schaue nicht auf den Counter, sondern zähle einfach selbst.^Du machst das großartig!
+level_info_94^Tippe auf das Menü^Sieh genau hin, wo ist das Menü?^Gutes Auge!!
+level_info_95^Heute ist Tykes zweiter Geburtstag. Zünde ihm einfach Kerzen an.^Zünde die mittlere Kerze an und kippe dein Handy, um eine weitere anzuzünden.^Erinnerst du dich noch an Tyke? Das süße kleine Hündchen bei Tom & Jerry.
+level_info_96^Jack will Saft trinken.^Schüttle ihn, bevor du ihn ihm gibst.^Danke!!
+level_info_97^Wecke das kleine Ferkel auf^Halte seine Nase gedrückt, bis es aufwacht!^Okay, du kannst jetzt loslassen!
+level_info_98^Es gibt 26 Buchstaben im Alphabet. Wenn ET gegangen ist, wie viele Buchstaben sind noch übrig?^ET ist mit UFO gegangen^Glaubst du an Außerirdische?
+level_info_99^Finde die Unterschiede^Warum versuchst du nicht, den Tisch zu verschieben?^Unerwartet, nicht? Haha!
+level_info_100^Du bist so klug! Lass uns anstoßen!^Schüttle die Champagnerflasche und öffne den Korken!^Faaaaantastisch!
+level_info_101^Füge 1 Linie hinzu, um diese Gleichung wahr zu machen^Füge eine Linie zum „+“-Zeichen hinzu, um eine 4 zu erhalten.^Du bist ein Genie.
+level_info_102^Wie viele Schnitte brauchst du mindestens, um einen Kreis in 8 gleiche Teile zu schneiden? ^1 Schnitt! Du kannst diesen Kreis falten, bevor du ihn schneidest^Hast du das verstanden?
+level_info_103^In wie viele Stücke kann eine Wassermelone mit 10 Schnitten höchstens geschnitten werden?^ Zwei hoch zehn! Das sind 1024 Stücke!^Jetzt hast du es verstanden.
+level_info_104^Wenn CDE = EFH, dann EFH =?^ HFI ^ Das war wirklich knifflig!
+level_info_105^Was kommt nach AEBFC?^Schreibe ABCDEFG in der Reihenfolge auf und ordne es dann entsprechend der Frage neu an. Hast du die Regel gefunden?^Du hast einen äußerst logischen Verstand!
+level_info_106^Was ist die Antwort?^Eine ganze Katze = 10, aber die letzte Katze zeigt dir nur eine Pfote^Was für ein süßes, dickes Kätzchen! 
+level_info_107^Bewege 2 Streichhölzer, um einen aufrechten Stuhl zu erstellen^Achte auf das Streichholz unten und ganz links^Ich bin beeindruckt!
+level_info_108^Stecke 3 Münzen in die Sparbüchse, wie viele Münzen hast du jetzt?^Es ist Zeit, das Sparschwein zu knacken!^Das hast du sehr gut gemacht!
+level_info_109^Stelle diese Pyramide in 3 Schritten auf den Kopf^Bewege zwei Kreise von der vierten Reihe zur zweiten Reihe und bewege dann die erste Reihe nach unten^Ausgezeichnete Arbeit!
+level_info_110^Was ist die Antwort?^43215. Warum? Hol dir einen Stift und schreib es auf!^Du wirst immer besser und besser!
+level_info_111^Finde es heraus!^(2 + 3) x 3 = 15, (3 + 4) x 4 = 2,... (6 + 7) x 7 =?^Du bist ein großer Meister der Mathematik!
+level_info_112^Kannst du das lösen?^5 + 3 = (5 - 3)(5 + 3) = 28, 9 + 1 = (9 - 1)(9 + 1) = 810... Ebenso, 7 + 3 = (7 - 3)(7 + 3) = 410^Gut gemacht!
+level_info_113^Hilf dem Entlein, Wasser zu trinken^Hör auf, die Flasche zu füllen! Es gibt Wasser auf dem Boden^Dies erinnert mich an die Geschichte der Krähen, die Wasser trinken.
+level_info_114^Über die Brücke^Geh raus und lauf!^ Nicht sitzen! Fit werden!
+level_info_115^Was ist jetzt deine Körpertemperatur?^Lege deinen Finger auf das Thermometer und messe deine Temperatur^Großartig!
+level_info_116^Bilde eine kleinstmögliche Zahl^Finde das Zeichen „-“^Genau richtig!
+level_info_117^Lass die 4. Glühbirne aufleuchten^Es ist an der Zeit, schneller zu werden und die Chance zu nutzen! Achte auf die Anzahl der Glühbirnen!^Du musst viel geübt haben.
+level_info_118^Wie viele Löcher hat diese Hose?^Beachte, dass es 2 Löcher auf der Vorderseite und 2 Löcher auf der Rückseite gibt^Sie sieht so alt aus!
+level_info_119^Wie oft wird „1“ verwendet, wenn man alle ganzen Zahlen von 1 bis 199 niederschreibt?^140, notiere es dir und zähle eine nach der anderen^Ich hoffe, du hast einen einfacheren Weg gefunden!
+level_info_120^Fahre mit dem Auto bis zum Straßenschild^Ziehe den Titel und die Wolke weg und lasse die Sonne das Eis schmelzen^Gute Arbeit!
+level_info_121^Finde die Küken^Schüttle die Mutterhenne, sie verstecken sich hinter ihr^Ich wusste, dass du die Küken finden kannst! 
+level_info_122^Finde die Mutterhenne^Ziehe den Bildschirm, um sie zu finden^Läuft gut!
+level_info_123^Finde die Mutterhenne erneut^Hast du versucht, herauszuzoomen?^Wow, du bist sehr gut darin!
+level_info_124^Zähle die Anzahl der Haare^Der Junge trägt eine Perücke, nimm sie ab!^Haha, nicht schlecht!
+level_info_125^Zähle erneut die Anzahl der Haare^Da sind Haare auf dem Rücken!^Du hast keine verpasst!
+level_info_126^Wie viele Ameisen?^Ameisen sind zu klein, um sie zu zählen, zoome heran!^Du machst das großartig!
+level_info_127^Welcher Becher wird zuerst voll?^Es gibt einen falschen Becher. Bitte entferne ihn zuerst!^Perfekt!
+level_info_128^Lass Gleichung wahr sein^1 - 0 = 1^Gut Überlegt!
+level_info_129^Hau-den-Maulwurf^Ziehe den Maulwurf zum Hammer^Hast du Hau-den-Maulwurf schon gespielt?
+level_info_130^Hilf ihnen, den Fluss zu überqueren^Vergrößere das Boot und verwandle es in eine Brücke^Danke vielmals!
+level_info_131^Versuche, die größtmögliche Zahl zu erreichen, indem du nur 2 Streichhölzer bewegst^31181^Cool!
+level_info_132^Eine Kerze ist 50 cm hoch und kann 3 Stunden lang brennen. Eine weitere ist 70 cm hoch und kann 6 Stunden lang brennen. Wie lange dauert es, bis die beiden Kerzen die gleiche Höhe erreichen?^Sie haben die gleiche Höhe, wenn sie ausgebrannt sind.^Das ist schlau!
+level_info_133^Mach das Licht wieder aus.^Nimm die Glühbirne heraus^Aber ich habe nicht verlangt, sie zu entfernen!
+level_info_134^Löse das Problem^Hast du bemerkt, dass eine Traube fehlt?^Weiter so! Du hast einen Lauf! 
+level_info_135^Schalte den kleinsten Schalter an, um Wasser zu erhalten!^Schau dir das Bild an^Ist dir etwas schwindelig?
+level_info_136^Oh Gott! ZOZO hat verschlafen! Weck sie auf!^Öffne den Türgriff und lass die Mutter rein!^Vergiss nicht, deinen Alarm zu stellen!
+level_info_137^Die Schlafenszeit ist vorbei! Weck das Baby auf, um ihm Milch zu geben!^Drehe den Minutenzeiger zweimal rund um die Uhr! Das Baby benötigt 2 Stunden für ein Nickerchen!^Gut gemacht!
+level_info_138^Lasse die Papierwindmühle schnell drehen!^Winke mit deinem Handy wie mit einer Papierwindmühle!^Die Papierwindmühle dreht sich!
+level_info_139^Wie isst man Karotten?^Füttere sie einfach mit Karotten!^Danke dir sooooooo sehr!
+level_info_140^Erneut Karotten essen!^Wörter können als Brett verwendet werden, auf dem das Häschen springen kann^WOW! Lecker lecker!
+level_info_141^Das kleine Häschen ist erneut hungrig!^Wähle ein Herz und gib es dem kleinen Häschen. Es wird zu einem großen Hasen heranwachsen und hinüberspringen, um selbst Karotten zu essen!^Danke nochmals!
+level_info_142^Wie viele Dreiecke gibt es?^Ziehe die Figur und zähle sie erneut^Du bist heiß!
+level_info_143^So hungrig! Mach etwas zu essen!^Erinnerst du dich, wie pochierte Eier aussehen?^Leckeres pochiertes Ei!
+level_info_144^ZOZO will mit Freunden Eislaufen gehen! Hilf ihm, einen anderen Schlittschuh zu finden^Kannst du einen Schlittschuh selbst bauen?^Du hast ihn gefunden!
+level_info_145^Die Tiere treffen sich zum Sport. Häschen, Affe und Pony rennen um die Wette. Hilf dem Häschen zu gewinnen!^Halte das Pony und den Affen mit der Hand und lass den Hasen bis zum Ende laufen!^Ah! Das kleine Häschen schummelt!
+level_info_146^Wer ist der Größte?^Vergiss nicht die Sonne!^Schlau!
+level_info_147^Finde den Panda^Versuche, den Schal abzunehmen und achte dann auf die Knöpfe und Ohren!^Ein Cosplay-Panda!
+level_info_148^Finde erneut den Panda!^^Du bist so schlau!
+level_info_149^Finde die Nummer 8^^Schwindlig!
+level_info_150^Hilf dem Kätzchen beim Fischen^Hänge den Regenwurm an den Angelhaken und hebe das Handy an und richte es direkt in die Luft!^Ich liebe Fisch!
+level_info_151^Heute ist der 16. Geburtstag von ZOZO. Hilf ihm dabei, das Geburtstagsgeschenk zu finden!^Öffne die Schachtel, um ein achtstelliges Passwort zu erhalten.^Herzlichen Glückwunsch zum Geburtstag!
+level_info_151_low^Heute ist der 16. Geburtstag von ZOZO. Hilf ihm dabei, das Geburtstagsgeschenk zu finden!^Öffne die Schachtel, um ein achtstelliges Passwort zu erhalten.^Herzlichen Glückwunsch zum Geburtstag!
+Level_info_152^Hilf Mark bei der Flucht aus dem geheimen Raum^Mach zuerst das Licht aus, dann arbeite dich durch die Wand, und du wirst nicht gefunden^Gefängnisausbruch!
+Level_info_153^Hilf ihnen, ein erfolgreiches Blind-Date zu haben^Den Hund festhalten und erneut schieben?^Ich liebe dich!
+Level_info_154^Finde den Wolf unter den Schafen^Ziehe das Fleisch zu ihren Mündern. Nur der Wolf wird Fleisch fressen! Finde ihn und zieh ihm den Schafspelz aus!^Endlich hast du diesen Wolf gefangen!
+level_info_154_low^Finde den Wolf unter den Schafen^Ziehe das Fleisch zu ihren Mündern. Nur der Wolf wird Fleisch fressen! Finde ihn und zieh ihm den Schafspelz aus!^Endlich hast du diesen Wolf gefangen!
+Level_info_155^Fang die Ratte!^Zünde den Stock an, blockiere ein Ende des Rohres mit dem Finger und puste Rauch in das andere Ende!^Böse Ratte!!!
+level_info_156^Finde die größte ^ Wassermelone! ^ Du hast sie gefunden!
+level_info_157^Wie viele Enten? ^ Eins ist ein Küken ^ Süße
+level_info_158^Rettungsgiraffe ^ Dreh dein Gerät ^ Danke!
+level_info_159^Finde das Objekt heraus! ^^ Glückwunsch!
+level_info_160^Finde 8 Tiere ^ Versuche die Wolke zu erschließen ^ Du lernst viel!
+level_info_161^Rette Pigsy! ^ Schüttle das Monster und setze den goldenen Reifen auf den Kopf des Affenkönigs! Finde den goldenen Stock! ^ Danke
+level_info_162^Erfüllst du dir einen Traum? ^ Reibe die Lampe des Aladins mehrmals und tippe dann auf das Buch! ^ Wissen ist Macht!
+level_info_163^Finde den Außerirdischen ^ Finde die Füße des Außerirdischen und ziehe das Raumschiff darüber! ^ Außerirdische wurden vom Raumschiff weggebracht!
+level_info_rate^Welche Bewertung würdest du diesem Spiel geben?^Nicht die beste Bewertung?^Danke für deine Unterstützung!
+level_info_end^Hallo! Weitere Herausforderungen stehen bevor! Vielen Dank für die Geduld und einen schönen Tag noch!|Bleib dran für Updates|Erinnerung^^
+level_info_sudoku^Fülle die richtigen Blöcke^^
+level_press^Tippen
+level_clear^Löschen
+level_ok^OK
+level_left^Links
+level_right^Rechts
+level_bottom^Runter
+level_allnot^Nichts von dem oben Genannten
+level_exit^Verlassen
+level_up^Hoch
+level_down^Runter
+adnotready^Die Anzeigen sind noch nicht bereit…
+adwait^Warte...
+reward^Erhalte X {0} Schlüssel
+guide_levelMax^Es kommen weitere Herausforderungen...
+checkin_title^Willkommen zurück
+checkin_days^Tag {0}
+checkin_today^Heute
+checkin_get^Erhalten
+checkin_tomorrow^Morgen
+shop_title^Shop
+shop_free^Kostenlos
+menu_daily^Täglicher Bonus
+menu_shop^Shop
+menu_rate^Bewerten
+menu_feedback^Feedback
+menu_share^Teilen
+menu_music^Musik
+menu_sound^Soundeffekte
+menu_shock^Vibration
+menu_term^Nutzungsbedingungen
+menu_clause^Datenschutzerklärung
+tip_title^Tipps
+tip_gettip^Video ansehen
+tip_shop^Shop
+skip_title^Überspringen
+skip_gettip^Video ansehen
+skip_guide^Überspringen der Herausforderung verbraucht 2 Schlüssel, überspringen?
+skip_skip^Überspringen
+win_title^Gratulation!
+win_next^Weiter
+rate_title^Bewerten
+rate_guide^Vielen Dank für deine Unterstützung! Möchtest du uns bewerten?
+rate_point^{0} Punkte
+rate_fullpoint^Volle Punktzahl
+paysuccess^BEZAHLUNG ERFOLGREICH! Du erhältst X {0} Schlüssel.
+tips_skip^Lv.{0} übersprungen
+exit_guide^Bist du sicher, dass du die App verlassen willst?
+exit_cancel^ABBRECHEN
+exit_ok^VERLASSEN
+level_download^JETZT INSTALLIEREN
+help_help^HILFE
+key_key^+Schlüssel
+last_last^Zurück
+copy_copy^KOPIE
+level82_1^Reise um die Welt
+level82_2^Schlank und wohlhabend
+level82_3^ Werde hübscher
+level45_white^Weiß
+level45_red^Rot
+level45_yellow^Gelb
+level45_green^Grün
+level45_blue^Blau
+level45_purple^Lila
+input_guide^Betreten
+rate_feed_guide^Wir würden uns über mehr Feedback von dir freuen, damit wir unser Spiel für dich verbessern können!
+level_begin^Start
+level_pause^Pause
+level_jump^SPRINGEN
+level_go^GEHEN
+level_continue^Fortfahren
+level151_date^Das Kalenderdatum ist gestern
+level152_escape^Aufgeben
+level162_dream1^Reise um die Welt
+level162_dream2^Es gibt eine Hütte am See
+level162_dream3^beherrsche mehrere sprachen
+noAds^Anzeigen entfernen
+lan_Title^Sprache
+lan_Guide^Deutsch
+lan_cn^简体中文
+lan_en^English
+lan_hant^繁體中文
+lan_ja^日本語
+lan_fr^Français
+lan_de^Deutsch
+lan_ru^Pусский
+lan_ko^한국어

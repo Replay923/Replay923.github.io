@@ -1,0 +1,8 @@
+Language-cn.txt|1a6efc2f39cf1c10f3d9abe5079653e
+Language-hant.txt|5cc5da5e6a1fc57a67afedc478c81e
+Language-en.txt|eadb0634c8e62d3c47f4e8ee68cfa9
+Language-jp.txt|80b15bd6a1bed7a6cbe880a8309e1bbd
+Language-ko.txt|63eefaeb13dd34dcddc2f53ff39f5f3
+Language-FR.txt|63e4a774edeb4f1dedf32979ed4b6767
+Language-RU.txt|536df9c18f76664b02fee7bbf281042
+Language-DE.txt|81635cba8bf97acb2e8e497990fc1f0
