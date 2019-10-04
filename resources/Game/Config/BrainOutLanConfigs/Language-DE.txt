@@ -50,7 +50,7 @@ level_info_49^Welche Klaue ähnelt der ausgestreckten Klaue der Katze?^Natürlic
 level_info_50^Finde die Süßigkeiten in der Schachtel!^Schüttle die Schachtel, um die Eier zu zerbrechen.^Unglaublich! 
 level_info_51^Halte die Waage im Gleichgewicht!^Eine leere Waage ist im Gleichgewicht!^Bist du ein Genie?
 level_info_52^HILFE! Wo ist mein Ring?^Öffne die Dose und füttere meinen Hund, er wird es dir sagen!^Meine Güte!!!
-level_info_53^Korrigiere die Gleichung^Wische ein halbes W ab. Wie, es funktioniert nicht? Versuche es einfach noch einmal!^Du hast es zustande gebracht!
+level_info_53^Korrigiere die Gleichung^Wische ein halbes E ab. Wie, es funktioniert nicht? Versuche es einfach noch einmal!^Du hast es zustande gebracht!
 level_info_54^Lasse alle Glühbirnen aufleuchten^Du musst nur die letzte herausziehen.^Bingo!
 level_info_55^Wie viele Küken gibt es?^Beachte die versteckten Küken unter den Tasten.^Du hast Glück gehabt!
 level_info_56^Kannst du dieses Problem lösen?^Ziehe „-” von 1 zu? und mache, dass das Resultat „2” ist!^Du wirst immer besser und besser!
@@ -65,7 +65,7 @@ level_info_64^Hilf dem kleinen Mädchen, den Kuchen zu essen.^Bewege ein Brett u
 level_info_65^Öffne die Schachtel^Niemand kann die Schachtel mit nur einer Hand öffnen!^Coooooool!!
 level_info_65_low^Öffne die Schachtel^Ein Finger hebt den Deckel an^Coooooool!!
 level_info_66^Nochmal! Was wäre, wenn deine Freundin und deine Mutter zur gleichen Zeit in den Fluss fallen würden?^Wach einfach auf! Schüttle dein Handy!^XD Du hast gar keine Freundin!
-level_info_67^Tippe in der folgenden Reihenfolge:|1, 6, 8, 2, 20, 17, 60, 33^Merke dir die Reihenfolge, bevor du mit dem Tippen beginnst!^Du wirst immer besser, wirklich!
+level_info_67^Tippe in Reihenfolge:|1, 6, 8, 2, 20, 17, 60, 33^Merke dir die Reihenfolge, bevor du mit dem Tippen beginnst!^Du wirst immer besser, wirklich!
 level_info_68^Bitte notiere dir eine zweistellige Nummer gemäß dem Bild.^Berechne den Umfang!^Nichts kann dich jetzt noch aufhalten!!!
 level_info_69^Wie isst man die Nudeln?^Warte! Du musst vielleicht die Nudeln abdecken! Versuche, deinen Finger zu benutzen!^So kocht man Instant-Nudeln!
 level_info_70^Verdammt! Ich kann dieses Chaos nicht ertragen!^Reinige die falsche Farbe!^Jetzt sieht es besser aus!
@@ -144,18 +144,18 @@ level_info_142^Wie viele Dreiecke gibt es?^Ziehe die Figur und zähle sie erneut
 level_info_143^So hungrig! Mach etwas zu essen!^Erinnerst du dich, wie pochierte Eier aussehen?^Leckeres pochiertes Ei!
 level_info_144^ZOZO will mit Freunden Eislaufen gehen! Hilf ihm, einen anderen Schlittschuh zu finden^Kannst du einen Schlittschuh selbst bauen?^Du hast ihn gefunden!
 level_info_145^Die Tiere treffen sich zum Sport. Häschen, Affe und Pony rennen um die Wette. Hilf dem Häschen zu gewinnen!^Halte das Pony und den Affen mit der Hand und lass den Hasen bis zum Ende laufen!^Ah! Das kleine Häschen schummelt!
-level_info_146^Wer ist der Größte?^Vergiss nicht die Sonne!^Schlau!
+level_info_146^Wer ist der Größte? ^Vergiss nicht die Sonne!^Schlau!
 level_info_147^Finde den Panda^Versuche, den Schal abzunehmen und achte dann auf die Knöpfe und Ohren!^Ein Cosplay-Panda!
 level_info_148^Finde erneut den Panda!^^Du bist so schlau!
 level_info_149^Finde die Nummer 8^^Schwindlig!
 level_info_150^Hilf dem Kätzchen beim Fischen^Hänge den Regenwurm an den Angelhaken und hebe das Handy an und richte es direkt in die Luft!^Ich liebe Fisch!
 level_info_151^Heute ist der 16. Geburtstag von ZOZO. Hilf ihm dabei, das Geburtstagsgeschenk zu finden!^Öffne die Schachtel, um ein achtstelliges Passwort zu erhalten.^Herzlichen Glückwunsch zum Geburtstag!
 level_info_151_low^Heute ist der 16. Geburtstag von ZOZO. Hilf ihm dabei, das Geburtstagsgeschenk zu finden!^Öffne die Schachtel, um ein achtstelliges Passwort zu erhalten.^Herzlichen Glückwunsch zum Geburtstag!
-Level_info_152^Hilf Mark bei der Flucht aus dem geheimen Raum^Mach zuerst das Licht aus, dann arbeite dich durch die Wand, und du wirst nicht gefunden^Gefängnisausbruch!
-Level_info_153^Hilf ihnen, ein erfolgreiches Blind-Date zu haben^Den Hund festhalten und erneut schieben?^Ich liebe dich!
-Level_info_154^Finde den Wolf unter den Schafen^Ziehe das Fleisch zu ihren Mündern. Nur der Wolf wird Fleisch fressen! Finde ihn und zieh ihm den Schafspelz aus!^Endlich hast du diesen Wolf gefangen!
+level_info_152^Hilf Mark bei der Flucht aus dem geheimen Raum^Mach zuerst das Licht aus, dann arbeite dich durch die Wand, und du wirst nicht gefunden^Gefängnisausbruch!
+level_info_153^Hilf ihnen, ein erfolgreiches Blind-Date zu haben^Den Hund festhalten und erneut schieben?^Ich liebe dich!
+level_info_154^Finde den Wolf unter den Schafen^Ziehe das Fleisch zu ihren Mündern. Nur der Wolf wird Fleisch fressen! Finde ihn und zieh ihm den Schafspelz aus!^Endlich hast du diesen Wolf gefangen!
 level_info_154_low^Finde den Wolf unter den Schafen^Ziehe das Fleisch zu ihren Mündern. Nur der Wolf wird Fleisch fressen! Finde ihn und zieh ihm den Schafspelz aus!^Endlich hast du diesen Wolf gefangen!
-Level_info_155^Fang die Ratte!^Zünde den Stock an, blockiere ein Ende des Rohres mit dem Finger und puste Rauch in das andere Ende!^Böse Ratte!!!
+level_info_155^Fang die Ratte!^Zünde den Stock an, blockiere ein Ende des Rohres mit dem Finger und puste Rauch in das andere Ende!^Böse Ratte!!!
 level_info_156^Finde die größte ^ Wassermelone! ^ Du hast sie gefunden!
 level_info_157^Wie viele Enten? ^ Eins ist ein Küken ^ Süße
 level_info_158^Rettungsgiraffe ^ Dreh dein Gerät ^ Danke!

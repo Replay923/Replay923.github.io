@@ -1,4 +1,4 @@
---level guide.  key^问题^提示^通关后告知  （注意： 一句中，` 标记为换行 ^为分隔符)  此行不翻译。asfasfasfasfafs
+--level guide.  key^问题^提示^通关后告知  （注意： 一句中，` 标记为换行 ^为分隔符)  此行不翻译。
 level_info_1^Find the largest number^Why not try the largest size?^Not Bad!
 level_info_2^Help the old Lady get across the river^Drag the river behind the old lady!^Thanks for your help! 
 level_info_3^Create a rectangle!^Try to drag the square a little bit off the screen^You made it!

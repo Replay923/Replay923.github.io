@@ -50,7 +50,7 @@ level_info_49^Quelle griffe est semblable à la griffe déployée du chat ?^Bien
 level_info_50^Trouvez les bonbons dans la boîte ! !^Secouez la boîte pour casser les œufs.^Incroyable ! 
 level_info_51^Maintenez l'équilibre de la balance !^La balance vide est équilibrée !^ Vous êtes un génie ?
 level_info_52^À L’AIDE ! Où est ma bague ?^Ouvrez la boîte et donnez à manger à mon chien, elle vous le dirait !^Mon dieu ! ! !
-level_info_53^Corrigez l'équation^Effacez un demi W, ça n'a pas l'air de marcher ? Essayez encore une fois !^Vous avez réussi !
+level_info_53^Corrigez l'équation^Effacez un demi E, ça n'a pas l'air de marcher ? Essayez encore une fois !^Vous avez réussi !
 level_info_54^Allumez toutes les lampes^Il suffit de sortir la dernière.^Bingo !
 level_info_55^Combien y a-t-il de poussins ?^Remarquez les poussins cachés sous les boutons^Vous avez de la chance !
 level_info_56^Pouvez-vous résoudre cette question ?^Faites glisser "-" de 1 à ? et faites-le devenir "2" !^Vous vous améliorez à vue d’œil !
@@ -65,7 +65,7 @@ level_info_64^Aidez la petite fille à manger le gâteau^Bougez une planche et s
 level_info_65^Ouvrez la boîte^Personne ne peut ouvrir la boîte avec une seule main !^Coooooool ! !
 level_info_65_low^Ouvrez la boîte^Tenez et soulevez le couvercle!^Coooooool ! !
 level_info_66^Encore ! Et si votre petite amie et votre mère tombaient dans la rivière en même temps ?^Réveillez-vous ! Secouez votre téléphone !^XD Vous n'avez pas de petite amie !
-level_info_67^Appuyez dans l'ordre suivant :|1,6,8,2,20,17,60,33^Mémorisez l'ordre avant de commencer à appuyer !^ Vous vous améliorez vraiment !
+level_info_67^Cliquez dans l'ordre :|1,6,8,2,20,17,60,33^Mémorisez l'ordre avant de commencer à appuyer !^ Vous vous améliorez vraiment !
 level_info_68^Veuillez écrire un numéro à 2 chiffres selon l'image.^Calculez le périmètre !^Rien ne peut vous arrêter maintenant ! ! !
 level_info_69^Comment manger les nouilles ? ^Attendez ! Vous aurez peut-être besoin de couvrir les nouilles ! Essayez d'utiliser votre doigt !^C'est comme ça qu'on fait des nouilles instantanées !
 level_info_70^Mince ! Je ne supporte pas ce désordre.!^Nettoyez la mauvaise peinture !^C'est mieux maintenant !
@@ -151,11 +151,11 @@ level_info_149^Trouvez le chiffre 8^^ Vertiges !
 level_info_150^Aider le chaton à pêcher^Accrochez le ver de terre à l'hameçon et soulevez votre appareil et pointez-le en l'air !^J'adore le poisson !
 level_info_151^Aujourd'hui c'est le 16ème anniversaire de ZOZO, aidez-la à trouver le cadeau !^Ouvrez la boîte pour obtenir un mot de passe à 8 chiffres^Joyeux Anniversaire !
 level_info_151_low^Aujourd'hui c'est le 16ème anniversaire de ZOZO, aidez-la à trouver le cadeau !^Ouvrez la boîte pour obtenir un mot de passe à 8 chiffres^Joyeux Anniversaire !
-Level_info_152^Aidez Mark à s'échapper de la pièce secrète ^ Éteignez d'abord les lumières, puis coupez à travers le mur, et vous ne serez pas trouvé ! ^ Prison Break !
-Level_info_153^Aidez-les à réussir leur blind date ^ Tenir le chien et glisser à nouveau ? ^Je vous aime !
-Level_info_154^Trouvez le loup dans les moutons^ Faites glisser la viande jusqu'à leurs bouches. Seul le loup veut manger de la viande ! Trouvez-le et enlevez les vêtements des moutons ! ^ Vous avez enfin attrapé ce loup !
+level_info_152^Aidez Mark à s'échapper de la pièce secrète ^ Éteignez d'abord les lumières, puis coupez à travers le mur, et vous ne serez pas trouvé ! ^ Prison Break !
+level_info_153^Aidez-les à réussir leur blind date ^ Tenir le chien et glisser à nouveau ? ^Je vous aime !
+level_info_154^Trouvez le loup dans les moutons^ Faites glisser la viande jusqu'à leurs bouches. Seul le loup veut manger de la viande ! Trouvez-le et enlevez les vêtements des moutons ! ^ Vous avez enfin attrapé ce loup !
 level_info_154_low^Trouvez le loup dans les moutons^ Faites glisser la viande jusqu'à leurs bouches. Seul le loup veut manger de la viande ! Trouvez-le et enlevez les vêtements des moutons ! ^ Vous avez enfin attrapé ce loup !
-Level_info_155^Attrapez le rat ^ allumez le bâton, bloquez une extrémité de la pipe avec votre doigt et fumez à l'autre extrémité ! ^ Mauvais rat ! ! !
+level_info_155^Attrapez le rat ^ allumez le bâton, bloquez une extrémité de la pipe avec votre doigt et fumez à l'autre extrémité ! ^ Mauvais rat ! ! !
 level_info_156^Trouvez le plus gros ^ melon d'eau! ^ Vous l'avez trouvé!
 level_info_157^Combien de canards? ^ L'un est un poussin ^ Sweety
 level_info_158^Sauvetage girafe ^ Faites pivoter votre appareil ^ Merci!
