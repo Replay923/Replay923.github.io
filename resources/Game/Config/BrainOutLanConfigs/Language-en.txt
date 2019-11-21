@@ -9,12 +9,12 @@ level_info_7^What 3 numbers add up to 12^3+3+6=12^You just solved a hard math pr
 level_info_8^Can you find out the different one?^You can move the watermelon.^You are brilliant!
 level_info_10^What’s the number under the parked car?^Why don't you move the car out of that parking space? ^You are a genius!
 level_info_11^How many differences can you spot between two pictures?^Cake 6, fork 2, 8 in total^Incredible!
-level_info_12^What letters of alphabet people like to listen to the most? ^ People like listening to CD! ^Hahaha. The coming one is super easy! 
+level_info_12^What 2 English letters people like to listen to the most? ^ People like listening to CD! ^Hahaha. The coming one is super easy! 
 level_info_13^How many French Fries below?^Some French Fries can be moved away!^Nice work!
 level_info_14^Can you solve this question?^It’s 1+2+3+11+2+3+11+2+3+1,just enter 39^You read the problem very carefully!
 level_info_15^Hey!What time is it now?^Input system time!^Yes！You’re right!
 level_info_16^Find something you can eat?^Drag two figures together to create meat slice .^Wow! That's the way!
-level_info_17^Move 1 matchstick to make a biggest number!^909^You certainly did well today!
+level_info_17^Move 1 matchstick to make a biggest number!^965^You certainly did well today!
 level_info_18^Put everything into the box^Everything!Including all words!^A magical box could hold everything!
 level_info_19^How thick will a 0.08cm paper be if you fold it in half for 6 times? ^0.08^No matter how many times you fold it! It’s still a 0.08cm paper!
 level_info_20^No Smoking^Stub out that cigarette!^Great! No smoking now!
@@ -35,7 +35,7 @@ level_info_34^Correct the direction^Rotate your device!^You will discover a new 
 level_info_35^13 kids play hide & seek in the kindergarten! 10 hiders were found. How many hiders are left?^2^Don’t forget one is seeker!
 level_info_36^Go to the exit^Maze closed! Please bypass！^I knew you could do it!
 level_info_37^Which bucket has water？^Rotate your device^Put the buckets upside down and then the water will come out!
-level_info_38^You have to win the game! It's your turn now!|Zoe：|You：^ Use your two finger to fill the "o" at same time ,make your 3 "o" on a row. ^Are you cheating?
+level_info_38^You have to win the game!|Zoe：|You：^ Use your two finger to fill the "o" at same time ,make it on a row^Are you cheating?
 level_info_39^3 ladies each have 2 daughters are having dinner together. How many chairs do they need at least?^7 chairs^3 ladies = 1 old lady + 2 young ladies
 level_info_40^Find a heart ^Combine two figures into a heart ^Nice job!
 level_info_41^A cliche question.Who would you save? Your mom or your girlfriend?^I didn't ask you to save only one person^In fact it is not a question, because you don’t have a girlfriend!
@@ -56,26 +56,26 @@ level_info_55^How many chicks are there?^Notice the hidden chicks under the butt
 level_info_56^Can you solve this question?^Drag “-” from 1 to ? and make it becomes “2”!^You are getting better and better!
 level_info_57^Tap a butterfly above the texts!^Drag texts below the butterfly!^Aha! Don’t be tricked again!
 level_info_58^Mom is back! Help me hide gamepad!^Cover gamepad with your finger for a little while.^Good thinking!
-level_info_59^Help baby fall asleep^Rocking and Singing the baby to sleep in your arms.^WOW! You’re good at sing! !The baby is sleeping now!
-level_info_60^Tap fruits from left to right, then tap the hexagon, circle, and rectangle^Is peanut a fruit?^It's important to read the instruction carefully!
-level_info_61^Please write down the correct answer ^What is the answer to 4+5?^Now you’ve figured it out！
+level_info_59^Help baby fall asleep^Hold your device top and bottom, then swayed your device gently until the baby fall asleep!^WOW!The baby is sleeping now!
+level_info_60^Tap fruits from left to right, then tap the hexagon, circle, and rectangle^What counts as a fruit?^It's important to read the instruction carefully!
+level_info_61^Please write down the correct answer ^What is the answer to 4+5? It‘s 9 !^Now you’ve figured it out！
 level_info_62^Find out the largest fire!^Fire plus fire?^The more the merrier! 
 level_info_63^Put the giraffe into the fridge!^Enlarge the fridge and then drag giraffe into it^You got the point! Excellent!
 level_info_64^Help little girl eat the cake^Move one board and then jump!^Perfect!
 level_info_65^Open the box^No one can open the box with only one hand!^Coooooool!!
 level_info_65_low^Open the box^Hold and  lift the lid !^Coooooool!!
-level_info_66^Again！What if your girlfriend and your mom fell down into the river at the same time?^Just wake up!Shake your phone!^XD You don't have a girlfriend!
+level_info_66^Again！Who would you save? Your mom or your girlfriend?^Just wake up!Shake your phone!^XD You don't have a girlfriend!
 level_info_67^Tap in the following order:|1,6,8,2,20,17,60,33^Memorize the order before you start tapping!^ You are really improving!
-level_info_68^Please write down a 2-digit number according to the picture^Calculate the perimeter!^Nothing can stop you now!!!
+level_info_68^Please write down a 2-digit number according to the picture^Calculate the perimeter! It‘s 58^Nothing can stop you now!!!
 level_info_69^How to eat the noodles? ^Wait! You may need to cover the noodle! Try to use your finger!^That's the way to cook instant noodles!
 level_info_70^Damn! I can't stand this mess！^Clean up the wrong paint!^It looks better now!
-level_info_71^Please enter a 5-digit number password^The mirror will reflect out a correct answer！^Coooool!
+level_info_71^Please enter a 5-digit number password^The mirror will reflect out a correct answer! It‘s 70773^Coooool!
 level_info_72^Find out the hexagon^Try to create a hexagon by yourself!^Awesome!!!
 level_info_73^How to pass this level？^Don't forget using the mouse！Move and right-click! ^So easy!
-level_info_74^Help Tom to get her notice^Emmmm…Move the bag to Tom!^But it's not a good way to get your crush's notice!
+level_info_74^Help Tom to get her notice^Move the bag to Tom!^But it's not a good way to get your crush's notice!
 level_info_75^Find out the largest rectangle^Don't forget the background again!^You are learning so fast!!
 level_info_76^Click the orange rectangle 3 times, then the green rectangle 5 times！^After 6th tap, wait a few seconds until the color change back to green!^It's tricky one! Haha
-level_info_77^Fill in the ? ^28-15=13，45-28=17，66-45=21，？- 66 = 25^ You must be really good at math!
+level_info_77^Fill in the ? ^28-15=13，45-28=17，66-45=21，？- 66 = 25 (?=91)^ You must be really good at math!
 level_info_78^Help little bat fall asleep^Tilt your device upside down!^ Bats sleep upside down!
 level_info_79^Help! The mountain is too heavy!^Just drag away 000^You just saved a life!
 level_info_80^Enter the biggest possible number.^Remember the symbol of infinity? Two o look like…? ^ Clever! Infinity is the biggest possible number!
@@ -84,7 +84,7 @@ level_info_82^Which dream do you want to come true？^Click on 3 buttons at the 
 level_info_83^Find out the hidden stars^Shake them!^Okay, okay, just stop, please...
 level_info_84^Time to go to bed, please help me to turn off the light!^Put your phone facing down^Goodnight!!
 level_info_85^Find out the rule and write down the answer！^9^You've got your brain in gear today!
-level_info_86^ZOZO feels cold，can you find a way to warm her up?^Rub the girl's body to warm her up.^Great! ZOZO got moved by you and decide to marry you!
+level_info_86^Anna feels cold，can you find a way to warm her up?^Rub the girl's body to warm her up.^Great! Anna got moved by you and decide to marry you!
 level_info_87^Don not lift up the stone! It's disgusting under it!  ^No one lift up the stone with only one finger! Lift with 3 fingers!^Oh gosh! I told you not to do that!
 level_info_88^Put the shapes into the right frame^Maybe we can put some of them into same frame? ^Nice work!
 level_info_89^Mix red and blue together^Use you finger to block the opening while shaking your device.^Don't try it when you do chemical experiments! It's dangerous!
@@ -102,9 +102,9 @@ level_info_100^You're so smart! Let's cheers!^Shake the Champagne bottle and pop
 level_info_101^Add 1 line to make this equation true.^Add a line at the sign "+" to make it into 4^ You are a genius.
 level_info_102^What is the minimum cuts needed to cut a circle into 8 equal parts? ^1 cut!You can fold this circle before you cut it. ^ Have you got it?
 level_info_103^What is the maximum number of pieces that a watermelon can be cut into with 10 cuts?^ Two to the power of ten！That's 1024 pieces！^ Now you've figured it out.
-level_info_104^If CDE=EFH, then EFH=?^ HFI ^ This one is really tricky!
-level_info_105^What comes after AEBFC? ^Write down ABCDEFG in order and then rearrange it according to the question. Do you find the rules? ^ You have a strong logical mind!
-level_info_106^What's the answer?^ A whole cat=10，but the last cat just shows one paw to you^ What a cute chubby kitty ~ 
+level_info_104^If CDE=EDF, then EFH=?^ HFI ^ This one is really tricky!
+level_info_105^What comes after AEBFC? ^Write down ABCDEFG in order and then rearrange it according to the question. It’s G^ You have a strong logical mind!
+level_info_106^What's the answer?^The last cat just shows one paw to you,it's 9. So 5+1x9=14^ What a cute chubby kitty ~ 
 level_info_107^Move 2 matchsticks to create an upright chair. ^Notice the leftmost and bottom matchsticks. ^I'm Impressed!
 level_info_108^Putting 3 coins into piggy bank, how many coins are there now?^Put all coins into piggy bank and then tap the piggy bank to break it!^ You did that very well!
 level_info_109^Turn this pyramid upside down in 3 moves. ^Move two circles from fourth row to second row，and then move the first row to the bottom.^ Excellent work！
@@ -119,7 +119,7 @@ level_info_117^Light up the 4th bulb^ It's time to speed up and get the chance! 
 level_info_118^How many holes does this pants have? ^Note that there are 2 holes in frontside, 2 holes in backside. ^ It looks too old!
 level_info_119^In writhing all of the integers from 1 to 199, how many times is "1" used?^140，write it down and count one by one^ I hope you found an easier way!
 level_info_120^Drive the car to the road sign.^Drag the Title and cloud away and let sun melt the ice^Good work!
-level_info_121^Find the chick^ Hold and shake the mother hen, chick is hiding behind the hen^I knew you could find the chick! 
+level_info_121^Find the chick^ One finger to hold the hen and shake it on the screen, chick is hiding behind the hen.(DO NOT SHAKE YOUR DEVICE)^I knew you could find the chick! 
 level_info_122^Find the mother hen^Move the screen to find it. ^ Good going!
 level_info_123^Find the mother hen again^Try zooming out your screen？^ Wow,You are very good at that!
 level_info_124^Count the number of hairs^The boy is wearing a wig, take it off!^ Haha, not bad!
@@ -136,7 +136,7 @@ level_info_134^Solve the problem ^ Have you noticed that a grape was missing？^
 level_info_135^Turn on the least switch to get water！^ See the picture ^ Are you feel a bit dizzy?
 level_info_136^Oh god! ZOZO overslept! Wake her up! ^ Slide the door handle and let mom in! ^ Don’t forget to set your alarm!
 level_info_137^Nap time is over! Wake baby up to feed some milk! ^Turn the minute hand twice around the clock! The baby need 2 hours for a nap! ^ Well done!
-level_info_138^Make the paper windmill spin fast! ^Wave your device like you wave a paper windmill! ^ The paper windmill is turning!
+level_info_138^Make the paper windmill spin fast! ^Wave your device like you wave a paper windmill fast and hard! ^ The paper windmill is turning!
 level_info_139^How to eat Carrots?^ Just move the carrot and then feed her! ^ Thank you sooooooooo much!
 level_info_140^Eat carrots again! ^ Words can be used as a board for bunny to jump. ^ WOW! Yummy yummy!
 level_info_141^The little bunny is hungry again! ^ Pick a heart and give it to the little bunny. She will grow into a big rabbit and jump over to eat carrot herself! ^ Thanks again!
@@ -148,7 +148,7 @@ level_info_146^Who is the tallest one? ^ Don't forget sun! ^ Clever!
 level_info_147^Find the Panda^Please try to take off the scarf and then pay attention to the buttons and ears! ^A Cosplay Panda!
 level_info_148^Find the Panda!^^ You are so smart!
 level_info_149^Find the number 8^^ Dizziness!
-level_info_150^Help the kitten fishing^Rising the fishhook up and then hang the earthworm on it,now shake your device!^I love fish!
+level_info_150^Help the kitten fishing^Shake to rising the fishhook up and then hang the earthworm on it. At last, shake your device again!^I love fish!
 level_info_151^Today is ZOZO’s 16th Birthday,help he find the gift!^Open the box to get a 8-digit password, the password is the date of birth!^Happy Birthday！
 level_info_151_low^Today is ZOZO’s 16th Birthday,help he find the gift!^Open the box to get a 8-digit password, the password is the date of birth!^Happy Birthday！
 level_info_152^Help Mark escape from the secret room ^ Turn off the lights first, then then cut through the wall, and you won't be found! ^ Prison Break!
@@ -160,10 +160,55 @@ level_info_156^Find the biggest one^A big watermelon!^You found it!
 level_info_157^How many ducks?^One of them is a chick^ Sweety
 level_info_158^Rescue giraffe^Rotate your device^Thank you!
 level_info_159^Find out the object!^^Congratulations!
+level_info_159_sp^Find out the object!^^Congratulations!
 level_info_160^Find 8 animals ^ Tap cloud and then earthworm would showing up when raining  ^ You are learning a lot!
 level_info_161^Pigsy was captured by the monster, save him! ^ Shake the monster and put the golden hoop on Monkey King‘s head! And then help Monkey king find the golden stick!^ Pigsy should exercise more！
 level_info_162^How to make your dream come true? ^ Rub the Aladdin's lamp several times and then tap the book! Only Knowledge can make you realize you dream! ^ Knowledge is Power!
 level_info_163^Find the aliens ^ Find the aliens' feet and drag the spaceship over! ^ Aliens were taken away by spaceship!
+level_info_164^No Smoking ^Take away the cigarette from pocket, and then stub out that cigarette!^Great!
+level_info_165^How many triangles below？^14！Don't forget the button ! They’re triangle too! ^You are getting better and better!
+level_info_166^Help dog to win!^Exchange horses before the start of the game！^Ah! A good horse is very important!
+level_info_167^Find the pingpong!^ Make x10 become x1, try to erase the “0”!^Congratulations!
+level_info_168^Which one would you give up?^I want them all! Tie two ropes together!^Good Dream！
+level_info_169^How many candles do I have left if 2 blew out?^2 candles left!, 8 Candles turn into wax while the two remain! ^I got it!
+level_info_170^Find the Fly^Take the glasses for him!^I dislike fly!
+level_info_171^Catch all birds^Slide the phone from pocket for him^ Love lives
+level_info_172^Make this equation true^Turn the 9 upside down！^You’re good at math！
+level_info_173^Picking fruit^Make a ladder with wood and rope^Great idea!
+level_info_174^Bath the cat^Put shower jell and then find the fish behind the chair^I love fish!
+level_info_175^Fill the bucket^Firstly put the bucket into the water tank^A poor bucket
+level_info_176^Make an ice cream! ^Two finger to move and find out the power ，put on the cone，add the ice and milk ^Now you know how to make the ice cream!
+level_info_177^Monkey can pick 2 pineapples per 1 minute, how many can he pick with 10 minutes on the tree? ^0, Pineapples don't grow on trees! ^You got this!
+level_info_178^Which two numbers can makeup into 8？^Two 0 can makeup into 8^I am a genius!
+level_info_179^How can avoid the doggy eating the sausage?^Just eat it yourself ^Burp!!
+level_info_180^Fill in the same number ^444+44+4+4+4=500^How long did you count it? lmao!
+level_info_181^Which one will you pick it up？^Press and slide to pick up them all！^Ahahaha, I'm rich！
+level_info_182^Find out all the items^^Awwwesome!!
+level_info_183^How to catch the thief? ^Find the shovel near the tree, dig out a hole and cover with dry grass in front of him！^Yeah! The thief fell into my trap!
+level_info_184^knock out all the bowling pins ^Lager the bowling ball^A+++！
+level_info_185^Squeeze the milk^The bull kick the calf three times and the cow would come out^A poor calf
+level_info_186^Charger it^charger "your" phone^ WTF?
+level_info_187^Find out the ping pong ball ^^Unexpected!
+level_info_188^|Protect| the rocket and hold on 15 seconds ^Move "protect" on the rocket^ Just piece of cake
+level_info_189^The Old lady has 7 sons, and each son have a sister, so how many children does the old lady have?^8 children,the last girl is them young sister^ Tricky test!
+level_info_190^Save the Egg^One finger to hold the barbell, and then remove the egg^Saved
+level_info_191^At least how many cut to cut a cake into 8 equal pieces？^3^WOW! That’s interesting!
+level_info_192^Disappear the card^Hold and continuous slide your screen 5 times,then tap the card.^Surprise！
+level_info_193^Find the |Exit|^Tap the “Exit” in title^Mysterious pyramid!
+level_info_194^Clear the monster^Zoom in the blue monster!^Clear!
+level_info_195^Comfort my dog^Touch him with your hand^Don’t forget to accompany him  
+level_info_196^Help the duck drink water^Cove the sun with cloud, and then move the water to him^Thanks! 
+level_info_197^Five in a Row. It's your turn!|AI：|You：^Don’t wait! Fill 5 pieces as soon as possible!^Are you cheating?
+level_info_198^Help the chick out^Move to the right gap^Good Job! 
+level_info_199^Catch the doll^Adjust the grip^Master！ 
+level_info_200^Crazy Pin Circle^Try one more time~^You’re amazing!
+level_info_201^Once again!^Enlarge the circle would be more easier^WOW! Congratulations! 
+level_info_202^Goal 3 times!^Use your finger to pan the football into the gate^The best player！ 
+level_info_203^Choose the largest number^Left - Right - Left - Left -Right^You’re good at math!
+level_info_204^Park the car^Go straight ahead to find more parking spaces^Good Driver
+level_info_205^Thirsty, May I have a glass of water?^One finger to hold the kettle, the other finger to turn^ Many thanks!
+level_info_206^Find green^Yellow+Blue=Green！Put the 2 color together!^WOW! Surprise!
+level_info_draw puzzle^Connect the two same dots^^
 level_info_rate^What mark would you give for this game?^Not the best？^Thanks for your support!
 level_info_end^Hello! More Challenges is Coming! Thanks for the patience and have a good day!|Stay Tuned For Updates|Remind Us^^
 level_info_sudoku^Fill The Right Boxes^^
@@ -253,3 +298,14 @@ lan_fr^Français
 lan_de^Deutsch
 lan_ru^Pусский
 lan_ko^한국어
+lan_es^Español
+lan_it^Italiano
+lan_pt^Português
+lan_vi^Tiếng Việt
+lan_th^ภาษาไทย
+shop_restore^Restore Purchase
+input_password^Enter Password
+make_btn^Design New Level
+noNetWork^Network unavailable
+level202_shoot^Shooting
+level_sp^SP.{0}

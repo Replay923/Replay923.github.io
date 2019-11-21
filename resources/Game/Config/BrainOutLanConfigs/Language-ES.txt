@@ -1,0 +1,311 @@
+--level guide.  key^问题^提示^通关后告知  （注意： 一句中，` 标记为换行 ^为分隔符)  此行不翻译。
+level_info_1^Encuentra el número más grande^¿Por qué no pruebas el tamaño más grande?^¡No está mal!
+level_info_2^Ayuda a la anciana a cruzar el río^¡Arrastra el río detrás de la anciana!^¡Gracias por tu ayuda! 
+level_info_3^¡Crea un rectángulo!^Intenta arrastrar el cuadrado un poco fuera de la pantalla^¡Lo lograste!
+level_info_4^¿En qué dirección apunta el dedo?^¡El dedo apunta a la "Derecha"!^¡Buen trabajo!
+level_info_5^¡Encuentra algo que no puedas comer!^¿Puedes comer el gallinero?^¡Eres increíble! 
+level_info_6^¿En qué dirección apunta la luz de la linterna?^¡La linterna está apagada ahora! ¡No hay luz!^¡Inteligente! 
+level_info_7^Qué 3 números suman 12^3+3+6=12^¡Acabas de resolver un problema matemático difícil!
+level_info_8^¿Puedes encontrar cuál es diferente?^Puedes mover la sandía.^¡Eres brillante!
+level_info_10^¿Qué número está debajo del automóvil estacionado?^¿Por qué no mueves el automóvil de ese espacio de estacionamiento?^¡Eres un genio!
+level_info_11^¿Cuántas diferencias puedes encontrar entre estas dos imágenes?^6 en el pastel, 2 en el tenedor, 8 en total^¡Increíble!
+level_info_12^¿Qué letras del alfabeto les gusta escuchar más a la gente?^¡A la gente le gusta escuchar CD!^Ja, ja, ja. ¡El próximo es súper fácil! 
+level_info_13^¿Cuántas papas fritas hay abajo?^¡Algunas papas fritas pueden retirarse!^¡Buen trabajo!
+level_info_14^¿Puedes resolver esta pregunta?^Es 1+2+3+11+2+3+11+2+3+1, solo ingresa 39^¡Leíste el problema con mucho cuidado!
+level_info_15^¡Hey!, ¿qué hora es ahora?^¡Ingresa la hora del sistema!^¡Sí! ¡Tienes razón!
+level_info_16^¿Puedes encontrar algo que puedas comer?^Arrastra dos figuras juntas para crear una rebanada de carne.^¡Oh! ¡Así se hace!
+level_info_17^¡Mueve 1 cerilla para formar el número más grande!^965^¡Sin duda lo hiciste muy bien el día de hoy!
+level_info_18^Pon todo en la caja^¡Todo! ¡Incluyendo todas las palabras!^¡Una caja mágica puede contener todo!
+level_info_19^¿Qué grosor tendrá un papel de 0,08 cm si lo doblas por la mitad 6 veces? ^0,08^¡No importa cuántas veces lo pliegues! ¡Seguirá siendo un papel de 0,08 cm!
+level_info_20^No fumar^¡Apaga ese cigarrillo!^¡Genial! ¡Así es, no fumar!
+level_info_21^¿Cuál forma tiene la mayor cantidad de lados?^Un círculo tiene infinitos lados.^¿Un círculo tiene 0 o infinitos lados? ¡Esa es la pregunta!
+level_info_22^Presiona sobre la pantalla durante 2 minutos. El récord más alto es de 500 veces. ¿Puedes romper ese récord?^¡Presiona continuamente el récord para romperlo!^Ja, ja. ¿Cuántas veces lo has intentado?
+level_info_23^¿Cuántos huevos quedan después de que los rompas?^0, no queda nada si los rompes.^¡Excelente!
+level_info_24^Cuando Zoe tenía 6 años, Lulu tenía el doble de su edad. Zoe ahora tiene 10 años, ¿cuántos años tiene Lulu?^¡16 años!^¡Sí! ¡Correcto!
+level_info_25^Si 1=5, 2=15, 3= 215, 4=3215, entonces 5 =?^Si 1=5, por supuesto 5=1^¡Increíble!
+level_info_26^Enciende el ventilador^¡Presiona dos cables rojos al mismo tiempo!^¡No olvides que el cuerpo humano puede conducir electricidad!
+level_info_27^¿Si hervir 1 huevo toma cinco minutos, ¿cuánto tiempo llevará hervir 6 huevos?^¡Puedes hervirlos juntos!^¡Increíble!
+level_info_28^¡Suma los 3 números más grandes de lo siguiente!^7+8+9=24^¡No olvides el número de teclado!
+level_info_29^¡Una simple pregunta! Haz que se cumpla la siguiente ecuación.^Intenta rotar 3^¡Correcto! 3+5=8
+level_info_30^¡Juguemos a Piedra, papel y tijera! ¡Uno elige tijera, el otro papel! ¿Cuántos dedos hay en total?^20^¡Dos personas, 20 dedos!
+level_info_31^¿Qué número señalará la manecilla de la hora después de 3 horas?^9. ¡Es solo una imagen, el reloj no funciona!^Mmm... Tal vez también puedas esperar 3 horas para obtener la respuesta~
+level_info_32^¿Cuántos triángulos hay en un pentagrama?^11^¡WOW! ¡Eres un genio!
+level_info_33^¿Cuántos puntos negros hay?^Si miras con cuidado, no hay puntos negros en la imagen.^¡Tus ojos no vieron borroso!
+level_info_34^Corrige la dirección^¡Gira tu dispositivo!^¡Descubrirás un mundo nuevo si ves las cosas desde un ángulo diferente!
+level_info_35^¡13 niños juegan a las escondidas en el jardín de infancia! Se encontraron a 10 escondidos. ¿Cuántos escondidos quedan?^2^¡No olvides que uno es el que busca!
+level_info_36^Ve a la salida^¡Laberinto cerrado! ¡Por favor, salta!^¡Sabía que podías hacerlo!
+level_info_37^¿Qué cubo tiene agua?^Gira tu dispositivo^¡Pon los cubos boca abajo y saldrá el agua!
+level_info_38^¡Tienes que ganar el juego!|Zoe:|Tú:^Usa tus dos dedos para llenar la "o" al mismo tiempo, hazlo seguido^¿Estás haciendo trampa?
+level_info_39^3 damas, cada una acompañada de 2 hijas, están cenando juntas. ¿Cuántas sillas se necesitan por lo menos?^7 sillas^3 damas = 1 mujer mayor + 2 mujeres jóvenes
+level_info_40^Encuentra un corazón^Combina dos figuras para formar un corazón^¡Buen trabajo!
+level_info_41^Una pregunta cliché. ¿A quién salvarías? ¿A tu madre o a tu novia?^No te pedí que salves a una sola persona^De hecho, no es una pregunta, ¡porque no tienes novia!
+level_info_42^Encuentra la foto^¡Presiona y sujeta el sobre para que salga la foto!^¡OH! ¡Por qué eres tan inteligente!
+level_info_43^Ayuda a Zoe a beber el sedimento de jugo del fondo.^Lleva la parte inferior a la boca.^¡OH! ¡Delicioso!
+level_info_44^¡Mata a la mosca asquerosa!^Pon 1 dedo en la pantalla para atraerla y luego usa el otro dedo para matarla^¡Dios mío, estás loco!...
+level_info_45^¿Qué color es el que más abunda?^¿Te fijaste en el fondo?^¡Correcto!
+level_info_46^¡Tienes que ganar este juego otra vez! ¡Ahora es tu turno!|Zoe:|Tú:^ ¡Arrastra la "O" arriba! ¡Es útil!^¿Estás haciendo trampa otra vez?
+level_info_47^Despierta al búho^Los búhos son nocturnos, arrastra el sol fuera de la pantalla^¡Genial! ¡Tienes un cerebro GENIO!
+level_info_48^¡Encuentra el color más oscuro en la pantalla!^¡Dios mío! ¿De qué color es el texto?^¡Buen trabajo!
+level_info_49^¿Qué garra es similar a la garra extendida del gato?^Por supuesto, las garras de la izquierda y derecha del gato son las más similares.^¡OH! Me encanta, miau~~~~
+level_info_50^¡Encuentra los dulces en la caja!^Agita la caja para romper los huevos^¡Increíble! 
+level_info_51^¡Mantén la balanza equilibrada!^¡Una balanza vacía siempre está equilibrada!^¿Eres un genio?
+level_info_52^¡AYUDA! ¿Dónde está mi anillo?^¡Abre la lata y alimenta a mi perra, ella te avisará!^¡Qué!
+level_info_53^Corrige la ecuación^Borra la mitad de la E, ¿no parece funcionar? ¡Tú solo inténtalo de nuevo!^¡Lo lograste!
+level_info_54^Enciende toda la bombilla^Solo necesitas arrastrar la última.^¡Bingo!
+level_info_55^¿Cuántas polluelos hay?^Fíjate en los polluelos escondidos debajo de los botones^¡Tienes mucha suerte!
+level_info_56^¿Puedes resolver esta pregunta?^¡Arrastra "-" de 1 a "?" y haz que se convierta en "2"!^¡Estás mejorando cada vez más!
+level_info_57^¡Presiona sobre una mariposa sobre el texto!^¡Arrastra el texto debajo de la mariposa!^¡Ajá! ¡No dejes que te engañe de nuevo!
+level_info_58^¡Mamá ha vuelto! ¡Ayúdame a ocultar el mando de videojuegos!^Cubra el mando de videojuegos con tu dedo por un momento.^¡Bien pensado!
+level_info_59^Ayuda a que el bebé se duerma^¡Sujeta tu dispositivo de arriba y abajo, luego balancéalo suavemente hasta que el bebé se duerma!^¡OH! ¡El bebé ahora duerme!
+level_info_60^Presiona las frutas de izquierda a derecha, luego presiona el hexágono, el círculo y el rectángulo^¿Cuáles son frutas?^¡Es importante leer las instrucciones cuidadosamente!
+level_info_61^Escribe la respuesta correcta^¿Cuál es la respuesta a 4+5? ¡Es 9!^¡Ya lo has descubierto!
+level_info_62^¡Descubre el fuego más grande!^¿Cuál es el resultado de fuego más fuego?^¡Cuantos más, mejor! 
+level_info_63^¡Pon la jirafa en la nevera!^Amplía la nevera y luego arrastra a la jirafa dentro.^¡Entendiste! ¡Excelente!
+level_info_64^Ayuda a la niña a comer el pastel^¡Mueve una tabla y luego salta!^¡Perfecto!
+level_info_65^Abre la caja^¡Nadie puede abrir la caja con una sola mano!^¡Genial!
+level_info_65_low^Abre la caja^¡Sujétala y levanta la tapa!^¡Genial!
+level_info_66^¡De nuevo! ¿A quién salvarías? ¿a tu mamá o a tu novia?^¡Despierta! ¡Sacude tu teléfono!^XD ¡No tienes novia!
+level_info_67^Presiona en el siguiente orden:|1,6,8,2,20,17,60,33^¡Memoriza el orden antes de comenzar a presionar!^¡Realmente estás mejorando!
+level_info_68^Escribe un número de 2 dígitos según la imagen.^¡Calcula el perímetro! Es 58^¡Nada puede detenerte!
+level_info_69^¿Cómo comer los fideos?^¡Espera! ¡Es posible que necesites cubrir los fideos! ¡Intenta usar tu dedo!^¡Esa es la forma de cocinar fideos instantáneos!
+level_info_70^¡Maldición! ¡No puedo soportar este desastre!^¡Limpia la pintura equivocada!^¡Se ve mejor ahora!
+level_info_71^Ingresa una contraseña de 5 dígitos^El espejo reflejará una respuesta correcta. Es 70773^¡Genial!
+level_info_72^Encuentra el hexágono^¡Intenta crear un hexágono tu mismo!^¡Maravilloso!
+level_info_73^¿Cómo pasar este nivel?^¡No olvides usar el ratón! ¡Muévete y haz clic derecho!^¡Muy fácil!
+level_info_74^Ayuda a Tom a llamar su atención^¡Mueve la bolsa hacia Tom!^¡Pero no es una buena forma de llamar la atención de la chica que te gusta!
+level_info_75^Descubre el rectángulo más grande^¡No te olvides el fondo otra vez!^¡Estás aprendiendo muy rápido!
+level_info_76^¡Haz clic sobre el rectángulo naranja 3 veces, luego sobre el rectángulo verde 5 veces!^Después del 6to toque, ¡espera unos segundos hasta que el color vuelva a ser verde!^¡Es complicado! Ja, ja
+level_info_77^Completa el "?"^28-15=13, 45-28=17, 66-45=21, ? - 66 = 25 (?=91)^¡Debes ser realmente bueno en matemáticas!
+level_info_78^Ayuda al pequeño murciélago a quedarse dormido^¡Inclina tu dispositivo boca abajo!^¡Los murciélagos duermen boca abajo!
+level_info_79^¡Ayuda! ¡La montaña es demasiado pesada!^Solo arrastra 000^¡Acabas de salvar una vida!
+level_info_80^Ingresa el número más grande posible.^¿Recuerdas el símbolo del infinito? ¿Y si juntamos dos "o"...?^¡Qué inteligente! ¡El infinito es el mayor número posible!
+level_info_81^El pequeño elefante está muy solo^¡Mantén presionado para duplicar un elefante más!^¡Mira, ya no esta solo!
+level_info_82^¿Qué sueño quieres que se haga realidad?^Haz clic en 3 botones al mismo tiempo^¿Quién no los quiere todos?
+level_info_83^Descubre las estrellas ocultas^¡Agítalas!^Bueno, ya está bien, detente, por favor...
+level_info_84^¡Hora de ir a la cama, por favor, ayúdame a apagar la luz!^Coloca tu teléfono boca abajo^¡Buenas noches!
+level_info_85^¡Descubre la regla y escribe la respuesta!^9^¡Tu cerebro está pensando mucho el día de hoy!
+level_info_86^Anna tiene frío, ¿puedes encontrar alguna forma de calentarla?^Frota el cuerpo de la muchacha para calentarla.^¡Genial! ¡Anna se conmovió y decidió casarse contigo!
+level_info_87^¡No levantes la piedra! ¡Es asquerosa por debajo!^Nadie levanta la piedra con solo un dedo! ¡Levanta con 3 dedos!^¡Oh, Dios! ¡Te dije que no hicieras eso!
+level_info_88^Pon las formas en el marco correcto^¿Tal vez podamos poner algunas formas en el mismo marco?^¡Buen trabajo!
+level_info_89^Mezcla el rojo y el azul^Usa tu dedo para bloquear la abertura mientras agitas tu dispositivo.^¡No lo intentes cuando realices experimentos químicos! ¡Es peligroso!
+level_info_90^Presiona las frutas de izquierda a derecha, luego presiona sobre el hexágono, el cuadrado y el diamante^Gira tu teléfono 45°. Encontrarás un cuadrado.^¡Oh! ¡Sigue así! 
+level_info_91^Ayuda al bebé a cortarse el cabello^Ponlo a dormir y luego córtale el cabello. ¿Cómo?^¡Bien hecho! ¡Ahora sabes cómo ser un buen padre!
+level_info_92^¿Cuál es el más barato?^¿Qué número es el más pequeño?^¡Tómate un descanso y prepárate para el próximo!
+level_info_93^Presiona el botón azul diez veces, luego presiona el botón rojo una vez.^No mires el contador, solo cuenta.^¡Lo estás haciendo genial!
+level_info_94^Presiona sobre el menú^Mira con atención, un menú en la esquina inferior derecha^¡Buena vista!
+level_info_95^Hoy Tyke cumple dos años, enciende las velas para él.^Enciende la vela del medio e inclina tu dispositivo para encender la otra.^¿Aún recuerdas quién es Tyke? El lindo perrito de Tom y Jerry.
+level_info_96^Jack quiere beber Minute Maid^Agítalo antes de que dárselo^¡Gracias!
+level_info_97^Despierta al cerdito^¡Presiona su nariz hasta que se despierte!^¡Bueno, puedes soltarlo!
+level_info_98^Hay 26 letras en el alfabeto. Si ET se va, ¿cuántas letras quedan?^ET se va junto a su UFO^¿Crees que existen extraterrestres?
+level_info_99^Encuentra las diferencias^¿Por qué no tratar de mover la mesa?^¿Inesperado verdad? Ja, ja, ja.
+level_info_100^¡Qué inteligente eres! ¡Brindemos!^¡Agita la botella de champán y revienta el corcho!^¡Impresionante!
+level_info_101^Agrega 1 línea para que esta ecuación sea verdadera.^Agrega una línea en el signo "+" para convertirlo en 4^Eres un genio.
+level_info_102^¿Cuáles son los cortes mínimos necesarios para cortar un círculo en 8 partes iguales?^¡1 corte! Puedes doblar este círculo antes de cortarlo.^¿Lo tienes?
+level_info_103^¿Cuál es el número máximo de pedazos en la que se puede cortar una sandía con 10 cortes?^¡Dos a la potencia de diez! ¡Eso es 1024 piezas!^Ahora lo has descubierto.
+level_info_104^Si CDE = EDF, entonces EFH =?^HFI^¡Esto es realmente complicado!
+level_info_105^¿Qué viene después de AEBFC?^Escribe ABCDEFG en orden y luego reorganiza según la pregunta. Es G^¡Tienes una lógica muy desarrollada!
+level_info_106^¿Cuál es la respuesta?^El último gato solo te muestra una pata, es 9. Entonces, 5+1x9=14^Qué lindo y gordito ese gatito~ 
+level_info_107^Mueve 2 cerillas para crear una silla vertical.^Observa las cerillas más a la izquierda e inferiores.^¡Estoy impresionado!
+level_info_108^Al poner 3 monedas en la hucha, ¿cuántas monedas hay ahora?^Pon todas las monedas en la hucha y luego presiona sobre la hucha para romperla!^¡Lo hiciste muy bien!
+level_info_109^Gira esta pirámide al revés en 3 movimientos.^Mueve dos círculos de la cuarta fila a la segunda fila y luego mueve la primera fila hacia abajo.^¡Excelente trabajo!
+level_info_110^¿Cuál es la respuesta?^43215. ¿Por qué? ¡Usa un bolígrafo y escríbelo!^¡Está mejorando cada vez más!
+level_info_111^¡Averígualo!^(2+3)*3=15, (3+4)*4=2,... (6+7)*7=?^¡Dominas las matemáticas a la perfección!
+level_info_112^¿Puedes resolver esto?^5+3=(5-3)(5+3)=28, 9+1=(9-1)(9+1)=810... Similarmente, 7+3=(7-3)(7+3)=410^¡Bien hecho!
+level_info_113^Ayuda al patito a beber agua^¡Deja de llenar la botella! Hay agua en el suelo.^Me recuerda a la historia de los cuervos que bebían agua.
+level_info_114^Cruza el puente^¡Sal y camina!^¡No te sientes! ¡Ponte en forma!
+level_info_115^¿Qué temperatura corporal tienes ahora?^Pon el dedo en el termómetro y toma tu temperatura.^¡Genial!
+level_info_116^Forma el número más pequeño posible.^Sube el signo "-" y haz que la respuesta sea -999^¡Correcto!
+level_info_117^Enciende la 4ta bombilla^¡Es hora de acelerar y aprovechar la oportunidad! ¡Presta atención a la cantidad de bombillas!^Debes de haber estado practicando mucho.
+level_info_118^¿Cuántos agujeros tiene este pantalón?^Ten en cuenta que hay 2 agujeros en la parte delantera y 2 en la parte trasera.^¡Parece demasiado viejo!
+level_info_119^Al escribir todos los números enteros del 1 al 199, ¿cuántas veces se usa "1"?^140, escríbelo y cuenta uno por uno.^¡Espero que hayas encontrado una forma más fácil!
+level_info_120^Conduce el coche hasta la señal de tráfico.^Arrastra el Título y la nube y deja que el sol derrita el hielo.^¡Buen trabajo!
+level_info_121^Encuentra al pollito^Sostén y sacude a la gallina madre, el pollito se esconde detrás de la gallina^¡Sabía que podrías encontrar al pollito! 
+level_info_122^Encuentra la gallina madre^Mueve la pantalla para encontrarla.^¡Bien hecho!
+level_info_123^Encuentra a la gallina madre otra vez^¿Intentaste alejar el zoom de la pantalla?^¡Oh, esto se te da de maravilla!
+level_info_124^Cuenta el número de pelos^El niño lleva una peluca, ¡quítasela!^¡Jaja, no está mal!
+level_info_125^Cuenta de nuevo el número de pelos^¡Hay pelos en la espalda!^¡No te pierdes ni un detalle!
+level_info_126^¿Cuántas hormigas hay?^¡Las hormigas son demasiado pequeñas para contarlas, haz zoom en la piedra!^¡Lo estás haciendo genial!
+level_info_127^¿Qué vaso se llenará primero?^Hay un vaso falso. ¡Por favor, quítalo primero!^¡Perfecto!
+level_info_128^Haz que la ecuación sea verdadera^Mueve las cerillas y haz que se convierta en 1-0 = 1^¡Bien pensado!
+level_info_129^Machaca al topo^Arrastra el topo al mazo^¿Has jugado a Machaca al Topo antes?
+level_info_130^Ayúdalos a cruzar el río^Agranda el bote y conviértelo en un puente.^¡Muchas gracias!
+level_info_131^Intenta crear el mayor número posible moviendo solo 2 cerillas.^31181^¡Genial!
+level_info_132^Una vela mide 50 cm de alto y puede arder durante 3 horas. Otro mide 70 cm de alto y puede arder durante 6 horas. ¿Cuánto tardan estas dos velas en alcanzar la misma altura?^Tienen la misma altura cuando se consumen del todo.^¡Inteligente!
+level_info_133^Apaga la luz nuevamente.^Desliza la bombilla y sácala.^¡Pero no pedí quitarla!
+level_info_134^Resuelve el problema^¿Has notado que faltaba una uva?^¡Continúa así! ¡Eres el mejor! 
+level_info_135^¡Activa la menor cantidad de llaves de paso posibles para obtener agua!^Mira la imagen^¿Estás un poco mareado?
+level_info_136^¡Oh, Dios! ¡ZOZO se quedó dormida! ¡Despiértala!^¡Desliza la manija de la puerta y deja que su mamá entre!^¡No olvides poner tu alarma!
+level_info_137^¡Se acabó la siesta! ¡Despierta al bebé para darle un poco de leche!^¡Gira el minutero dos vueltas! ¡El bebé necesita 2 horas para una siesta!^¡Bien hecho!
+level_info_138^¡Haz que el molino de papel gire rápido!^¡Agita tu dispositivo como si agitaras un molino de papel rápido y fuerte!^¡El molino de papel gira!
+level_info_139^¿Cómo comer zanahorias?^¡Tan solo mueve la zanahoria y luego dale de comer!^¡Muchísimas gracias!
+level_info_140^¡Come zanahorias otra vez!^Las palabras se pueden usar como una mesa para que el conejito salte.^¡OH! ¡Delicioso!
+level_info_141^¡El conejito tiene hambre otra vez!^Elige un corazón y dáselo al conejito. ¡Se convertirá en un gran conejo y saltará para comer zanahoria!^¡Gracias de nuevo!
+level_info_142^¿Cuántos triángulos hay?^¿Arrastra la figura y cuenta de nuevo?^¡Eres un genio!
+level_info_143^¡Qué hambre! ¡Crea algo para comer!^¿Recuerdas cómo se ve el huevo escalfado?^¡Eso, un delicioso huevo escalfado!
+level_info_144^¡ZOZO quiere ir a patinar con amigos! Ayúdale a encontrar otro patín.^¿Intentaste crear un patín tú mismo?^¡Lo encontraste!
+level_info_145^Los animales están teniendo una reunión deportiva. El conejo, el mono y el poni están compitiendo en este momento. ¡Ayuda al conejo a ganar!^¡Agarra al poni y el mono con una mano y haz que el conejito corra hasta el final!^¡Ah! ¡El conejito está haciendo trampa!
+level_info_146^¿Quién es el más alto?^¡No te olvides del sol!^¡Inteligente!
+level_info_147^Encuentra al Panda^¡Intenta quitar la bufanda y luego presta atención a los botones y orejas!^¡Un Panda disfrazado!
+level_info_148^¡Encuentra al Panda!^^¡Eres muy inteligente!
+level_info_149^Encuentra el número 8^^¡Qué mareo!
+level_info_150^Ayuda al gatito a pescar^Levanta el anzuelo y luego cuelga en él la lombriz, ¡ahora sacude tu dispositivo!^¡Me encanta el pescado!
+level_info_151^Hoy ZOZO cumple 16 años, ¡ayúdalo a encontrar su regalo!^Abre la caja para obtener una contraseña de 8 dígitos, ¡la contraseña es la fecha de nacimiento!^¡Feliz cumpleaños!
+level_info_151_low^Hoy ZOZO cumple 16 años, ¡ayúdalo a encontrar su regalo!^Abre la caja para obtener una contraseña de 8 dígitos, ¡la contraseña es la fecha de nacimiento!^¡Feliz cumpleaños!
+level_info_152^Ayuda a Mark a escapar de la habitación secreta^¡Apaga las luces primero, luego corta a través de la pared y no te encontrarán!^¡A huir de la prisión!
+level_info_153^Ayúdales a tener una cita a ciegas con éxito^¿Presionaste sobre el perro varias veces?^¡Te adoro!
+level_info_154^Encuentra al lobo entre las ovejas^Arrastra la carne hasta sus bocas. ¡Solo el lobo quiere comer carne! ¡Encuéntralo y quítate su disfraz de oveja!^¡Finalmente atrapaste a este lobo!
+level_info_154_low^Encuentra al lobo entre las ovejas^Arrastra la carne hasta sus bocas. ¡Solo el lobo quiere comer carne! ¡Encuéntralo y quítate su disfraz de oveja!^¡Finalmente atrapaste a este lobo!
+level_info_155^¡Atrapa a la rata!^¡Enciende el palo, fuma un lado de la pipa y luego usa tu dedo para bloquear el otro lado!^¡¡¡Rata mala!!!
+level_info_156^Encuentra al más grande^¡Una sandía grande!^¡Lo encontraste!
+level_info_157^¿Cuántos patos hay?^Uno de ellos es un pollo^Genial
+level_info_158^Rescata a la jirafa^Rota tu dispositivo^¡Gracias!
+level_info_159^¡Encuentra el objeto!^^¡Felicidades!
+level_info_159_sp^¡Encuentra el objeto!^^¡Felicidades!
+level_info_160^Encuentra 8 animales^Presiona sobre la nube, aparecerá la lombriz cuando llueva^¡Estás aprendiendo mucho!
+level_info_161^Pigsy fue capturado por el monstruo, ¡rescátalo!^¡Sacude al monstruo y pon el aro dorado en la cabeza del Rey Mono! ¡Luego ayuda al Rey Mono a encontrar el palo dorado!^¡Pigsy debería hacer más ejercicio!
+level_info_162^¿Cómo puedes hacer tu sueño realidad?^¡Frota la lámpara de Aladino varias veces y luego presiona sobre el libro! ¡Solo el conocimiento puede hacer cumplir tus sueños!^¡El conocimiento es poder!
+level_info_163^Encuentra a los extraterrestres^¡Encuentra los pies de los extraterrestres y arrastra sobre la nave espacial!^¡Los extraterrestres fueron sacados por la nave espacial!
+level_info_164^No fumar^¡Saca el cigarrillo del bolsillo y luego apágalo!^¡Genial!
+level_info_165^¿Cuántos triángulos hay debajo?^¡14! ¡No te olvides del botón! ¡También es un triángulo!^¡Cada vez lo haces mejor!
+level_info_166^¡Ayuda al perro a ganar!^¡Cambia caballos antes del comienzo del juego!^¡Ah! ¡Un buen caballo es muy importante!
+level_info_167^¡Encuentra el pingpong!^¡Haz que x10 se convierta en x1, intenta borrar el "0"!^¡Felicidades!
+level_info_168^¿A cuál renunciarías?^¡Los quiero todos! ¡Ata dos cuerdas juntas!^¡Bueno sueño!
+level_info_169^¿Cuántas velas me quedan si soplo 2?^¡Quedan 2 velas! ¡8 velas se convierten en cera mientras las dos permanecen! ^¡Lo entendí!
+level_info_170^¡Encuentra a la mosca!^¡Toma las vasos por él!^¡No me gustan las moscas!
+level_info_171^Atrapa todas las aves^Desliza el teléfono del bolsillo para él^El amor perdura
+level_info_172^Haz que esta ecuación sea verdadera^¡Pon el 9 al revés!^¡Eres bueno en matemáticas!
+level_info_173^Recolecta la fruta^¡Crea una escalera con la madera y la cuerda!^¡Gran idea!
+level_info_174^Baña al gato^Pon el gel para ducha y luego encuentra al pez detrás de la silla^¡Me encanta el pescado!
+level_info_175^Llena la cubeta^Primero coloca la cubeta en el tanque de agua^Una cubeta pobre
+level_info_176^¡Haz un helado!^Usa dos dedos para moverte y encontrar la electricidad. Pon en el cono, agrega el hielo y la leche^¡Ahora sabes cómo hacer el helado!
+level_info_177^El mono puede recolectar 2 piñas en 1 minuto, ¿cuántas piñas puede recolectar durante 10 minutos en el árbol? ^0, ¡las piñas no crecen en los árboles!^¡Lo entendiste!
+level_info_178^¿Cuáles dos números pueden formar un 8?^Dos 0 pueden formar un 8^¡Soy un genio!
+level_info_179^¿Cómo puedes evitar que el perrito se coma la salchicha?^Cómetela tú mismo^¡Ñam!
+level_info_180^Completa con el mismo número^444+44+4+4+4=500^¿Cuánto tiempo te costó?
+level_info_181^¿Cuál elegirás?^¡Presiona y desliza para recolectarlos todos!^¡Ja, ja, ja, soy rico!
+level_info_182^Descubre todos los artículos^^¡Maravilloso!
+level_info_183^¿Cómo se puede atrapar al ladrón?^¡Encuentra la pala cerca del árbol, cava un hoyo y cúbrelo con hierba seca frente a él!^¡Sí! ¡El ladrón cayó en mi trampa!
+level_info_184^Derriba todos los bolos^Agranda la bola^¡A+++!
+level_info_185^Extrae leche^El toro patea al ternero tres veces y la vaca sale^Un ternero pobre
+level_info_186^Cárgalo^carga "tu" teléfono^¡¿Pero qué demonios...?!
+level_info_187^Encuentra la pelota de ping pong^^¡Inesperado!
+level_info_188^|Protege| el cohete y resiste 15 segundos^Mueve "protege" sobre el cohete^¡Pan Comido!
+level_info_189^La anciana tiene 7 hijos, cada hijo tiene una hermana, entonces, ¿cuántos hijos tiene la anciana?^8 hijos, la última niña es la hermana menor^¡Una prueba con trampa!
+level_info_190^Guarda el Huevo^Un dedo para sostener la barra y luego retirar el huevo^Salvado
+level_info_191^¿Cuántos cortes deben realizarse como mínimo para cortar un pastel en 8 piezas por igual?^3^¡Oh, qué interesante!
+level_info_192^Desaparece la tarjeta^Mantén presionando y desliza tu pantalla 5 veces, luego presiona sobre la tarjeta.^¡Sorpresa!
+level_info_193^Encuentra la |Salida|^Presiona la "Salida" en el título^¡Qué pirámide más misteriosa!
+level_info_194^¡Elimina a los monstruos!^¡Haz zoom sobre el monstruo azul!^¡Limpiado!
+level_info_195^Consuela a mi perro^Tócalo con la mano^No te olvides de acompañarlo  
+level_info_196^Ayuda al pato a beber agua^Cubre el sol con nubes y luego mueve el agua hacia él^¡Gracias! 
+level_info_197^Cinco en una fila. ¡Es tu turno!|AI:|Tú:^¡No esperes! ¡Llena 5 piezas lo antes posible!^¿Estás haciendo trampa?
+level_info_198^Ayuda al pollito a salir^Mueve a la brecha correcta^¡Buen trabajo! 
+level_info_199^Agarra al muñeco^Ajusta el botón^¡Maestro! 
+level_info_200^Tiro Loco de Dardos^Inténtalo una vez más~^¡Eres increíble!
+level_info_201^¡Una vez más!^Agrandar el círculo sería más fácil^¡OH! ¡Felicidades! 
+level_info_202^¡Marca gol 3 veces!^Usa tu dedo para meter el balón dentro del arco^¡El mejor jugador! 
+level_info_203^Elige el número más grande^Izquierda - Derecha - Izquierda - Izquierda - Derecha^¡Eres bueno en matemáticas!
+level_info_204^Estaciona el automóvil^Sigue recto para encontrar más espacios en el estacionamiento^Conduces bien
+level_info_205^Tengo sed, ¿puedo tomar un vaso de agua?^Usa un dedo para sostener la tetera, el otro dedo para girar^¡Muchas gracias!
+level_info_206^Encuentra el bloque verde^¡Amarillo + Azul = Verde! ¡Combina los 2 colores!^¡OH! ¡Qué sorpresa!
+level_info_draw puzzle^Conecta los dos puntos iguales^^
+level_info_rate^¿Qué calificación darías a este juego?^¿No es el mejor?^¡Gracias por tu apoyo!
+level_info_end^¡Hola! ¡Ya vienen más desafíos! ¡Gracias por tu paciencia y que tengas un buen día!|Presta atención a las actualizaciones|Recuérdanos^^
+level_info_sudoku^Llena los cuadros correctos^^
+level_press^Presionar
+level_clear^Limpiar
+level_ok^Aceptar
+level_left^Izquierda
+level_right^Derecha
+level_bottom^Abajo
+level_allnot^Ninguno de las anteriores
+level_exit^Salir
+level_up^Arriba
+level_down^Abajo
+adnotready^Los anuncios aún no están listos...
+adwait^Espera..
+reward^Obtén X {0} Llaves
+guide_levelMax^Ya vienen más desafíos...
+checkin_title^Bienvenido de nuevo
+checkin_days^Día {0}
+checkin_today^Hoy
+checkin_get^Obtener
+checkin_tomorrow^Mañana
+shop_title^Tienda
+shop_free^Gratis
+menu_daily^Bonos Diario
+menu_shop^Tienda
+menu_rate^Calificación
+menu_feedback^Sugerencia
+menu_share^Compartir
+menu_music^Música
+menu_sound^Efectos de Sonido
+menu_shock^Vibración
+menu_term^Términos de Servicio
+menu_clause^Política de Privacidad
+tip_title^Consejos
+tip_gettip^Ver un Vídeo
+tip_shop^Tienda
+skip_title^Saltar
+skip_gettip^Ver un Vídeo
+skip_guide^Saltar el desafío consumirá 2 llaves, ¿quieres saltar?
+skip_skip^Saltar
+win_title^¡Felicidades!
+win_next^Siguiente
+rate_title^Calificación
+rate_guide^¡Gracias por tu apoyo! ¿Quieres calificarnos?
+rate_point^{0} Puntos
+rate_fullpoint^Máxima Puntuación
+paysuccess^¡PAGO REALIZADO CON ÉXITO! Obtén X {0} Llaves.
+tips_skip^Nvl.{0} saltado
+exit_guide^¿Seguro que quieres salir?
+exit_cancel^CANCELAR
+exit_ok^SALIR
+level_download^INSTALAR AHORA
+help_help^AYUDA
+key_key^+Llave
+last_last^Anterior
+copy_copy^COPIAR
+level82_1^Viajar por el mundo
+level82_2^Fino y Rico
+level82_3^ Más bonito
+level45_white^Blanco
+level45_red^Rojo
+level45_yellow^Amarillo
+level45_green^Verde
+level45_blue^Azul
+level45_purple^Púrpura
+input_guide^Ingresar
+rate_feed_guide^¡Nos gustaría recibir más comentarios tuyos para poder mejorar nuestro juego!
+level_begin^Iniciar
+level_pause^Pausar
+level_jump^SALTAR
+level_go^IR
+level_continue^Continuar
+level151_date^La fecha del calendario es de ayer
+level152_escape^Escapar
+level162_dream1^Viaja alrededor del mundo
+level162_dream2^Hay una cabaña junto al lago
+level162_dream3^domina varios idiomas
+noAds^Quitar Anuncios
+lan_Title^Idioma
+lan_Guide^Español
+lan_cn^简体中文
+lan_en^English
+lan_hant^繁體中文
+lan_ja^日本語
+lan_fr^Français
+lan_de^Deutsch
+lan_ru^Pусский
+lan_ko^한국어
+lan_es^Español
+lan_it^Italiano
+lan_pt^Português
+lan_vi^Tiếng Việt
+lan_th^ภาษาไทย
+shop_restore^Restaurar compra
+input_password^Introducir contraseña
+make_btn^Nivel de diseño nuevo
+noNetWork^Red no disponible
+level202_shoot^Disparo
+level_sp^SP.{0}
