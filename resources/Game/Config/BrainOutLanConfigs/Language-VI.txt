@@ -208,6 +208,17 @@ level_info_203^Phán đoán to nhỏ^Trái phải trái trái phải^Tiếp tụ
 level_info_204^Đỗ xe^Lái về phía trước tìm chỗ đỗ khác^Tài xế lão luyện
 level_info_205^Hơi khát, muốn uống chút nước^Một ngón tay giữ nguyên ấm nước, ngón khác xoay để điều chỉnh^Bạn giỏi lắm
 level_info_206^Tìm màu xanh lá cây^Vàng + xanh lam = xanh lá cây! Ghép khối màu^Lại biết thêm kiến thức mới rồi 
+level_info_208^圣诞老人在北极！怎么最快到达北极？^把人物直接移动到北极^不错哦，学会走捷径了！
+level_info_209^哪条路通往圣诞老人的家呢？^在路痕的右边擦出另一条路痕再选吧！^这雪橇痕埋的有点深
+level_info_210^进屋找圣诞老人^移动屏幕，钥匙在树上@连续点击5下圣诞树拿到钥匙^真是个小机灵鬼！
+level_info_211^圣诞老人去哪了呢？^移动烤炉上的相框找到字条^快追上圣诞老人的步伐， 开始寻找铃铛吧！
+level_info_212^找到铃铛^从相片的剪刀手内滑出剪刀@拖动剪刀到绿色礼物盒^太厉害了，藏哪都逃不过你的眼睛
+level_info_213^找到驯鹿^移动草到圣诞树的左边红灯下^红鼻子鲁道夫！
+level_info_214^捡到圣诞帽^太阳晒出了裂痕！用手指遮住太阳！^你的手真大！
+level_info_215^越过雪山^根据路线旋转手机^漂移玩得不错~
+level_info_216^圣诞老人危险！快救他^手指滑动瓶盖三下@把瓶子丢给熊^圣诞老人决定送你一个礼物作为感谢！
+level_info_217^拆你的礼物啦^滑动黄色礼物盒的丝带^当当当~ 圣诞快乐！
+level_info_share^你最想跟谁一起玩Brain Out?^当然是分享给最爱的人~^独乐乐不如众乐乐
 level_info_rate^Nghiêm túc một chút, bạn đánh giá mấy sao cho game này?^5 sao đương nhiên là tốt nhất rồi, nếu bạn có bất cứ ý tưởng gì hay, xin vui lòng cho chúng tôi biết!^Cảm ơn sự ủng hộ và hỗ trợ của bạn! Chúng tôi sẽ tiếp tục cố gắng!
 level_info_end^Hi! Chúng tôi đang cố gắng để cho ra những thử thách thú vị hơn! Nhiều câu đố thú vị sắp ra mắt, hãy cùng chờ đón!|Vui lòng chờ đón|Thúc giục chúng tôi^^
 level_info_sudoku^Điền vào ô tương ứng^^
@@ -303,9 +314,29 @@ lan_it^Italiano
 lan_pt^Português
 lan_vi^Tiếng Việt
 lan_th^ภาษาไทย
+lan_ar^العربية
+lan_idn^Indonesia
 shop_restore^Khôi phục mua
 input_password^Nhập mật khẩu
 make_btn^Tạo cửa
 noNetWork^Kết nối mạng không khả dụng
 level202_shoot^Sút bóng
 level_sp^SP.{0}
+xmas_title^寻找圣诞老人之旅
+xmas_day^天
+xmas_open^开启
+xmas_openLimit^（Lv.{0}）关后开启
+xmas_sale_title^限时优惠
+xmas_levelGuide^对新手来说，题目有点难度哦！确定继续挑战吗？
+xmas_levelBegin^挑战
+xmas_listGuide^圣诞老人去哪了？
+xmas_winGuide^你太棒了，请收下圣诞礼物！
+xmas_reward^收下
+level211_guide^I'm away from home. Call the Reindeer with Bells, come and find me!
+level211_name^圣诞老人
+level211_know^知道啦
+levelShare_family^家人
+levelShare_spouse^另一半
+levelShare_friend^朋友
+levelShare_colleague^同事
+levelShare_all^所有人

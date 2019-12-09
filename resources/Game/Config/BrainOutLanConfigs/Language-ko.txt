@@ -208,6 +208,17 @@ level_info_203^크기를 판단하세요.^좌우좌우좌^더 노력하세요!
 level_info_204^차를 잘 세우세요.^계속 앞으로 가서 다른 자리를 찾으세요.^베스트 드라이버!
 level_info_205^목이 마르네요. 물이 필요해요.^한 손으로 주전자를 누르고 다른 손으로 조절하세요.^멋지네요.
 level_info_206^초록색을 찾으세요.^노랑+파랑-초록! 색을 겹치세요.^또 하나 배웠죠? 
+level_info_208^圣诞老人在北极！怎么最快到达北极？^把人物直接移动到北极^不错哦，学会走捷径了！
+level_info_209^哪条路通往圣诞老人的家呢？^在路痕的右边擦出另一条路痕再选吧！^这雪橇痕埋的有点深
+level_info_210^进屋找圣诞老人^移动屏幕，钥匙在树上@连续点击5下圣诞树拿到钥匙^真是个小机灵鬼！
+level_info_211^圣诞老人去哪了呢？^移动烤炉上的相框找到字条^快追上圣诞老人的步伐， 开始寻找铃铛吧！
+level_info_212^找到铃铛^从相片的剪刀手内滑出剪刀@拖动剪刀到绿色礼物盒^太厉害了，藏哪都逃不过你的眼睛
+level_info_213^找到驯鹿^移动草到圣诞树的左边红灯下^红鼻子鲁道夫！
+level_info_214^捡到圣诞帽^太阳晒出了裂痕！用手指遮住太阳！^你的手真大！
+level_info_215^越过雪山^根据路线旋转手机^漂移玩得不错~
+level_info_216^圣诞老人危险！快救他^手指滑动瓶盖三下@把瓶子丢给熊^圣诞老人决定送你一个礼物作为感谢！
+level_info_217^拆你的礼物啦^滑动黄色礼物盒的丝带^当当当~ 圣诞快乐！
+level_info_share^你最想跟谁一起玩Brain Out?^当然是分享给最爱的人~^独乐乐不如众乐乐
 level_info_draw puzzle^동일한 색상 및 숫자의 두 점을 연결하세요^^
 level_info_rate^이 게임에 몇 점을 주시겠어요?^물론 만점이 좋겠죠. 좋은 아이디어가 있으면 언제든 알려 주세요!^감사합니다! 앞으로도 계속 노력하겠습니다!
 level_info_end^더 많은 문제를 열심히 개발하고 있으니, 많은 기대 바랍니다!|개발 중|재촉하기^^
@@ -303,9 +314,29 @@ lan_it^Italiano
 lan_pt^Português
 lan_vi^Tiếng Việt
 lan_th^ภาษาไทย
+lan_ar^العربية
+lan_idn^Indonesia
 shop_restore^구매 회복
 input_password^비밀번호 입력
 make_btn^스테이지 창작
 noNetWork^네트워크 연결을 사용할 수 없습니다
 level202_shoot^공 발사
 level_sp^SP.{0}
+xmas_title^寻找圣诞老人之旅
+xmas_day^天
+xmas_open^开启
+xmas_openLimit^（Lv.{0}）关后开启
+xmas_sale_title^限时优惠
+xmas_levelGuide^对新手来说，题目有点难度哦！确定继续挑战吗？
+xmas_levelBegin^挑战
+xmas_listGuide^圣诞老人去哪了？
+xmas_winGuide^你太棒了，请收下圣诞礼物！
+xmas_reward^收下
+level211_guide^I'm away from home. Call the Reindeer with Bells, come and find me!
+level211_name^圣诞老人
+level211_know^知道啦
+levelShare_family^家人
+levelShare_spouse^另一半
+levelShare_friend^朋友
+levelShare_colleague^同事
+levelShare_all^所有人
