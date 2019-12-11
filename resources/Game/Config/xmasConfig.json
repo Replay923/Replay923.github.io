@@ -1,0 +1,7 @@
+{
+	"key": "XMAS",
+	"limitTime": "01/01/0001 00:00:00",
+	"xmasSecs": 1000,
+	"lvLimit": 30,
+	"isOpen": false
+}
