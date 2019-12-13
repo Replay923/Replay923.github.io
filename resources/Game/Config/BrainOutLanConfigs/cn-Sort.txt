@@ -191,5 +191,6 @@
 		"draw puzzle",
 		"share"
 	],
-	"xmas": true
+	"xmas": true,
+	"sale": true
 }

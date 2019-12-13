@@ -208,17 +208,17 @@ level_info_203^Elige el número más grande^Izquierda - Derecha - Izquierda - Iz
 level_info_204^Estaciona el automóvil^Sigue recto para encontrar más espacios en el estacionamiento^Conduces bien
 level_info_205^Tengo sed, ¿puedo tomar un vaso de agua?^Usa un dedo para sostener la tetera, el otro dedo para girar^¡Muchas gracias!
 level_info_206^Encuentra el bloque verde^¡Amarillo + Azul = Verde! ¡Combina los 2 colores!^¡OH! ¡Qué sorpresa!
-level_info_208^圣诞老人在北极！怎么最快到达北极？^把人物直接移动到北极^不错哦，学会走捷径了！
-level_info_209^哪条路通往圣诞老人的家呢？^在路痕的右边擦出另一条路痕再选吧！^这雪橇痕埋的有点深
-level_info_210^进屋找圣诞老人^移动屏幕，钥匙在树上@连续点击5下圣诞树拿到钥匙^真是个小机灵鬼！
-level_info_211^圣诞老人去哪了呢？^移动烤炉上的相框找到字条^快追上圣诞老人的步伐， 开始寻找铃铛吧！
-level_info_212^找到铃铛^从相片的剪刀手内滑出剪刀@拖动剪刀到绿色礼物盒^太厉害了，藏哪都逃不过你的眼睛
-level_info_213^找到驯鹿^移动草到圣诞树的左边红灯下^红鼻子鲁道夫！
-level_info_214^捡到圣诞帽^太阳晒出了裂痕！用手指遮住太阳！^你的手真大！
-level_info_215^越过雪山^根据路线旋转手机^漂移玩得不错~
-level_info_216^圣诞老人危险！快救他^手指滑动瓶盖三下@把瓶子丢给熊^圣诞老人决定送你一个礼物作为感谢！
-level_info_217^拆你的礼物啦^滑动黄色礼物盒的丝带^当当当~ 圣诞快乐！
-level_info_share^你最想跟谁一起玩Brain Out?^当然是分享给最爱的人~^独乐乐不如众乐乐
+level_info_208^¿Cómo llegar al Polo Norte de inmediato?^Mueve al muchacho al Polo Norte en el globo^¡WOW! ¡Genio en geografía!
+level_info_209^¿Qué camino lleva a la casa de Papá Noel?^Limpia la pantalla con tu dedo@¡sigue limpiando! Necesitas encontrar todas las marcas de trineo^Emmm... ¡Fue una fuerte nevada!
+level_info_210^¡Ingresa a la casa para encontrar a Papá Noel!^La escena se puede mover@Presiona sobre el árbol de Navidad 5 veces^¡Eres tan inteligente!
+level_info_211^¿Dónde está Papá Noel?^Mueva el marco de fotos de la estufa^¿Dónde está Papá Noel??
+level_info_212^Encuentra la campana de Papá Noel^Arrastra las tijeras de las manos de tijera en la foto@Arrastra las tijeras a la caja de regalo verde^¡WOW! ¡Caso cerrado!
+level_info_213^¡Encuentra al Reno!^Mueve la hierba hacia la luz roja en el lado izquierdo del árbol de Navidad.^¿Es Rodolfo el Reno de nariz roja?
+level_info_214^¡Recoge el sombrero de Navidad!^¡El sol está muy fuerte que derritió el hielo! ¡Cubre el sol con tu dedo!^¿Está Elsa aquí?
+level_info_215^Cruzar la montaña de nieve^Sigue el camino girando tu dispositivo^¡WOW! ¡Drift Racing Impresionante!
+level_info_216^¡Papá Noel está en peligro! ¡Ayúdalo!^Desliza la tapa de la botella 3 veces @Tira la botella hacia el oso^¡Papá Noel quiere enviarte un regalo!
+level_info_217^Abre tu regalo^ Deslice la cinta en la caja de regalo amarilla^¡Feliz navidad!
+level_info_share^¿Con quién quieres jugar Brain Out?^Comparte con tus seres queridos~^¡Comparte con ellos ahora!
 level_info_draw puzzle^Conecta los dos puntos iguales^^
 level_info_rate^¿Qué calificación darías a este juego?^¿No es el mejor?^¡Gracias por tu apoyo!
 level_info_end^¡Hola! ¡Ya vienen más desafíos! ¡Gracias por tu paciencia y que tengas un buen día!|Presta atención a las actualizaciones|Recuérdanos^^
@@ -322,21 +322,21 @@ make_btn^Nivel de diseño nuevo
 noNetWork^Red no disponible
 level202_shoot^Disparo
 level_sp^SP.{0}
-xmas_title^寻找圣诞老人之旅
-xmas_day^天
-xmas_open^开启
-xmas_openLimit^（Lv.{0}）关后开启
-xmas_sale_title^限时优惠
-xmas_levelGuide^对新手来说，题目有点难度哦！确定继续挑战吗？
-xmas_levelBegin^挑战
-xmas_listGuide^圣诞老人去哪了？
-xmas_winGuide^你太棒了，请收下圣诞礼物！
-xmas_reward^收下
-level211_guide^I'm away from home. Call the Reindeer with Bells, come and find me!
-level211_name^圣诞老人
-level211_know^知道啦
-levelShare_family^家人
-levelShare_spouse^另一半
-levelShare_friend^朋友
-levelShare_colleague^同事
-levelShare_all^所有人
+xmas_title^Buscando a Papá Noel
+xmas_day^Días
+xmas_open^Abrir
+xmas_openLimit^Abre cuando alcances el (Nvl.{0})
+xmas_sale_title^Oferta de Tiempo Limitado
+xmas_levelGuide^¡Es difícil para un novato! ¿Quieres continuar?
+xmas_levelBegin^PUEDO HACERLO
+xmas_listGuide^¿Dónde está Papá Noel?
+xmas_winGuide^¡Eres genial! ¡Aquí está el regalo de Navidad!
+xmas_reward^Obtenerlo
+level211_guide^Estoy lejos de casa. ¡Llama al Reno con Campanas, ven y encuéntrame!
+level211_name^Papá Noel
+level211_know^Aceptar
+levelShare_family^Familia
+levelShare_spouse^Amor
+levelShare_friend^Amigos
+levelShare_colleague^Colega
+levelShare_all^TODOS

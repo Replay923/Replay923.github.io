@@ -208,17 +208,17 @@ level_info_203^Scegli il numero più grande^Sinistra - Destra - Sinistra - Sinis
 level_info_204^Parcheggia l'auto^Prosegui dritto per trovare altri parcheggi^Bravo Autista
 level_info_205^Ho sete, posso avere un bicchiere d'acqua?^Un dito per tenere il bollitore, l'altro per girare^ Mille grazie!
 level_info_206^Trova il blocco verde^Giallo+Blu=Verde! Metti insieme i 2 colori!^WOW! Sorpresa!
-level_info_208^圣诞老人在北极！怎么最快到达北极？^把人物直接移动到北极^不错哦，学会走捷径了！
-level_info_209^哪条路通往圣诞老人的家呢？^在路痕的右边擦出另一条路痕再选吧！^这雪橇痕埋的有点深
-level_info_210^进屋找圣诞老人^移动屏幕，钥匙在树上@连续点击5下圣诞树拿到钥匙^真是个小机灵鬼！
-level_info_211^圣诞老人去哪了呢？^移动烤炉上的相框找到字条^快追上圣诞老人的步伐， 开始寻找铃铛吧！
-level_info_212^找到铃铛^从相片的剪刀手内滑出剪刀@拖动剪刀到绿色礼物盒^太厉害了，藏哪都逃不过你的眼睛
-level_info_213^找到驯鹿^移动草到圣诞树的左边红灯下^红鼻子鲁道夫！
-level_info_214^捡到圣诞帽^太阳晒出了裂痕！用手指遮住太阳！^你的手真大！
-level_info_215^越过雪山^根据路线旋转手机^漂移玩得不错~
-level_info_216^圣诞老人危险！快救他^手指滑动瓶盖三下@把瓶子丢给熊^圣诞老人决定送你一个礼物作为感谢！
-level_info_217^拆你的礼物啦^滑动黄色礼物盒的丝带^当当当~ 圣诞快乐！
-level_info_share^你最想跟谁一起玩Brain Out?^当然是分享给最爱的人~^独乐乐不如众乐乐
+level_info_208^Come arrivare immediatamente al Polo Nord?^Sposta il ragazzo al Polo Nord sul globo^WOW! Genio della geografia!
+level_info_209^Quale strada conduce a casa di Babbo Natale^Pulisci lo schermo con il dito@continua a pulire! Devi trovare tutti i segni della slitta^Emmm.. Ha nevicato molto!
+level_info_210^Entra nella casa per trovare Babbo Natale!^La scena può essere spostata@Clicca sull'albero di Natale 5 volte^Sei tremendamente intelligente!
+level_info_211^Dov'è Babbo Natale?^Sposta la cornice dalla stufa^Dov'è Babbo Natale?
+level_info_212^Trova il campanellino di Babbo Natale^Fai scorrere le forbici dalle mani di forbice nella foto@Trascina le forbici nel pacco regalo verde^WOW! Caso chiuso!
+level_info_213^Trova la Renna!^Sposta l'erba sulla luce rossa a lato sinistro dell'albero di Natale^Rudolph la Renna col Naso Rosso?
+level_info_214^Raccogli il cappello di Natale!^Il sole è troppo caldo che ha crepato il ghiaccio! Insegui il sole con un dito!^Elsa è qui?
+level_info_215^Attraversa la montagna di neve^Segui la strada per ruotare il dispositivo^WOW! Impressionante Pilota di Drifting!
+level_info_216^Babbo Natale è in pericolo! Aiutalo!^Fai scivolare il tappo della bottiglia 3 volte@Getta la bottiglia all'orso^Babbo Natale vuole inviarti un regalo!
+level_info_217^Apri il regalo^Fai scorrere il nastro sul pacco regalo giallo^Buon Natale!
+level_info_share^Con chi vuoi giocare a Brain Out?^Fallo con la persona che ami~^Condividilo con lui/lei ora!
 level_info_draw puzzle^Collega i due punti uguali^^
 level_info_rate^Quale voto daresti a questo gioco?^Non il migliore?^Grazie per il tuo supporto!
 level_info_end^Ciao! Altre Sfide stanno Arrivando! Grazie per la pazienza e buona giornata!|Resta Sintonizzato Per Gli Aggiornamenti|Ricordati Di Noi^^
@@ -322,21 +322,21 @@ make_btn^Progetta Nuovo Livello
 noNetWork^Rete non disponibile
 level202_shoot^Tiro
 level_sp^SP.{0}
-xmas_title^寻找圣诞老人之旅
-xmas_day^天
-xmas_open^开启
-xmas_openLimit^（Lv.{0}）关后开启
-xmas_sale_title^限时优惠
-xmas_levelGuide^对新手来说，题目有点难度哦！确定继续挑战吗？
-xmas_levelBegin^挑战
-xmas_listGuide^圣诞老人去哪了？
-xmas_winGuide^你太棒了，请收下圣诞礼物！
-xmas_reward^收下
-level211_guide^I'm away from home. Call the Reindeer with Bells, come and find me!
-level211_name^圣诞老人
-level211_know^知道啦
-levelShare_family^家人
-levelShare_spouse^另一半
-levelShare_friend^朋友
-levelShare_colleague^同事
-levelShare_all^所有人
+xmas_title^Alla ricerca di Babbo Natale
+xmas_day^Giorni
+xmas_open^Apri
+xmas_openLimit^Apri quando arrivi (Lv.{0})
+xmas_sale_title^Offerta a Tempo Limitato
+xmas_levelGuide^È difficile per un principiante! Vuoi continuare?
+xmas_levelBegin^POSSO FARCELA
+xmas_listGuide^Dov'è Babbo Natale?
+xmas_winGuide^Sei fantastico! Eccoti il tuo regalo di Natale!
+xmas_reward^Prendilo
+level211_guide^Sono lontano da casa. Chiama la Renna con i Campanellini, vieni a trovarmi!
+level211_name^Babbo Natale
+level211_know^OK
+levelShare_family^Famiglia
+levelShare_spouse^Amante
+levelShare_friend^Amici
+levelShare_colleague^Collega
+levelShare_all^TUTTI

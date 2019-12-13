@@ -188,7 +188,9 @@
 	],
 	"trails": [
 		"sudoku",
-		"draw puzzle"
+		"draw puzzle",
+		"share"
 	],
-	"xmas": false
+	"xmas": true,
+	"sale": true
 }

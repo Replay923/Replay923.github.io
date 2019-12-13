@@ -208,17 +208,17 @@ level_info_203^크기를 판단하세요.^좌우좌우좌^더 노력하세요!
 level_info_204^차를 잘 세우세요.^계속 앞으로 가서 다른 자리를 찾으세요.^베스트 드라이버!
 level_info_205^목이 마르네요. 물이 필요해요.^한 손으로 주전자를 누르고 다른 손으로 조절하세요.^멋지네요.
 level_info_206^초록색을 찾으세요.^노랑+파랑-초록! 색을 겹치세요.^또 하나 배웠죠? 
-level_info_208^圣诞老人在北极！怎么最快到达北极？^把人物直接移动到北极^不错哦，学会走捷径了！
-level_info_209^哪条路通往圣诞老人的家呢？^在路痕的右边擦出另一条路痕再选吧！^这雪橇痕埋的有点深
-level_info_210^进屋找圣诞老人^移动屏幕，钥匙在树上@连续点击5下圣诞树拿到钥匙^真是个小机灵鬼！
-level_info_211^圣诞老人去哪了呢？^移动烤炉上的相框找到字条^快追上圣诞老人的步伐， 开始寻找铃铛吧！
-level_info_212^找到铃铛^从相片的剪刀手内滑出剪刀@拖动剪刀到绿色礼物盒^太厉害了，藏哪都逃不过你的眼睛
-level_info_213^找到驯鹿^移动草到圣诞树的左边红灯下^红鼻子鲁道夫！
-level_info_214^捡到圣诞帽^太阳晒出了裂痕！用手指遮住太阳！^你的手真大！
-level_info_215^越过雪山^根据路线旋转手机^漂移玩得不错~
-level_info_216^圣诞老人危险！快救他^手指滑动瓶盖三下@把瓶子丢给熊^圣诞老人决定送你一个礼物作为感谢！
-level_info_217^拆你的礼物啦^滑动黄色礼物盒的丝带^当当当~ 圣诞快乐！
-level_info_share^你最想跟谁一起玩Brain Out?^当然是分享给最爱的人~^独乐乐不如众乐乐
+level_info_208^산타 할아버지는 북극에 있어요! 북극에 가장 빨리 가는 방법은 무엇일까요?^캐릭터를 북극 위치에 놓아 주세요.^사회지리 공부 좀 하셨군요!
+level_info_209^어느 길로 가야 산타 할아버지의 집이 나올까요?^손으로 문지르세요.@썰매가 지나간 길을 찾아 보세요.^썰매의 흔적이 숨어 있었군요!
+level_info_210^집에 들어가 산타 할아버지를 찾아 보세요.^맵을 움직일 수 있어요.@크리스마스트리를 연속으로 5번 터치해 보세요.^정말 똑똑하군요!
+level_info_211^산타 할아버지가 어디 가셨을까요?^난로 위의 액자를 치워 보세요.^산타 할아버지가 어디 가신 걸까요?
+level_info_212^방울을 찾으세요.^사진 속 손에서 가위를 꺼내세요.@가위로 초록색 상자를 자르세요.^정말 대단하시네요!
+level_info_213^루돌프를 찾아 보세요.^풀을 크리스마스트리의 왼쪽 빨간색 등에 가져가 보세요.^빨간 코 루돌프!
+level_info_214^크리스마스 모자를 주우세요.^손가락으로 태양을 막아 보세요.^대단해요!
+level_info_215^눈의 산을 지나가세요.^노선에 맞춰 기기를 기울이세요.^아주 잘했어요~
+level_info_216^산타 할아버지가 위험해요! 도와주세요!^병뚜껑을 3번 슬라이드하세요.@병을 곰에게 주세요.^산타 할아버지가 감사의 선물을 주신대요!
+level_info_217^선물을 여세요.^노란 상자의 리본을 슬라이드하세요.^짜잔~ 메리 크리스마스!
+level_info_share^이 게임을 누구와 함께 플레이하고 싶나요?^물론 가장 좋아하는 사람과 해야죠~^즐거움은 나누면 두 배랍니다
 level_info_draw puzzle^동일한 색상 및 숫자의 두 점을 연결하세요^^
 level_info_rate^이 게임에 몇 점을 주시겠어요?^물론 만점이 좋겠죠. 좋은 아이디어가 있으면 언제든 알려 주세요!^감사합니다! 앞으로도 계속 노력하겠습니다!
 level_info_end^더 많은 문제를 열심히 개발하고 있으니, 많은 기대 바랍니다!|개발 중|재촉하기^^
@@ -322,21 +322,21 @@ make_btn^스테이지 창작
 noNetWork^네트워크 연결을 사용할 수 없습니다
 level202_shoot^공 발사
 level_sp^SP.{0}
-xmas_title^寻找圣诞老人之旅
-xmas_day^天
-xmas_open^开启
-xmas_openLimit^（Lv.{0}）关后开启
-xmas_sale_title^限时优惠
-xmas_levelGuide^对新手来说，题目有点难度哦！确定继续挑战吗？
-xmas_levelBegin^挑战
-xmas_listGuide^圣诞老人去哪了？
-xmas_winGuide^你太棒了，请收下圣诞礼物！
-xmas_reward^收下
-level211_guide^I'm away from home. Call the Reindeer with Bells, come and find me!
-level211_name^圣诞老人
-level211_know^知道啦
-levelShare_family^家人
-levelShare_spouse^另一半
-levelShare_friend^朋友
-levelShare_colleague^同事
-levelShare_all^所有人
+xmas_title^산타 할아버지를 찾는 여정
+xmas_day^일
+xmas_open^개방시작
+xmas_openLimit^(Lv. {0}) 스테이지 이후 개방
+xmas_sale_title^한정 혜택
+xmas_levelGuide^신규 유저에게는 조금 어려울 수 있어요! 계속 도전하시겠어요?
+xmas_levelBegin^도전
+xmas_listGuide^산타 할아버지가 어디 가셨을까요?
+xmas_winGuide^대단해요! 크리스마스 선물을 받으세요!
+xmas_reward^받기
+level211_guide^일이 있어서 나갔으니, 용건이 있으면 방울로 루돌프를 모아 찾아오거라.
+level211_name^산타클로스
+level211_know^알겠어요
+levelShare_family^가족
+levelShare_spouse^연인
+levelShare_friend^친구
+levelShare_colleague^동료
+levelShare_all^모두

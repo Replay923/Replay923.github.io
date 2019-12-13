@@ -208,17 +208,17 @@ level_info_203^Tentukan besar kecil ^Kiri kanan kiri kiri kanan ^Ayo semangat te
 level_info_204^Parkir mobil ^Setir mobil ke depan sampai menemukan tempat parkir ^Pak supir
 level_info_205^Haus nih, ingin minum ^Pegang ketel dengan satu jari, gunakan jari lainnya untuk memutar ^Kamu hebat sekali!
 level_info_206^Temukan hijau ^Kuning+Biru=Hijau! Tumpuk 2 warna jadi 1 ^Belajar sesuatu lagi nih! 
-level_info_208^圣诞老人在北极！怎么最快到达北极？^把人物直接移动到北极^不错哦，学会走捷径了！
-level_info_209^哪条路通往圣诞老人的家呢？^在路痕的右边擦出另一条路痕再选吧！^这雪橇痕埋的有点深
-level_info_210^进屋找圣诞老人^移动屏幕，钥匙在树上@连续点击5下圣诞树拿到钥匙^真是个小机灵鬼！
-level_info_211^圣诞老人去哪了呢？^移动烤炉上的相框找到字条^快追上圣诞老人的步伐， 开始寻找铃铛吧！
-level_info_212^找到铃铛^从相片的剪刀手内滑出剪刀@拖动剪刀到绿色礼物盒^太厉害了，藏哪都逃不过你的眼睛
-level_info_213^找到驯鹿^移动草到圣诞树的左边红灯下^红鼻子鲁道夫！
-level_info_214^捡到圣诞帽^太阳晒出了裂痕！用手指遮住太阳！^你的手真大！
-level_info_215^越过雪山^根据路线旋转手机^漂移玩得不错~
-level_info_216^圣诞老人危险！快救他^手指滑动瓶盖三下@把瓶子丢给熊^圣诞老人决定送你一个礼物作为感谢！
-level_info_217^拆你的礼物啦^滑动黄色礼物盒的丝带^当当当~ 圣诞快乐！
-level_info_share^你最想跟谁一起玩Brain Out?^当然是分享给最爱的人~^独乐乐不如众乐乐
+level_info_208^Sinterklas adanya kan di Kutub Utara! Kok bisa secepat itu sampai di Kutub Utara? ^Pindahkan kaki karakter ke Kutub Utara ^Pengetahuan Geografis yang lumayan!
+level_info_209^Jalan mana yang menuju rumahnya Sinterklas? ^Usap jari dengan layar @ Bersihkan semua jejak kereta luncur ^Jejak kereta luncur ini agak dalam
+level_info_210^Masuk ke dalam rumah untuk mencari Sinterklas ^Area bisa dipindahkan @ Klik pohon Natal 5x ^Memang benar-benar pintar!
+level_info_211^Sinterklas pergi ke mana? ^Pindahkan bingkai foto dari atas perapian ^Sinterklas pergi ke mana?
+level_info_212^Temukan Bel ^Geser gunting dari foto @ Seret gunting ke kotak hadiah hijau ^Hebat sekali, disembunyikan di situ pun bisa ketahuan olehmu
+level_info_213^Temukan Rusa ^Pindahkan rumput ke bawah lampu merah di sebelah kiri pohon Natal ^Rudolph Si Rusa berhidung merah
+level_info_214^Temukan Topi Natal ^Matahari sangat terik! Gunakan jari untuk menutupi matahari! ^Apakah itu Putri Elsa?
+level_info_215^Sebrangi Gunung salju ^Putar ponsel mengikuti jalur ^Kamu jago nge-drift juga nih~
+level_info_216^Sinterklas dalam bahaya! Segera selamatkan! ^Geser tutup botol 3x dengan jari @ Berikan botol ke beruang ^Sinterklas memutuskan untuk memberimu sebuah hadiah sebagai tanda terima kasih!
+level_info_217^Buka hadiahmu ^Geser pita kuning di atas kotak hadiah ^Wow~ Selamat hari Natal!
+level_info_share^Kamu paling ingin bermain Brain Out dengan siapa? ^Tentu saja dengan orang terdekat yang paling dikasihi~^Karena bermain bersama itu lebih seru
 level_info_rate^Berapa nilai yang kamu berikan buat game ini? ^Nilai penuh tentu saja paling bagus, kalau ada saran apapun silakan beritahu kami! ^Terima kasih atas dukungan kalian! Kami akan lebih semangat!
 level_info_end^Hai! Kami sedang berusaha keras untuk menemukan tantangan yang lebih menarik! Tantangan lainnya akan segera hadir, nantikan segera! |Nantikan Segera!| Ingatkan kami ^^
 level_info_sudoku^Isi kotak yang sesuai ^^
@@ -322,21 +322,21 @@ make_btn^Buat Lv. Tantangan
 noNetWork^Koneksi Internet tidak bisa digunakan
 level202_shoot^Tembak
 level_sp^SP.{0}
-xmas_title^寻找圣诞老人之旅
-xmas_day^天
-xmas_open^开启
-xmas_openLimit^（Lv.{0}）关后开启
-xmas_sale_title^限时优惠
-xmas_levelGuide^对新手来说，题目有点难度哦！确定继续挑战吗？
-xmas_levelBegin^挑战
-xmas_listGuide^圣诞老人去哪了？
-xmas_winGuide^你太棒了，请收下圣诞礼物！
-xmas_reward^收下
-level211_guide^我已外出， 有事请用铃铛召集驯鹿来找我
-level211_name^圣诞老人
-level211_know^知道啦
-levelShare_family^家人
-levelShare_spouse^另一半
-levelShare_friend^朋友
-levelShare_colleague^同事
-levelShare_all^所有人
+xmas_title^Perjalanan Mencari Sinterklas
+xmas_day^Hari
+xmas_open^Mulai
+xmas_openLimit^Dibuka setelah Stage (Lv.{0})
+xmas_sale_title^Promosi Waktu Terbatas
+xmas_levelGuide^Bagi seorang Newbie, pertanyaan ini agak sulit lho! Yakin mau lanjut tantang?
+xmas_levelBegin^Tantang
+xmas_listGuide^Sinterklas pergi ke mana?
+xmas_winGuide^Kamu hebat sekali, silakan terima kado Natal ini!
+xmas_reward^Simpan
+level211_guide^Aku sedang di luar, kalau ada urusan gunakan bel untuk memanggil rusa dan mencariku
+level211_name^Sinterklas
+level211_know^Oke
+levelShare_family^Keluarga
+levelShare_spouse^Pasangan
+levelShare_friend^Teman
+levelShare_colleague^Teman kerja
+levelShare_all^Semua orang

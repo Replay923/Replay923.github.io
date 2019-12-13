@@ -208,17 +208,17 @@ level_info_203^Choose the largest number^Left - Right - Left - Left -Right^You�
 level_info_204^Park the car^Go straight ahead to find more parking spaces^Good Driver
 level_info_205^Thirsty, May I have a glass of water?^One finger to hold the kettle, the other finger to turn^ Many thanks!
 level_info_206^Find green^Yellow+Blue=Green！Put the 2 color together!^WOW! Surprise!
-level_info_208^圣诞老人在北极！怎么最快到达北极？^把人物直接移动到北极^不错哦，学会走捷径了！
-level_info_209^哪条路通往圣诞老人的家呢？^在路痕的右边擦出另一条路痕再选吧！^这雪橇痕埋的有点深
-level_info_210^进屋找圣诞老人^移动屏幕，钥匙在树上@连续点击5下圣诞树拿到钥匙^真是个小机灵鬼！
-level_info_211^圣诞老人去哪了呢？^移动烤炉上的相框找到字条^快追上圣诞老人的步伐， 开始寻找铃铛吧！
-level_info_212^找到铃铛^从相片的剪刀手内滑出剪刀@拖动剪刀到绿色礼物盒^太厉害了，藏哪都逃不过你的眼睛
-level_info_213^找到驯鹿^移动草到圣诞树的左边红灯下^红鼻子鲁道夫！
-level_info_214^捡到圣诞帽^太阳晒出了裂痕！用手指遮住太阳！^你的手真大！
-level_info_215^越过雪山^根据路线旋转手机^漂移玩得不错~
-level_info_216^圣诞老人危险！快救他^手指滑动瓶盖三下@把瓶子丢给熊^圣诞老人决定送你一个礼物作为感谢！
-level_info_217^拆你的礼物啦^滑动黄色礼物盒的丝带^当当当~ 圣诞快乐！
-level_info_share^你最想跟谁一起玩Brain Out?^当然是分享给最爱的人~^独乐乐不如众乐乐
+level_info_208^How to arrive The North Pole immediately?^Move the guy to the North Pole on globe^WOW! Geography genius!
+level_info_209^Which road leads to Santa's home^Wipe the screen with your finger@keep wiping! You need to find all sled marks^Emmm.. It was a heavy snow!
+level_info_210^Enter the house to find Santa Claus!^The scene can be moved@Click the Christmas tree 5 times^You’re sooooo smart!
+level_info_211^Where is Santa Claus?^Move the photo frame from the stove^Where is Santa Claus?
+level_info_212^Find the Santa's bell^Slide the scissors from scissor hands in the photo@Drag the scissors to the green gift box^WOW! Case Closed!
+level_info_213^Find Reindeer!^Move the grass to the red light on the left side of the Christmas tree^Rudolph the Red-Nosed Reindeer?
+level_info_214^Pick up the Christmas hat!^The sun is too hot that cracked the ice! Cove the sun with your finger!^Is Elsa here?
+level_info_215^Cross the snow mountain^Follow the road to turn your device^WOW! Awesome Drift Racing!
+level_info_216^Santa Claus is in danger! Help him!^Slide the bottle cap 3 times@Throw the bottle to bear^Santa Claus want to send a gift to you！
+level_info_217^Open your gift^ Slide the ribbon on yellow gift box^Merry Christmas!
+level_info_share^Who do you want to play Brain Out together?^Share the one you love~^Let's share to him/her now!
 level_info_draw puzzle^Connect the two same dots^^
 level_info_rate^What mark would you give for this game?^Not the best？^Thanks for your support!
 level_info_end^Hello! More Challenges is Coming! Thanks for the patience and have a good day!|Stay Tuned For Updates|Remind Us^^
@@ -322,21 +322,21 @@ make_btn^Design New Level
 noNetWork^Network unavailable
 level202_shoot^Shooting
 level_sp^SP.{0}
-xmas_title^寻找圣诞老人之旅
-xmas_day^天
-xmas_open^开启
-xmas_openLimit^（Lv.{0}）关后开启
-xmas_sale_title^限时优惠
-xmas_levelGuide^对新手来说，题目有点难度哦！确定继续挑战吗？
-xmas_levelBegin^挑战
-xmas_listGuide^圣诞老人去哪了？
-xmas_winGuide^你太棒了，请收下圣诞礼物！
-xmas_reward^收下
+xmas_title^Finding Santa
+xmas_day^Days
+xmas_open^Open
+xmas_openLimit^Open when you arrive(Lv.{0})
+xmas_sale_title^Limited Time Offer
+xmas_levelGuide^It’s hard for a novice! Keep going or not?
+xmas_levelBegin^I CAN DO IT
+xmas_listGuide^Where is Santa Claus?
+xmas_winGuide^You are awesome! The Christmas present for you!
+xmas_reward^Get it
 level211_guide^I'm away from home. Call the Reindeer with Bells, come and find me!
-level211_name^圣诞老人
-level211_know^知道啦
-levelShare_family^家人
-levelShare_spouse^另一半
-levelShare_friend^朋友
-levelShare_colleague^同事
-levelShare_all^所有人
+level211_name^Santa Claus
+level211_know^OK
+levelShare_family^Family
+levelShare_spouse^Lover
+levelShare_friend^Friends
+levelShare_colleague^Colleague
+levelShare_all^ALL

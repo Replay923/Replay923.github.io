@@ -183,11 +183,14 @@
 		"199",
 		"202",
 		"203",
-		"205"
+		"205",
+		"204"
 	],
 	"trails": [
 		"sudoku",
-		"draw puzzle"
+		"draw puzzle",
+		"share"
 	],
-	"xmas": false
+	"xmas": true,
+	"sale": true
 }

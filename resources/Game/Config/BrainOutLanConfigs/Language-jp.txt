@@ -208,17 +208,17 @@ level_info_203^数字比べ^左右左左右^もっと頑張るぞ！
 level_info_204^車を入れる^もっと先に進んで、駐車スペースを探そう^ベテランね
 level_info_205^喉が渇いた、水が欲しい^一本の指でポットを持ち上げて、もう一本の指で方向を調節しよう^よくできたね
 level_info_206^緑を見つけ出す^黄+青=緑^新しい知識を覚えたね 
-level_info_208^圣诞老人在北极！怎么最快到达北极？^把人物直接移动到北极^不错哦，学会走捷径了！
-level_info_209^哪条路通往圣诞老人的家呢？^在路痕的右边擦出另一条路痕再选吧！^这雪橇痕埋的有点深
-level_info_210^进屋找圣诞老人^移动屏幕，钥匙在树上@连续点击5下圣诞树拿到钥匙^真是个小机灵鬼！
-level_info_211^圣诞老人去哪了呢？^移动烤炉上的相框找到字条^快追上圣诞老人的步伐， 开始寻找铃铛吧！
-level_info_212^找到铃铛^从相片的剪刀手内滑出剪刀@拖动剪刀到绿色礼物盒^太厉害了，藏哪都逃不过你的眼睛
-level_info_213^找到驯鹿^移动草到圣诞树的左边红灯下^红鼻子鲁道夫！
-level_info_214^捡到圣诞帽^太阳晒出了裂痕！用手指遮住太阳！^你的手真大！
-level_info_215^越过雪山^根据路线旋转手机^漂移玩得不错~
-level_info_216^圣诞老人危险！快救他^手指滑动瓶盖三下@把瓶子丢给熊^圣诞老人决定送你一个礼物作为感谢！
-level_info_217^拆你的礼物啦^滑动黄色礼物盒的丝带^当当当~ 圣诞快乐！
-level_info_share^你最想跟谁一起玩Brain Out?^当然是分享给最爱的人~^独乐乐不如众乐乐
+level_info_208^サンタさんは北極にいる！北極へ行く一番速い方法は？^足を北極につけるのだ^地理の知識はちゃんとあるね！
+level_info_209^サンタさんの家に続く道は？^指で画面を拭いてみよう@雪ゾリの跡をすべて出す^深く埋もれているね
+level_info_210^サンタさんに家に入る^フィールドは動かせる@クリスマスツリーを素早く5回タップしよう^頭いいね！
+level_info_211^サンタさんはどこに？^暖炉の上にある写真立てを動かす^サンタさんはどこに行った？
+level_info_212^ベルを見つける^写真のピースサインから鋏を見つける@緑の箱に移動する^すごい！その目からは逃げられないね
+level_info_213^トナカイを見つける^草をツリーの左側の赤いランプのところに移動する^赤鼻のトナカイ？
+level_info_214^サンタ帽子を拾う^ヒビは日光が作っている！指で太陽を隠そう！^エルサ姫か！
+level_info_215^雪山を越える^進路通りに携帯を回す^ナイスドリフト～
+level_info_216^サンタさんが危ない！早く助けて^指で瓶の蓋を三回回す@瓶をクマに投げつける^感謝の印として、サンタさんがクリスマスプレゼントをくれるって！
+level_info_217^プレゼントを開ける^黄色の箱のリボンを引っ張る^じゃんじゃん～メリークリスマス！
+level_info_share^誰と一番Brain Outを一緒にプレイしたいか？^もちろん最愛の人よ^楽しさを分かち合いましょう
 level_info_draw puzzle^色と数字が同じの点を繋げる^^
 level_info_rate^真面目の話、このゲームを採点すれば、何点だと思う？^当たり前だけど満点は一番。他のアイディアがあればぜひ私たちに教えて下さい^ご協力ご応援ありがとうございます！引き続きがんばります！
 level_info_end^より多くレベル開発中、お楽しみに！|乞うご期待|促す^^
@@ -322,21 +322,21 @@ make_btn^ステージ作成
 noNetWork^ネットワーク接続は利用できません
 level202_shoot^シュートする
 level_sp^SP.{0}
-xmas_title^寻找圣诞老人之旅
-xmas_day^天
-xmas_open^开启
-xmas_openLimit^（Lv.{0}）关后开启
-xmas_sale_title^限时优惠
-xmas_levelGuide^对新手来说，题目有点难度哦！确定继续挑战吗？
-xmas_levelBegin^挑战
-xmas_listGuide^圣诞老人去哪了？
-xmas_winGuide^你太棒了，请收下圣诞礼物！
-xmas_reward^收下
-level211_guide^I'm away from home. Call the Reindeer with Bells, come and find me!
-level211_name^圣诞老人
-level211_know^知道啦
-levelShare_family^家人
-levelShare_spouse^另一半
-levelShare_friend^朋友
-levelShare_colleague^同事
-levelShare_all^所有人
+xmas_title^サンタ探しの旅
+xmas_day^日
+xmas_open^始める
+xmas_openLimit^Lv.{0}以降に解放される
+xmas_sale_title^期間限定セール
+xmas_levelGuide^初心者には少し難しいクイズですよ！引き続き挑戦しますか？
+xmas_levelBegin^挑戦する
+xmas_listGuide^サンタさんはどこに？
+xmas_winGuide^素晴らしい、クリスマスのプレゼントを受け取ってください！
+xmas_reward^受け取る
+level211_guide^外出中。用があればベルでトナカイを呼んでください
+level211_name^サンタさん
+level211_know^分かった
+levelShare_family^家族
+levelShare_spouse^伴侶
+levelShare_friend^友人
+levelShare_colleague^同僚
+levelShare_all^全員
